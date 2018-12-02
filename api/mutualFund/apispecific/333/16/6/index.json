@@ -1,0 +1,1342 @@
+{
+  "all": [
+    {
+      "id": "773",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "6",
+        "company_code": "ADBL",
+        "company_name": "Agriculture Development Bank Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "29633",
+      "price": "10490082",
+      "price_per_share": 354,
+      "percent_price": 1.608178571181915,
+      "percent_share": 1.8359804586698387,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "774",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "14",
+        "company_code": "ALICL",
+        "company_name": "Asian Life Insurance Co. Limited",
+        "company_group": "6",
+        "is_delisted": "0"
+      },
+      "company_group": "6",
+      "share_number": "25580",
+      "price": "15041040",
+      "price_per_share": 588,
+      "percent_price": 2.3058616907179594,
+      "percent_share": 1.5848675507972354,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "775",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "51",
+        "company_code": "BOKL",
+        "company_name": "Bank of Kathmandu Ltd.",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "21079",
+      "price": "6892833",
+      "price_per_share": 327,
+      "percent_price": 1.0567034962486999,
+      "percent_share": 1.305997775733187,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "776",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "54",
+        "company_code": "BPCL",
+        "company_name": "Butwal Power Company Limited",
+        "company_group": "5",
+        "is_delisted": "0"
+      },
+      "company_group": "5",
+      "share_number": "56557",
+      "price": "26977689",
+      "price_per_share": 477,
+      "percent_price": 4.135805740108616,
+      "percent_share": 3.504118611041409,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "777",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "61",
+        "company_code": "CBBL",
+        "company_name": "Chhimek Laghubitta Bikas Bank Limited",
+        "company_group": "7",
+        "is_delisted": "0"
+      },
+      "company_group": "7",
+      "share_number": "15551",
+      "price": "13871492",
+      "price_per_share": 892,
+      "percent_price": 2.126564519202173,
+      "percent_share": 0.9634978609244649,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "778",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "76",
+        "company_code": "CHCL",
+        "company_name": "Chilime Hydropower Company Limited",
+        "company_group": "5",
+        "is_delisted": "0"
+      },
+      "company_group": "5",
+      "share_number": "29755",
+      "price": "21423600",
+      "price_per_share": 720,
+      "percent_price": 3.284337952512943,
+      "percent_share": 1.8435392483960806,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "779",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "78",
+        "company_code": "CIT",
+        "company_name": "Citizen Investment Trust",
+        "company_group": "11",
+        "is_delisted": "0"
+      },
+      "company_group": "11",
+      "share_number": "22423",
+      "price": "52245590",
+      "price_per_share": 2330,
+      "percent_price": 8.009492993167846,
+      "percent_share": 1.389268377307522,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "780",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "96",
+        "company_code": "CZBIL",
+        "company_name": "Citizen Bank International Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "28113",
+      "price": "6972024",
+      "price_per_share": 248,
+      "percent_price": 1.0688438464604968,
+      "percent_share": 1.7418053735560077,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "781",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "87",
+        "company_code": "CMF1",
+        "company_name": "Citizens Mutual Fund -1",
+        "company_group": "12",
+        "is_delisted": "0"
+      },
+      "company_group": "12",
+      "share_number": "250000",
+      "price": "2412500",
+      "price_per_share": 9.65,
+      "percent_price": 0.36984751911151603,
+      "percent_share": 15.489323209511682,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "782",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "100",
+        "company_code": "DDBL",
+        "company_name": "Deprosc Laghubitta Bittiya Sanstha Limited",
+        "company_group": "7",
+        "is_delisted": "0"
+      },
+      "company_group": "7",
+      "share_number": "15003",
+      "price": "9931986",
+      "price_per_share": 662,
+      "percent_price": 1.5226198474405428,
+      "percent_share": 0.9295452644492151,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "783",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "104",
+        "company_code": "EBL",
+        "company_name": "Everest Bank Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "38205",
+      "price": "24412995",
+      "price_per_share": 639,
+      "percent_price": 3.742626169878485,
+      "percent_share": 2.3670783728775757,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "784",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "123",
+        "company_code": "FOWAD",
+        "company_name": "Forward Community Microfinance Bittiya Sanstha Ltd.",
+        "company_group": "7",
+        "is_delisted": "0"
+      },
+      "company_group": "7",
+      "share_number": "6267",
+      "price": "12628005",
+      "price_per_share": 2015,
+      "percent_price": 1.9359321536073866,
+      "percent_share": 0.3882863542160389,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "785",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "126",
+        "company_code": "GBBL",
+        "company_name": "Garima Bikas Bank Limited",
+        "company_group": "2",
+        "is_delisted": "0"
+      },
+      "company_group": "2",
+      "share_number": "17480",
+      "price": "3146400",
+      "price_per_share": 180,
+      "percent_price": 0.48235781725698407,
+      "percent_share": 1.0830134788090569,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "786",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "128",
+        "company_code": "GBIME",
+        "company_name": "Global IME Bank Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "30336",
+      "price": "9646848",
+      "price_per_share": 318,
+      "percent_price": 1.4789068601226487,
+      "percent_share": 1.8795364355349855,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "787",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "165",
+        "company_code": "HBL",
+        "company_name": "Himalayan Bank Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "22841",
+      "price": "12562550",
+      "price_per_share": 550,
+      "percent_price": 1.9258975963582905,
+      "percent_share": 1.4151665257138255,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "788",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "210",
+        "company_code": "KBBL",
+        "company_name": "Kailash Bikas Bank Ltd.",
+        "company_group": "2",
+        "is_delisted": "0"
+      },
+      "company_group": "2",
+      "share_number": "19628",
+      "price": "4573324",
+      "price_per_share": 233,
+      "percent_price": 0.7011119318106342,
+      "percent_share": 1.2160977438251814,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "789",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "255",
+        "company_code": "LICN",
+        "company_name": "Life Insurance Co. Nepal",
+        "company_group": "6",
+        "is_delisted": "0"
+      },
+      "company_group": "6",
+      "share_number": "9008",
+      "price": "14133552",
+      "price_per_share": 1569,
+      "percent_price": 2.1667395413196293,
+      "percent_share": 0.5581112938851249,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "790",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "253",
+        "company_code": "LGIL",
+        "company_name": "Lumbini General Insurance Co. Ltd.",
+        "company_group": "14",
+        "is_delisted": "0"
+      },
+      "company_group": "14",
+      "share_number": "9675",
+      "price": "5031000",
+      "price_per_share": 520,
+      "percent_price": 0.7712758004766993,
+      "percent_share": 0.5994368082081022,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "791",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "264",
+        "company_code": "MBL",
+        "company_name": "Machhapuchhre Bank Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "25554",
+      "price": "5647434",
+      "price_per_share": 221,
+      "percent_price": 0.8657780121227048,
+      "percent_share": 1.583256661183446,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "792",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "297",
+        "company_code": "MSLB",
+        "company_name": "Mahuli Samudayik Laghubitta Bittiya Sanstha Ltd.",
+        "company_group": "7",
+        "is_delisted": "0"
+      },
+      "company_group": "7",
+      "share_number": "804",
+      "price": "1945680",
+      "price_per_share": 2420,
+      "percent_price": 0.29828183253259877,
+      "percent_share": 0.04981366344178958,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "793",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "291",
+        "company_code": "MNBBL",
+        "company_name": "Muktinath Bikas Bank Ltd.",
+        "company_group": "2",
+        "is_delisted": "0"
+      },
+      "company_group": "2",
+      "share_number": "29861",
+      "price": "11824956",
+      "price_per_share": 396,
+      "percent_price": 1.8128209907576525,
+      "percent_share": 1.8501067214369136,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "794",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "307",
+        "company_code": "NADEP",
+        "company_name": "Nadep Laghubitta Bittiya Sanstha Ltd.",
+        "company_group": "7",
+        "is_delisted": "0"
+      },
+      "company_group": "7",
+      "share_number": "2400",
+      "price": "3732000",
+      "price_per_share": 1555,
+      "percent_price": 0.5721330326732343,
+      "percent_share": 0.14869750281131217,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "795",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "367",
+        "company_code": "NLICL",
+        "company_name": "National Life Insurance Co. Ltd.",
+        "company_group": "6",
+        "is_delisted": "0"
+      },
+      "company_group": "6",
+      "share_number": "17762",
+      "price": "12078160",
+      "price_per_share": 680,
+      "percent_price": 1.8516383467075435,
+      "percent_share": 1.1004854353893863,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "796",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "309",
+        "company_code": "NBB",
+        "company_name": "Nepal Bangladesh Bank Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "29771",
+      "price": "6430536",
+      "price_per_share": 216,
+      "percent_price": 0.985831206697323,
+      "percent_share": 1.8445305650814894,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "797",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "319",
+        "company_code": "NBL",
+        "company_name": "Nepal Bank Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "20837",
+      "price": "6480307",
+      "price_per_share": 311,
+      "percent_price": 0.9934613334843486,
+      "percent_share": 1.2910041108663797,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "798",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "390",
+        "company_code": "NTC",
+        "company_name": "Nepal Doorsanchar Comapany Limited",
+        "company_group": "11",
+        "is_delisted": "0"
+      },
+      "company_group": "11",
+      "share_number": "44125",
+      "price": "34417500",
+      "price_per_share": 780,
+      "percent_price": 5.276363518765017,
+      "percent_share": 2.733865546478812,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "799",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "350",
+        "company_code": "NIBPO",
+        "company_name": "Nepal Investment Bank Ltd. Promoter Share",
+        "company_group": "1",
+        "is_delisted": "0"
+      },
+      "company_group": "1",
+      "share_number": "35521",
+      "price": "20069365",
+      "price_per_share": 565,
+      "percent_price": 3.076727401199374,
+      "percent_share": 2.200784998900258,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "800",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "348",
+        "company_code": "NIB",
+        "company_name": "Nepal Investment Bank Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "11495",
+      "price": "7425770",
+      "price_per_share": 646,
+      "percent_price": 1.1384052277690042,
+      "percent_share": 0.7121990811733472,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "801",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "366",
+        "company_code": "NLIC",
+        "company_name": "Nepal Life Insurance Co. Ltd.",
+        "company_group": "6",
+        "is_delisted": "0"
+      },
+      "company_group": "6",
+      "share_number": "30048",
+      "price": "27974688",
+      "price_per_share": 931,
+      "percent_price": 4.288650343924849,
+      "percent_share": 1.8616927351976282,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "802",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "475",
+        "company_code": "SBI",
+        "company_name": "Nepal SBI Bank Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "30519",
+      "price": "15015348",
+      "price_per_share": 492,
+      "percent_price": 2.3019229871071767,
+      "percent_share": 1.8908746201243485,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "803",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "385",
+        "company_code": "NSEWA",
+        "company_name": "Nepal Seva Laghubitta Bittiya Sanstha Ltd.",
+        "company_group": "7",
+        "is_delisted": "0"
+      },
+      "company_group": "7",
+      "share_number": "562",
+      "price": "341696",
+      "price_per_share": 608,
+      "percent_price": 0.052383592907908214,
+      "percent_share": 0.03481999857498226,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "804",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "362",
+        "company_code": "NLBBL",
+        "company_name": "Nerude Laghubita Bikas Bank Limited",
+        "company_group": "7",
+        "is_delisted": "0"
+      },
+      "company_group": "7",
+      "share_number": "13664",
+      "price": "7815808",
+      "price_per_share": 572,
+      "percent_price": 1.1981998750888871,
+      "percent_share": 0.8465844493390705,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "805",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "352",
+        "company_code": "NICA",
+        "company_name": "NIC Asia Bank Ltd.",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "23363",
+      "price": "10303083",
+      "price_per_share": 441,
+      "percent_price": 1.5795107509844708,
+      "percent_share": 1.447508232575286,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "806",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "354",
+        "company_code": "NICGF",
+        "company_name": "NIC Asia Growth Fund",
+        "company_group": "12",
+        "is_delisted": "0"
+      },
+      "company_group": "12",
+      "share_number": "250000",
+      "price": "2355000",
+      "price_per_share": 9.42,
+      "percent_price": 0.3610325005212934,
+      "percent_share": 15.489323209511682,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "807",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "392",
+        "company_code": "NUBL",
+        "company_name": "Nirdhan Utthan Laghubitta Bittiya Sanstha Limited",
+        "company_group": "7",
+        "is_delisted": "0"
+      },
+      "company_group": "7",
+      "share_number": "28191",
+      "price": "27091551",
+      "price_per_share": 961,
+      "percent_price": 4.15326131657331,
+      "percent_share": 1.7466380423973755,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "808",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "364",
+        "company_code": "NLG",
+        "company_name": "NLG Insurance Company Ltd.",
+        "company_group": "14",
+        "is_delisted": "0"
+      },
+      "company_group": "14",
+      "share_number": "17163",
+      "price": "15755634",
+      "price_per_share": 918,
+      "percent_price": 2.4154122888825085,
+      "percent_share": 1.063373016979396,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "809",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "371",
+        "company_code": "NMB",
+        "company_name": "NMB Bank Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "39524",
+      "price": "14228640",
+      "price_per_share": 360,
+      "percent_price": 2.1813169758884485,
+      "percent_share": 2.448800042130959,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "810",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "421",
+        "company_code": "PIC",
+        "company_name": "Premier Insurance Co. Ltd.",
+        "company_group": "14",
+        "is_delisted": "0"
+      },
+      "company_group": "14",
+      "share_number": "16190",
+      "price": "17485200",
+      "price_per_share": 1080,
+      "percent_price": 2.6805628357175877,
+      "percent_share": 1.0030885710479767,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "811",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "404",
+        "company_code": "PCBL",
+        "company_name": "Prime Commercial Bank Ltd.",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "33282",
+      "price": "11049624",
+      "price_per_share": 332,
+      "percent_price": 1.6939589734777476,
+      "percent_share": 2.062062620235871,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "812",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "457",
+        "company_code": "RMDC",
+        "company_name": "RMDC Laghubitta Bittiya Sanstha Ltd.",
+        "company_group": "7",
+        "is_delisted": "0"
+      },
+      "company_group": "7",
+      "share_number": "22140",
+      "price": "14147460",
+      "price_per_share": 639,
+      "percent_price": 2.168871702685765,
+      "percent_share": 1.3717344634343547,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "813",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "506",
+        "company_code": "SIC",
+        "company_name": "Sagarmatha Insurance Co. Ltd.",
+        "company_group": "14",
+        "is_delisted": "0"
+      },
+      "company_group": "14",
+      "share_number": "8150",
+      "price": "11084000",
+      "price_per_share": 1360,
+      "percent_price": 1.6992289748526606,
+      "percent_share": 0.5049519366300809,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "815",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "517",
+        "company_code": "SKBBL",
+        "company_name": "Sana Kisan Bikas Bank Ltd",
+        "company_group": "7",
+        "is_delisted": "0"
+      },
+      "company_group": "7",
+      "share_number": "16161",
+      "price": "17453880",
+      "price_per_share": 1080,
+      "percent_price": 2.675761333417661,
+      "percent_share": 1.0012918095556733,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "816",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "471",
+        "company_code": "SANIMA",
+        "company_name": "Sanima Bank Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "34952",
+      "price": "11708920",
+      "price_per_share": 335,
+      "percent_price": 1.7950321299379117,
+      "percent_share": 2.1655312992754094,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "817",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "505",
+        "company_code": "SHPC",
+        "company_name": "Sanima Mai Hydropower Ltd.",
+        "company_group": "5",
+        "is_delisted": "0"
+      },
+      "company_group": "5",
+      "share_number": "17856",
+      "price": "4499712",
+      "price_per_share": 252,
+      "percent_price": 0.6898268683590956,
+      "percent_share": 1.1063094209161624,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "818",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "464",
+        "company_code": "SADBL",
+        "company_name": "Shangrila Development Bank Ltd.",
+        "company_group": "2",
+        "is_delisted": "0"
+      },
+      "company_group": "2",
+      "share_number": "27000",
+      "price": "4185000",
+      "price_per_share": 155,
+      "percent_price": 0.6415800486970755,
+      "percent_share": 1.6728469066272618,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "819",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "507",
+        "company_code": "SICL",
+        "company_name": "Shikhar Insurance Co. Ltd.",
+        "company_group": "14",
+        "is_delisted": "0"
+      },
+      "company_group": "14",
+      "share_number": "24405",
+      "price": "22013310",
+      "price_per_share": 902,
+      "percent_price": 3.374743250127555,
+      "percent_share": 1.5120677317125306,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "820",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "502",
+        "company_code": "SHINE",
+        "company_name": "Shine Resunga Development Bank Ltd.",
+        "company_group": "2",
+        "is_delisted": "0"
+      },
+      "company_group": "2",
+      "share_number": "19648",
+      "price": "4617280",
+      "price_per_share": 235,
+      "percent_price": 0.7078505919350139,
+      "percent_share": 1.2173368896819423,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "821",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "477",
+        "company_code": "SBL",
+        "company_name": "Siddhartha Bank Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "33667",
+      "price": "11345779",
+      "price_per_share": 337,
+      "percent_price": 1.7393609183575285,
+      "percent_share": 2.085916177978519,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "822",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "513",
+        "company_code": "SIL",
+        "company_name": "Siddhartha Insurance Ltd.",
+        "company_group": "14",
+        "is_delisted": "0"
+      },
+      "company_group": "14",
+      "share_number": "19211",
+      "price": "12679260",
+      "price_per_share": 660,
+      "percent_price": 1.9437897845263754,
+      "percent_share": 1.1902615527117157,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "823",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "482",
+        "company_code": "SCB",
+        "company_name": "Standard Chartered Bank Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "9760",
+      "price": "6900320",
+      "price_per_share": 707,
+      "percent_price": 1.0578512883214823,
+      "percent_share": 0.6047031780993362,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "824",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "547",
+        "company_code": "SWBBL",
+        "company_name": "Swabalamban Laghubitta Bittiya Sanstha Limited",
+        "company_group": "7",
+        "is_delisted": "0"
+      },
+      "company_group": "7",
+      "share_number": "13662",
+      "price": "16394400",
+      "price_per_share": 1200,
+      "percent_price": 2.5133381004442854,
+      "percent_share": 0.8464605347533944,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "825",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "486",
+        "company_code": "SDESI",
+        "company_name": "Swadeshi Laghubitta Bittiya Sanstha Ltd.",
+        "company_group": "7",
+        "is_delisted": "0"
+      },
+      "company_group": "7",
+      "share_number": "1539",
+      "price": "1046520",
+      "price_per_share": 680,
+      "percent_price": 0.16043640443547513,
+      "percent_share": 0.09535227367775392,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "826",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "572",
+        "company_code": "UMHL",
+        "company_name": "United Modi Hydropower Ltd.",
+        "company_group": "5",
+        "is_delisted": "0"
+      },
+      "company_group": "5",
+      "share_number": "3911",
+      "price": "621849",
+      "price_per_share": 159,
+      "percent_price": 0.09533235644019777,
+      "percent_share": 0.24231497228960078,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "827",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "238",
+        "company_code": "KPCL",
+        "company_name": "Kalika power Company Ltd",
+        "company_group": "5",
+        "is_delisted": "0"
+      },
+      "company_group": "5",
+      "share_number": "8072",
+      "price": "960568",
+      "price_per_share": 119,
+      "percent_price": 0.14725956134213916,
+      "percent_share": 0.5001192677887133,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "828",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "427",
+        "company_code": "PMHPL",
+        "company_name": "Panchakanya Mai Hydropower Ltd",
+        "company_group": "5",
+        "is_delisted": "0"
+      },
+      "company_group": "5",
+      "share_number": "6111",
+      "price": "776097",
+      "price_per_share": 127,
+      "percent_price": 0.11897929535332238,
+      "percent_share": 0.3786210165333036,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    }
+  ],
+  "topTen": [
+    {
+      "id": "779",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "78",
+        "company_code": "CIT",
+        "company_name": "Citizen Investment Trust",
+        "company_group": "11",
+        "is_delisted": "0"
+      },
+      "company_group": "11",
+      "share_number": "22423",
+      "price": "52245590",
+      "price_per_share": 2330,
+      "percent_price": 8.009492993167846,
+      "percent_share": 1.389268377307522,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "798",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "390",
+        "company_code": "NTC",
+        "company_name": "Nepal Doorsanchar Comapany Limited",
+        "company_group": "11",
+        "is_delisted": "0"
+      },
+      "company_group": "11",
+      "share_number": "44125",
+      "price": "34417500",
+      "price_per_share": 780,
+      "percent_price": 5.276363518765017,
+      "percent_share": 2.733865546478812,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "801",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "366",
+        "company_code": "NLIC",
+        "company_name": "Nepal Life Insurance Co. Ltd.",
+        "company_group": "6",
+        "is_delisted": "0"
+      },
+      "company_group": "6",
+      "share_number": "30048",
+      "price": "27974688",
+      "price_per_share": 931,
+      "percent_price": 4.288650343924849,
+      "percent_share": 1.8616927351976282,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "807",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "392",
+        "company_code": "NUBL",
+        "company_name": "Nirdhan Utthan Laghubitta Bittiya Sanstha Limited",
+        "company_group": "7",
+        "is_delisted": "0"
+      },
+      "company_group": "7",
+      "share_number": "28191",
+      "price": "27091551",
+      "price_per_share": 961,
+      "percent_price": 4.15326131657331,
+      "percent_share": 1.7466380423973755,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "776",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "54",
+        "company_code": "BPCL",
+        "company_name": "Butwal Power Company Limited",
+        "company_group": "5",
+        "is_delisted": "0"
+      },
+      "company_group": "5",
+      "share_number": "56557",
+      "price": "26977689",
+      "price_per_share": 477,
+      "percent_price": 4.135805740108616,
+      "percent_share": 3.504118611041409,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "783",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "104",
+        "company_code": "EBL",
+        "company_name": "Everest Bank Limited",
+        "company_group": "3",
+        "is_delisted": "0"
+      },
+      "company_group": "3",
+      "share_number": "38205",
+      "price": "24412995",
+      "price_per_share": 639,
+      "percent_price": 3.742626169878485,
+      "percent_share": 2.3670783728775757,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "819",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "507",
+        "company_code": "SICL",
+        "company_name": "Shikhar Insurance Co. Ltd.",
+        "company_group": "14",
+        "is_delisted": "0"
+      },
+      "company_group": "14",
+      "share_number": "24405",
+      "price": "22013310",
+      "price_per_share": 902,
+      "percent_price": 3.374743250127555,
+      "percent_share": 1.5120677317125306,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "778",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "76",
+        "company_code": "CHCL",
+        "company_name": "Chilime Hydropower Company Limited",
+        "company_group": "5",
+        "is_delisted": "0"
+      },
+      "company_group": "5",
+      "share_number": "29755",
+      "price": "21423600",
+      "price_per_share": 720,
+      "percent_price": 3.284337952512943,
+      "percent_share": 1.8435392483960806,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "799",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "350",
+        "company_code": "NIBPO",
+        "company_name": "Nepal Investment Bank Ltd. Promoter Share",
+        "company_group": "1",
+        "is_delisted": "0"
+      },
+      "company_group": "1",
+      "share_number": "35521",
+      "price": "20069365",
+      "price_per_share": 565,
+      "percent_price": 3.076727401199374,
+      "percent_share": 2.200784998900258,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    },
+    {
+      "id": "810",
+      "mutual_fund_id": "Nabil Equity Fund",
+      "company_id": {
+        "id": "421",
+        "company_code": "PIC",
+        "company_name": "Premier Insurance Co. Ltd.",
+        "company_group": "14",
+        "is_delisted": "0"
+      },
+      "company_group": "14",
+      "share_number": "16190",
+      "price": "17485200",
+      "price_per_share": 1080,
+      "percent_price": 2.6805628357175877,
+      "percent_share": 1.0030885710479767,
+      "year_id": "2075/76",
+      "month_id": "Asoj"
+    }
+  ],
+  "comparing": {
+    "mutualFundNew": [
+      {
+        "id": "827",
+        "mutual_fund_id": "Nabil Equity Fund",
+        "company_id": {
+          "id": "238",
+          "company_code": "KPCL",
+          "company_name": "Kalika power Company Ltd",
+          "company_group": "5",
+          "is_delisted": "0"
+        },
+        "company_group": "5",
+        "share_number": "8072",
+        "price": "960568",
+        "price_per_share": 119,
+        "percent_price": 55.31107035611359,
+        "percent_share": 56.91320595078615,
+        "year_id": "2075/76",
+        "month_id": "Asoj"
+      },
+      {
+        "id": "828",
+        "mutual_fund_id": "Nabil Equity Fund",
+        "company_id": {
+          "id": "427",
+          "company_code": "PMHPL",
+          "company_name": "Panchakanya Mai Hydropower Ltd",
+          "company_group": "5",
+          "is_delisted": "0"
+        },
+        "company_group": "5",
+        "share_number": "6111",
+        "price": "776097",
+        "price_per_share": 127,
+        "percent_price": 44.68892964388642,
+        "percent_share": 43.08679404921385,
+        "year_id": "2075/76",
+        "month_id": "Asoj"
+      }
+    ],
+    "mutualFundSold": [
+      {
+        "id": "43",
+        "mutual_fund_id": "Nabil Equity Fund",
+        "company_id": {
+          "id": "528",
+          "company_code": "SMATA",
+          "company_name": "Samata Microfinance Bittiya Sanstha Ltd.",
+          "company_group": "7",
+          "is_delisted": "0"
+        },
+        "company_group": "7",
+        "share_number": "507",
+        "price": "583050",
+        "price_per_share": 1150,
+        "percent_price": 100,
+        "percent_share": 100,
+        "year_id": "2075/76",
+        "month_id": "Bhadra"
+      }
+    ],
+    "topPurchase": [
+      {
+        "company_id": {
+          "id": "51",
+          "company_code": "BOKL",
+          "company_name": "Bank of Kathmandu Ltd.",
+          "company_group": "3",
+          "is_delisted": "0"
+        },
+        "share_number1": "21079",
+        "price1": "6892833",
+        "share_number2": "18613",
+        "price2": "6142290",
+        "diff_share": 2466,
+        "diff_price": 750543,
+        "price_per_share1": 327,
+        "price_per_share2": 330
+      }
+    ],
+    "topSales": [
+      {
+        "company_id": {
+          "id": "352",
+          "company_code": "NICA",
+          "company_name": "NIC Asia Bank Ltd.",
+          "company_group": "3",
+          "is_delisted": "0"
+        },
+        "share_number1": "23363",
+        "price1": "10303083",
+        "share_number2": "35363",
+        "price2": "14428104",
+        "diff_share": -12000,
+        "diff_price": -4125021,
+        "price_per_share1": 441,
+        "price_per_share2": 408
+      }
+    ]
+  }
+}
