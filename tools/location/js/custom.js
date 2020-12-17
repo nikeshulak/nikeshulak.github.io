@@ -1,4 +1,4 @@
-var url = "http://localhost/nikeshulak.github.io/tools/location";
+var url = "https://nikeshulak.github.io/tools/location";
 
 var locationName = "Unknown";
 
