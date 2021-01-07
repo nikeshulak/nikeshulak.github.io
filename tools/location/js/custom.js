@@ -45,7 +45,13 @@ function myFunction() {
     $("#map").html(`Copy link address and Share your location: 
   <a href="${url}/?locationName=${locationName}&lat=${lat}&lng=${lng}">${locationName}</a> <br>
 
-  You are here:
+  You are here: ${lat},${lng} <br />
+  The map has been disabled to save data.
+  
+   <p id="demo">Note: Please enable location and <a href="${url}">click here</a> to view or update your location.</p>
+   `);
+
+  /*
   <iframe 
     width="100%" 
     height="400" 
@@ -56,8 +62,7 @@ function myFunction() {
     src="https://maps.google.com/maps?q=${lat},${lng}&hl=es&z=14&amp;output=embed"
    >
    </iframe>
-   <p id="demo">Note: Please enable location and <a href="${url}">click here</a> to view or update your location.</p>
-   `);
+  */
   }
 }
 
