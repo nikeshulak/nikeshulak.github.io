@@ -21,6 +21,7 @@ function myFunction() {
   // fetch Location name from url first
   lat = getUrlParameter('lat');
   lng = getUrlParameter('lng');
+  date = getUrlParameter('date');
   locationName = getUrlParameter('locationName');
   console.log(locationName)
 
@@ -42,27 +43,27 @@ function myFunction() {
   else {
     console.log(locationName)
 
-    $("#map").html(`Copy link address and Share your location: 
+    $("#map").html(`Share your location: 
   <a href="${url}/?locationName=${locationName}&lat=${lat}&lng=${lng}">${locationName}</a> <br>
 
-  You are here: ${lat},${lng} <br />
-  The map has been disabled to save data.
+  <p>You are here: ${lat},${lng}</p>
+  <p>Date: <strong>${date}</strong> <a href="${url}" style="background: #000;color: #fff;text-decoration: none;padding: 5px 10px;border-radius: 4px;">Refresh</a></p>
   
-   <p id="demo">Note: Please enable location and <a href="${url}">click here</a> to view or update your location.</p>
-   `);
+   <img src="./location-mobile.jpg" />
+   <p id="demo">Note: Please enable location and click on Refresh button above.</p>
+  `);
+     
+  // <iframe 
+  //   width="100%" 
+  //   height="400" 
+  //   frameborder="0" 
+  //   scrolling="no" 
+  //   marginheight="0" 
+  //   marginwidth="0" 
+  //   src="https://maps.google.com/maps?q=${lat},${lng}&hl=es&z=14&amp;output=embed"
+  //  >
+  //  </iframe>
 
-  /*
-  <iframe 
-    width="100%" 
-    height="400" 
-    frameborder="0" 
-    scrolling="no" 
-    marginheight="0" 
-    marginwidth="0" 
-    src="https://maps.google.com/maps?q=${lat},${lng}&hl=es&z=14&amp;output=embed"
-   >
-   </iframe>
-  */
   }
 }
 
@@ -72,15 +73,42 @@ function getLocation() {
 }
 
 function showPosition(position) {
+  var day = {
+    0: "Sun",
+    1: "Mon",
+    2: "Tue",
+    3: "Wed",
+    4: "Thu",
+    5: "Fri",
+    6: "Sat"
+  }
 
-  var today = new Date();
+  var month = {
+    0: "Jan",
+    1: "Feb",
+    2: "Mar",
+    3: "Apr",
+    4: "May",
+    5: "Jun",
+    6: "Jul",
+    7: "Aug",
+    8: "Sep",
+    9: "Oct",
+    10: "Nov",
+    11: "Dec"
+  }
+
+  var date = new Date();
+  var today = date.getHours() + ":" + date.getMinutes() + " " + day[date.getDay()] + ", " 
+   + date.getDate() + " " + month[date.getMonth()] + " " + date.getFullYear();//  + ":" + date.getSeconds();
+  console.log(today);
 
   var latitude = position.coords.latitude;
   var longitude = position.coords.longitude;
 
-  var dateString = "Date: " + today + ", ";
+  // var dateString = "Date: " + today + ", ";
   var locationString = "/?locationName=" + locationName + "&lat=" + latitude + 
-  "&lng=" + longitude  
+  "&lng=" + longitude + "&date=" + today; 
   ;
 
   // x.innerHTML = locationString;
