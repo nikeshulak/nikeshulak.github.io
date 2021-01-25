@@ -22,6 +22,7 @@ function myFunction() {
   lat = getUrlParameter('lat');
   lng = getUrlParameter('lng');
   date = getUrlParameter('date');
+  loadMap = getUrlParameter('loadMap');
   locationName = getUrlParameter('locationName');
   console.log(locationName)
 
@@ -43,26 +44,44 @@ function myFunction() {
   else {
     console.log(locationName)
 
+    var locationUrl = `${url}/?locationName=${locationName}&lat=${lat}&lng=${lng}&date=${date}`;
+    var mapIframe = "";
+
+    if(loadMap == "true") {
+      mapIframe = `<iframe 
+      width="100%" 
+      height="400" 
+      frameborder="0" 
+      scrolling="no" 
+      marginheight="0" 
+      marginwidth="0" 
+      src="https://maps.google.com/maps?q=${lat},${lng}&hl=es&z=14&amp;output=embed"
+     >
+     </iframe>`
+    }
+
     $("#map").html(`Share your location: 
-  <a href="${url}/?locationName=${locationName}&lat=${lat}&lng=${lng}">${locationName}</a> <br>
+  <a style="color: #236073;" href="${locationUrl}">${locationName}</a> <br>
 
   <p>You are here: ${lat},${lng}</p>
-  <p>Date: <strong>${date}</strong> <a href="${url}" style="background: #000;color: #fff;text-decoration: none;padding: 5px 10px;border-radius: 4px;">Refresh</a></p>
-  
-   <img src="./location-mobile.jpg" />
+  <div style="position: relative;">
+    <p style="position: absolute;color: white;padding: 0 10px;">
+      <strong>${date}</strong> 
+      <a href="${url}" style="background: #fcfcfc; color: #2d2d2d;text-decoration: none;padding: 5px 10px;border-radius: 4px;font-weight: bold;">
+        Refresh
+      </a>
+    </p>
+    <img src="./location-mobile.jpg" style="max-width: 100%;" />
+  </div>
    <p id="demo">Note: Please enable location and click on Refresh button above.</p>
+   <p>
+    <a href="${locationUrl}&loadMap=true" style="background: #2d2d2d; color: #fcfcfc;text-decoration: none;padding: 5px 10px;border-radius: 4px;font-weight: bold;">
+      Load Map
+    </a>
+   </p>
+
+   ${mapIframe}
   `);
-     
-  // <iframe 
-  //   width="100%" 
-  //   height="400" 
-  //   frameborder="0" 
-  //   scrolling="no" 
-  //   marginheight="0" 
-  //   marginwidth="0" 
-  //   src="https://maps.google.com/maps?q=${lat},${lng}&hl=es&z=14&amp;output=embed"
-  //  >
-  //  </iframe>
 
   }
 }
