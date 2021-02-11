@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	// hide
-	var hideChapters = [1, 2, 3, 4, 5, 6];
+	var hideChapters = [];
 	for (var i = hideChapters.length - 1; i >= 0; i--) {
 		$('#chapter-'+hideChapters[i]).addClass('d-none');
 	}

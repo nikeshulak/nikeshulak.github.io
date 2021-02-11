@@ -60,3 +60,9 @@ body.has-active-section .section {
 body.has-active-section .section.active {
     display: block;
 }
+
+/* folder love/ */
+.highlight {
+    font-weight: bold;
+    background: yellow;
+}
