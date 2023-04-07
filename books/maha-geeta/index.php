@@ -20,13 +20,13 @@ Search: अष्टावक्र कहते
 
 <!-- https://oshoworld.com/maha-geeta-01/ -->
 <?php
-	for($i=11; $i<=91; $i++) {
+	// generate curl requests
+	/*for($i=11; $i<=91; $i++) {
 		echo 'curl -o '.$i.'.html https://oshoworld.com/maha-geeta-'.$i.'/<br />';
-	}
+	}*/
 
-	/*$file = isset($_GET['file']) ? $_GET['file'] : '01';
-
-	include('file/'.$file.'.html');*/
+	$file = isset($_GET['file']) ? $_GET['file'] : '01';
+	include('file/'.$file.'.html');
 ?>
 
 </body>
