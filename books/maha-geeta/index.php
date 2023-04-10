@@ -1,16 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<style>
-		body {
-		    font-size: 18px;
-		    font-family: "Lora",serif;
-		    line-height: 30px;
-		    color: #8f8a86;
-		}
 	</style>
 </head>
 <body>

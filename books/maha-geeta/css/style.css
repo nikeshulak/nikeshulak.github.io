@@ -1,0 +1,8 @@
+body {
+    font-size: 18px;
+    font-family: "Lora",serif;
+    line-height: 30px;
+    color: #8f8a86;
+    padding: 6px 46px 6px 6px;
+	/* space for search in mobile */
+}
