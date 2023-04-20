@@ -1,0 +1,7 @@
+#osho #ashtavakra #maha-geeta
+mp3 cutter precisely: https://mp3cut.net/
+unicode to preeti: http://unicode.shresthasushil.com.np/
+create video from photos and mp3: https://clideo.com/editor/video-maker
+online video cutter: https://online-video-cutter.com/
+
+(size thulo vayo) crop video: https://express.adobe.com/tools/crop-video

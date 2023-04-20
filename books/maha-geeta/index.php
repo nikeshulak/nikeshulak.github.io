@@ -10,7 +10,10 @@ Search: अष्टावक्र कहते
 
 <!-- <div class="vc_acf vc_txt_align_left -->
 
-<!-- https://oshoworld.com/maha-geeta-01/ -->
+<!--
+	https://oshoworld.com/maha-geeta-by-osho-01-91/ 
+	https://oshoworld.com/maha-geeta-01/ 
+-->
 <?php
 	// generate curl requests
 	/*for($i=11; $i<=91; $i++) {
