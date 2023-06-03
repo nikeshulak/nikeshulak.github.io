@@ -1,56 +1,184 @@
+:root {
+    --primary: #0f1f1f;
+}
 * {
     box-sizing: border-box;
 }
 body {
-    font-size: 18px;
-    font-family: "Lora",serif;
+    font-size: 20px;
+    /* font-family: "Lora",serif; */
+    font-family: arial, sans-serif;
     line-height: 30px;
     color: #8f8a86;
-    padding: 120px 46px 6px 6px;
-	/* space for search in mobile */
+    padding: 130px 56px 130px 10px;
+	/* space for search in mobile / tiktok control space */
 }
-
-.audio {
+@media (max-width: 991px) {
+    body:before {
+        content: '';
+        /*background: url('../../../../videos/images/osho-bg.jpg') no-repeat right bottom;*/
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: fixed;
+        z-index: -1;
+        opacity: 0.3;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+}
+@media (min-width: 992px) {
+    body.has-background {
+        background: url('../../../../videos/images/osho-bg.jpg') no-repeat right top;
+        background-attachment: fixed;        
+    }
+}
+img {
+    max-width: 100%;
+}
+.d-none {
+    display: none !important;
+}
+#top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px 20px;
+    background: #333;
+    cursor: pointer;
+    z-index: 99;
+    color: #fff;
+}
+.audio,
+.footer {
     position: fixed;
     right: 0px;
     left: 0px;
-    top: 0px;
     padding: 15px;
     background: #fff;
+    z-index: 1;
+}
+.audio {
+    /* top: 0;*/
+    bottom: 0;
+    height: 130px;
+}
+.footer {
+    /* bottom: 0;*/
+    top: 0;
+    height: 65px;
+    display: block;
+}
+body.hide-settings .audio * {opacity: 0.8;}
+body.hide-settings .audio audio {opacity: 0;}
+.hide-settings #top {
+    opacity: 0.3;
+}
+/*body.hide-settings .footer {
+    display: block;
+}
+body.hide-settings {
+    padding-bottom: 130px;
+}*/
+@media (min-width: 992px) {
+    .audio {
+        height: 84px;
+    }
+    body.hide-settings .audio audio {opacity: 0.5;}
+
+    .footer {
+        display: none;
+    }
+    /* hiding settings during playing audio */
+    body.playing .audio {
+        opacity: 1;
+    }
 }
 .audio #audio {
     width: 100%;
 }
 .audio-goto {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+}
+body:not(.hide-settings) .audio-goto {    
+    /* hiding other controls - limiting to 1 line */
+    height: 40px;
 }
 @media (min-width: 992px) {
     body {
         padding-top: 80px;
+        padding-right: 40%;
     }
     .audio #audio {
-        width: 65%;
+        width: 50%;
         float: right;
     }
     .audio-goto {
-        width: 280px;
+        width: 500px;
         float: left;
         margin-bottom: 0px;
     }
 }
 .cut-list {
+    font-size: 16px;
+    background-color: var(--primary);
 }
+
+@media (min-width: 992px) {
+    .cut-list {
+        position: fixed;
+        right: 10px;
+        width: 35%;
+        top: 10px;
+        bottom: 80px;
+        overflow-y: scroll;
+    }
+}
+
 .cut {
     cursor: pointer;
     font-weight: 600;
     margin-bottom: 20px;
     background: #f2f2f2;
     padding: 10px;
+    transition: 0.3s all ease;
 }
-
-#hms {
-    width: 90px;
-    height: 38px;
+.cut:not(.active) {
+/*    padding-bottom: 1px;*/
+}
+.cut:not(.active) .cut-desc {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: clip;
+}
+.cut.active .cut-desc {
+    display: block;
+}
+span.cut-index {
+    float: left;
+    font-size: 16px;
+    background: #ccc;
+    margin-right: 10px;
+    padding: 2px 10px;
+    color: var(--primary);
+}
+span.cut-tag {
+    background: #ccc;
+    margin-right: 10px;
+    padding: 2px 10px;
+    color: var(--primary);
+}
+span.cut-tag:empty {
+    display: none;
+}
+input#hms {
+    font-size: 12px;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #333;
 }
 
 .btn {
@@ -72,8 +200,45 @@ body {
     border-radius: 0.25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+.btn {
+    font-size: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+@media (min-width: 992px) {
+    .btn {
+        font-size: 12px;
+    }
+}
 .btn-dark {
     color: #fff;
     background-color: #212529;
     border-color: #212529;
+}
+
+/* dark mode */
+body.dark-mode {
+    background-color: var(--primary);
+    color: rgba(255,255,255,0.8);
+}
+body.dark-mode .ck.ck-editor__main>.ck-editor__editable {
+    background: var(--primary);
+}
+body.dark-mode .cut {
+    background: rgba(255,255,255,0.15);
+}
+.dark-mode .audio,
+.dark-mode .footer {
+    background: var(--primary);
+}
+.dark-mode input {
+    background: var(--primary);
+    color: #fff;
+    border: 1px solid #fff;
+}
+.dark-mode .modal-content {
+    background: #282828;
+}
+.dark-mode .close {
+    color: #fff;
 }
