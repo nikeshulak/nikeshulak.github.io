@@ -440,10 +440,10 @@ var note = {
 			desc: `#cut 26:44 यहां दूसरा नहीं है। यहां अन्य है ही नहीं। जो है, अनन्य है। यहां एक है। लेकिन उस एक को जब तक तुम भीतर से न पकड़ लोगे, खयाल में न आयेगा।`
 		},
 		{
-			time: '0:28:58',
+			time: '0:26:58',
 			endtime: '',
 			tag: '',
-			desc: `#cut 28:58 ‘तू सबका एक द्रष्टा है, और सदा सचमुच मुक्त है।’`
+			desc: `#cut 26:58 ‘तू सबका एक द्रष्टा है, और सदा सचमुच मुक्त है।’`
 		},
 		{
 			time: '0:28:58',
@@ -3511,12 +3511,15 @@ $(document).ready(function() {
 				<button id="prev-btn" type="button" class="btn btn-dark mb-2" title="Press p">Prev</button>
 				<button id="next-btn" type="button" class="btn btn-dark mb-2" title="Press n">Next</button>
 				<button id="scroll-to-currenttime-btn" type="button" class="btn btn-dark mb-2" title="Press s">Scroll</button>
+				<button id="expand-btn" type="button" class="btn btn-dark mb-2" title="Press e">Expand</button>
 			</div>
 
-			<audio id="audio" controls>
-			  <source src="../../../../videos/osho-maha-geeta/cbr/OSHO-Maha_Geeta_${file}.mp3" type="audio/mpeg">
-			  Your browser does not support the audio tag.
-			</audio>	  				  		
+			<div id="audio-wrap">
+				<audio id="audio" controls>
+				  <source src="../../../../videos/osho-maha-geeta/cbr/OSHO-Maha_Geeta_${file}.mp3" type="audio/mpeg">
+				  Your browser does not support the audio tag.
+				</audio>
+			</div>
 		</div>
 
 		<div class="footer"></div>
@@ -3532,7 +3535,6 @@ $(document).ready(function() {
 		        </button>
 		      </div>
 		      <div class="modal-body">
-				<button id="expand-btn" type="button" class="btn btn-dark mb-2">Expand</button>
 				<button id="has-tag-btn" type="button" class="btn btn-dark mb-2">Has Tag</button>
 				<button id="repeat-btn" type="button" class="btn btn-dark mb-2">No Repeat</button>
 				<button id="dark-mode-btn" type="button" class="btn btn-dark mb-2">Dark Mode</button>
@@ -3574,15 +3576,19 @@ $(document).ready(function() {
 		      </div>
 		      <div class="modal-body cut-list">
 				<p>
-					Search सुनने in 
-					<a href="02.html">02.html</a>, 
-					<a href="03.html">03.html</a>, 
-					<a href="07.html">07.html</a>, 
-					<a href="22.html">22.html</a>
+					Search 
+					<span class="search-tag">श्रोता</span>, 
+					<span class="search-tag">सुनने</span>, 
+					<span class="search-tag">निराशा</span>, 
+					<span class="search-tag">दुख</span>, 
+					<span class="search-tag">परीक्षा</span>, 
+					<span class="search-tag">आंसु</span>, 
+					<span class="search-tag">सुनो</span>, 
 				</p>
 				
 				<input id="cut-list-search" class="mb-3" type="text" value="" placeholder="Search" />
-				<button>Go</button>
+				<button id="btn-cut-list-search">Go</button>
+				<button id="btn-cut-list-search-all">Search all</button>
 
 		      	<div class="cut-list-wrap"></div>
 		      `;
@@ -3615,8 +3621,8 @@ $(document).ready(function() {
 
 	$('.cut-list-wrap').html(cutListMarkup);
 
-	$('#cut-list-search').change(function() {
-		var searchText = $(this).val();
+	$('#btn-cut-list-search').click(function() {
+		var searchText = $('#cut-list-search').val();
 		// console.log('searchText', searchText, $(this).val());
 
 		let searchedNote = note[file]?.filter(o => o.desc?.indexOf( searchText ) >= 0);
@@ -3630,6 +3636,54 @@ $(document).ready(function() {
 
 		cutClassAction()
 	});
+
+	$('#btn-cut-list-search-all').click(function() {
+		var searchText = $('#cut-list-search').val();
+
+		var searchedNote = ''
+		cutListMarkup = ''
+
+		var noteKeys = Object.keys(note);
+		noteKeys.forEach((item, index) => {
+			cutListMarkup += `<h2 class="change-audio-file cursor-pointer" file="${item}">${item} <a href="${item}.html" class="ml-3">${item}.html</a></h2>`;
+
+			searchedNote = note[item]?.filter(o => o.desc?.indexOf( searchText ) >= 0);
+			// console.log('searchedNote', searchedNote)
+
+			if(searchedNote?.length > 0) {
+				searchedNote?.forEach((item, index) => {
+			      cutListMarkup += getCutItemMarkup(item);
+			    });
+		    }
+		    else {
+		    	// $('.h2-'+item).addClass('d-none'); // markup pachi matra write garne vayeko le
+		    	// console.log('hide', '.h2-'+item)
+		    }
+		})
+
+		$('.cut-list-wrap').html(cutListMarkup);
+
+		changeAudioFile()
+		cutClassAction()
+	})
+
+	$('.search-tag').click(function() {
+		$('#cut-list-search').val( $(this).text() );
+
+		$('#btn-cut-list-search-all').trigger('click');
+	})
+
+	function changeAudioFile() {
+		$('.change-audio-file').click(function() {
+			var file = $(this).attr('file');
+
+			$('#audio-wrap').html(`
+				<audio id="audio" controls>
+				  <source src="../../../../videos/osho-maha-geeta/cbr/OSHO-Maha_Geeta_${file}.mp3" type="audio/mpeg">
+				  Your browser does not support the audio tag.
+				</audio>`);
+		})
+	}
 
 
 	function getCutItemMarkup(item) {
@@ -3749,6 +3803,7 @@ $(document).ready(function() {
 	})
 
 	function audioPlay() {
+		var audio = document.getElementById('audio');		
 		$('body').addClass('playing');
 
 		audio.play();
@@ -3831,6 +3886,10 @@ $(document).ready(function() {
 	        $('#scroll-to-currenttime-btn').trigger('click');
 	        break;
 
+	      case "e":
+	        $('#expand-btn').trigger('click');
+	        break;
+
 	      // case "v":
 	      	// ctrl + v
 	      	// navigator.clipboard.read();
@@ -3877,15 +3936,16 @@ $(document).ready(function() {
 	})
 
 	$('#expand-btn').click(function() {
-		$(this).toggleClass('active');
+		// $(this).toggleClass('active');
+		$('body').toggleClass('expand-all');
 		
-		if($(this).hasClass('active')) {
+		if($('body').hasClass('expand-all')) {
 			$(this).text('Collapse');
-			$('.cut').addClass('active');
+			// $('.cut').addClass('active');
 		}
 		else {
 			$(this).text('Expand');
-			$('.cut').removeClass('active');
+			// $('.cut').removeClass('active');
 		}
 	})
 

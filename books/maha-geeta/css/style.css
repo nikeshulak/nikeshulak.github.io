@@ -4,6 +4,9 @@
 * {
     box-sizing: border-box;
 }
+.cursor-pointer {
+    cursor: pointer;
+}
 body {
     font-size: 20px;
     /* font-family: "Lora",serif; */
@@ -95,8 +98,9 @@ body.hide-settings {
         opacity: 1;
     }
 }
-.audio #audio {
+.audio #audio-wrap {
     width: 100%;
+    text-align: right;
 }
 .audio-goto {
     margin-bottom: 5px;
@@ -110,7 +114,7 @@ body:not(.hide-settings) .audio-goto {
         padding-top: 80px;
         padding-right: 40%;
     }
-    .audio #audio {
+    .audio #audio-wrap {
         width: 50%;
         float: right;
     }
@@ -124,6 +128,9 @@ body:not(.hide-settings) .audio-goto {
     font-size: 16px;
     background-color: var(--primary);
 }
+.search-tag {
+    cursor: pointer;
+}
 
 @media (min-width: 992px) {
     .cut-list {
@@ -134,11 +141,18 @@ body:not(.hide-settings) .audio-goto {
         bottom: 80px;
         overflow-y: scroll;
     }
+
+    .modal-body.cut-list {
+        position: inherit;
+        width: 100%;
+        right: 0;
+        top: 0;
+    }
 }
 
 .cut {
     cursor: pointer;
-    font-weight: 600;
+    /* font-weight: 600;*/
     margin-bottom: 20px;
     background: #f2f2f2;
     padding: 10px;
@@ -147,7 +161,7 @@ body:not(.hide-settings) .audio-goto {
 .cut:not(.active) {
 /*    padding-bottom: 1px;*/
 }
-.cut:not(.active) .cut-desc {
+body:not(.expand-all) .cut:not(.active) .cut-desc {
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 1;
