@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 body {
-    font-size: 20px;
+    font-size: 19px;
     /* font-family: "Lora",serif; */
     font-family: arial, sans-serif;
     line-height: 30px;
@@ -125,13 +125,15 @@ body:not(.hide-settings) .audio-goto {
     }
 }
 .cut-list {
-    font-size: 16px;
+    /* font-size: 16px;*/
     background-color: var(--primary);
 }
 .search-tag {
     cursor: pointer;
 }
-
+.modal-dialog {
+    max-width: 800px;
+}
 @media (min-width: 992px) {
     .cut-list {
         position: fixed;
