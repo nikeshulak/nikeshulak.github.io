@@ -71,7 +71,7 @@ img {
     /* bottom: 0;*/
     top: 0;
     height: 65px;
-    display: block;
+    display: none;
 }
 body.hide-settings .audio * {opacity: 0.8;}
 body.hide-settings .audio audio {opacity: 0;}
