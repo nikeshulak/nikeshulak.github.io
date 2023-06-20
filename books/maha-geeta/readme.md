@@ -1,3 +1,5 @@
+sudo chmod u+x curlrequests.sh
+
 This PC\HONOR 8S\Internal storage\Download\apache
 
 #osho #ashtavakra #maha-geeta

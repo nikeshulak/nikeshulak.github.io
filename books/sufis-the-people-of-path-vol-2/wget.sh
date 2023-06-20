@@ -1,0 +1,15 @@
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_01.mp3
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_02.mp3
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_03.mp3
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_04.mp3
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_05.mp3
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_06.mp3
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_07.mp3
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_08.mp3
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_09.mp3
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_10.mp3
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_11.mp3
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_12.mp3
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_13.mp3
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_14.mp3
+wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Sufis_The_People_of_Path_2_15.mp3

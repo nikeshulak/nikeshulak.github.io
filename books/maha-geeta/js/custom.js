@@ -1,4 +1,6 @@
 // This PC\HONOR 8S\Internal storage\Download\apache\nikeshulak.github.io\books\maha-geeta
+
+
 var todo = [
 	'CKEditor - having code view'
 ];
@@ -14,7 +16,298 @@ var selectedNote = {
 	]
 }
 
-var note = {
+var noteSufisVol1 = {
+	'01': [
+		{
+			time: '0:1:29',
+			desc: 'A Sufi need not be a Mohammedan. A Sufi can exist anywhere, in any form'
+		},
+		{
+			time: '0:5:19',
+			desc: 'You are the hindrance. Sufism is the art of removing the hindrance between you and you, between the self and the self – between the part and the whole.'
+		},
+		{
+			time: '0:10:53',
+			desc: 'Sufism is a special kind of magic, a rare kind of magic. It can be transferred only from person to person, not from a book. It cannot be transferred by scriptures. It is also just like Zen – a transmission beyond words. The Sufis have a special word for it – they call it silsila. What Hindus call parampara, they call silsila. Silsila means a transfer from one heart to another heart, from one person to another person. It is a very, very personal religion.'
+		},
+		{
+			time: '0:11:52',
+			desc: 'You cannot have it without being related to an enlightened master – there is no other way. You can read all the literature that exists on Sufism and you will be lost in a jungle of words. Unless you find a guide, unless you fall in love with a guide, you will not have the taste.'
+		},
+		{
+			time: '0:14:53',
+			desc: 'When you love a person all fear disappears. And when you are afraid all love disappears. You can hate the person if you are afraid of him, but you cannot love him. Down the centuries man has been taught to be afraid of God and the ultimate result is that Nietzsche had to declare that God is dead. That is the ultimate result of the fear-oriented mind.'
+		},
+		{
+			time: '0:16:10',
+			desc: 'People who come to me are God-loving people. When I say God-loving, I mean they are in search, they want to know. And they want to know authentically, they don’t want to have borrowed knowledge about it. They want to have a taste. They want to encounter, they want to face God, they want to look into his eyes. But before you can become capable of looking into the eyes of God you will have to become capable of looking into the eyes of a master. From there you take off. The journey begins.'
+		},
+		{
+			time: '0:17:1',
+			desc: 'I will make myself available to you. Sufism is just an excuse. I will not be talking about Sufism, I will be talking Sufism itself.'
+		},
+		{
+			time: '0:20:34',
+			desc: 'A Sufi has to become as innocent as an animal. The Sufi has to attain a primal innocence. He has to drop all kinds of civilization, he has to drop all kinds of cultures, he has to drop all conditionings, he has to become again an animal. Then the symbol becomes tremendously significant.'
+		},
+		{
+			time: '0:21:31',
+			desc: 'When man becomes animal he does not fall back, he goes higher. When man becomes animal, he is not just an animal. That is not possible. You cannot fall back. When a man becomes an animal he becomes a saint. He remains conscious, but his consciousness is no longer burdened by any conditioning. He is no longer a Hindu and no longer a Mohammedan and no longer a Christian. He is in tune with existence as deeply as any animal. He has dropped all kinds of philosophies, he carries no conceptualizations in his mind, his mind is without any content. He is, but he is no longer in the mind. To be without the mind – that is the meaning of the woolen robe. To be like innocent animals, not to know what is good and what is bad – and then the highest good arises, the summum bonum.'
+		},
+		{
+			time: '0:23:9',
+			desc: 'When you know this is good and that is bad, and you choose good against bad, you remain divided. When you choose, there is repression. When you say, “I will do this. This has to be done. This should be done,” this becomes an “ought.” Then naturally you have to repress – you have to repress that which you have condemned as bad and the repressed part remains inside you and goes on poisoning your system. Sooner or later it will assert, sooner or later it will take revenge. When it explodes, you will go mad.'
+		},
+		{
+			time: '0:24:2',
+			desc: 'Hence all civilized people are always on the verge of madness. This earth is a big madhouse. A few have already become mad, a few are potentially ready. The difference between you and the mad people is not of quality, it is only of quantity, only of degree. Maybe they have gone beyond a hundred degrees and you are just lingering somewhere – at ninety-eight, ninety-nine – but any moment any situation can push you beyond the boundary. Don’t you see it? Can’t you observe your mind? Can’t you see the madness that goes on and on inside? It is continuously there. You avoid it; you get occupied in a thousand and one things just to avoid it. You don’t look at it, you want to forget about it. It is too scary, too frightening. But it is there – and whether you avoid it or not it is growing. It is continuously accumulating momentum. It can come to a peak at any time, any small thing can trigger it. When you choose, you have to repress.'
+		},
+		{
+			time: '0:25:43',
+			desc: 'The animal does not choose. Whatever is, is. The animal simply accepts it; its acceptance is total. It knows no choice.'
+		},
+		{
+			time: '0:25:58',
+			desc: 'So does a Sufi. A Sufi knows no choice. He is choicelessly aware. Whatever happens he accepts it as a gift, as a God-given thing. Who is he to choose. He does not trust in his mind, he trusts in the universal mind. That’s why when you come across a Sufi you will see such animal innocence in his eyes, in his being; such freedom, such joy as only animals know – or trees or rocks or stars.'
+		},
+		{
+			time: '0:27:51',
+			desc: 'But on exactly the same grounds I approve the definition. To me, to be an animal means to be innocent – not to know morality, not to know immorality. To be an animal is not a condemnation. A saint is more like the animals than like you, than like the so-called human beings.'
+		},
+		{
+			time: '0:28:28',
+			desc: 'But when you want to love God you have to be without masks. You have to drop all deceptions. You have to be authentically whatever you are, to be choicelessly whatever you are. In that primal innocence God descends.'
+		},
+		{
+			time: '0:31:20',
+			desc: 'That’s how we go on living. All of our religions are just like that – all just verbal. They do not penetrate your being. And you know that whatever you say, you do exactly the opposite. You think one thing, you say another, and you do something else. You are a trinity, you are not one. And all those three people are going in three different directions. You are a crowd – hence the misery.'
+		},
+		{
+			time: '0:32:20',
+			desc: 'The animal is one – hence the blissfulness of the animal. The animal has nothing whatever to be happy about. He does not have a big palace to live in and he does not have a TV and radio and all of that. He has nothing, and yet in him you will find great peace, silence, joy, celebration. Why? One thing is there: the animal is not a chooser.'
+		},
+		{
+			time: '0:33:13',
+			desc: 'The Sufi is not a chooser. Choose and you deceive; choose and you start becoming false; choose and you become plastic.'
+		},
+		{
+			time: '0:34:15',
+			desc: 'But that’s the situation of all ladies and of all gentlemen – they pay lip service to God, but basically they are surrendered to the Devil. The Devil is deeper because the Devil has been repressed. Whenever something is repressed it goes deeper in your being; you become just a hypocrite.'
+		},
+		{
+			time: '0:34:46',
+			desc: 'By asserting the symbol of the animal Sufis declare, “We are simple people. We don’t know what is good and what is bad. We know only God, and whatever happens is his gift. We accept it. We are not doers on our own accord.” This is the first meaning of the word sufi.'
+		},
+		{
+			time: '0:35:24',
+			desc: 'There is another possibility: the word sufi can be derived from sufa – purity, cleanliness, purification. That too is good. When you live a life of choicelessness a natural purity comes. But remember, this purity has nothing of morality in it. It does not mean pure in the sense of being good; it means pure in the sense of being divine, not in the sense of being good. Pure simply means pure of all ideas, both good and bad. Purity means transcendence. One has no idea at all, no prejudices. One trusts life so utterly that one need not have any ideas, one can live without ideas. When ideas are there in the mind they create impurity, they create wounds. When you are too full of ideas, you are too full of dirt. All ideas are dirty. Yes, even the idea of God is a dirty idea because ideas are dirty.'
+		},
+		{
+			time: '0:37:3',
+			desc: 'For a Sufi, God is not an idea, it is his lived reality. It is not sitting somewhere on a throne high in the heavens, no – it is herenow, it is all over the place, it is everywhere. God is just a name for the totality of existence.'
+		},
+		{
+			time: '0:37:41',
+			desc: 'Purity means a contentless mind – so please don’t be misguided by the word purity. It does not mean a man who has a good character. It does not mean a man who behaves according to the Ten Commandments. It does not mean a man who is respected by the society as a good man.'
+		},
+		{
+			time: '0:38:13',
+			desc: 'A Sufi has never been respected by the society. A Sufi lives such a rebellious life that the society has almost always been murdering Sufis, crucifying them – because the Sufi makes you aware of your falsity. He becomes a constant sermon against your artificiality, against your ugliness, against your inhumanity to human beings, against your masks, against all that you are and represent. A Sufi becomes a constant pain in the neck to the so-called society and to the so-called respectable people.'
+		},
+		{
+			time: '0:41:36',
+			desc: 'If you start living in God you become intolerable to the so-called society. The society lives in hypocrisy, it cannot tolerate truth. Truth has to be crucified. It can love the Church, but it cannot love Christ. It can love the Vatican pope, but it cannot love Jesus. When Jesus is gone then it is good – you can go on worshipping him. When Mansoor is gone you can go on talking about him. But when he is there he is a fire. Only those who are ready to be consumed by the fire will be ready to fall in love with Mansoor.'
+		},
+		{
+			time: '0:43:21',
+			desc: 'Sufis say that you cannot search for God unless he has already chosen you. How can you search for God if he has not already searched for you? All initiative is from the side of God. He is searching for you, he is desiring you, he goes on groping for you: “Where are you?” When he chooses somebody only then do you start choosing him. You may not know it – because when he chooses, how can you know?'
+		},
+		{
+			time: '0:44:3',
+			desc: 'The same is true about a master. You think that you choose a master? Nonsense, just nonsense! It is always the master who chooses you. The very idea that you choose the master is egoistic. How can you choose the master? How will you know in the first place who the master is? How will you decide? What criteria have you got? You cannot choose a master, the master chooses you.'
+		},
+		{
+			time: '0:45:43',
+			desc: 'And so is the ultimate case with God. God chooses first, then you start feeling a hunger for him. And it is only Sufis who have said this. No other tradition has said so clearly that man cannot choose God, it is God who chooses man. It is a blessing. Even to feel a thirst for God is a great blessing. You should feel happy that you have been chosen, that God has already called you. The first call is always heard in the deep unconscious so you cannot figure out what it is, from where it is coming. You feel it as if it is coming from you. It is not coming from you.'
+		},
+		{
+			time: '0:47:16',
+			desc: 'You can choose only that which you know. How can you choose God? You can take the initiative for other things, the worldly things, because you know them. You can have an idea of how to purchase a beautiful house, or how to have this woman as your wife or this man as your husband, or how to have more money, more power, more prestige – you can choose these things. How can you choose God? You have not even had a glimpse, not even in your dreams. How can you choose something so utterly unknown to you?'
+		},
+		{
+			time: '0:48:6',
+			desc: 'But you are not unknown to God. He can choose you. Whenever he chooses, a great desire arises in you to find him. That is an indication that he has chosen you. You have become a Sufi – chosen as a friend by God. That is also beautiful.'
+		},
+		{
+			time: '0:49:43',
+			desc: 'A man becomes a Sufi only when he has known. When he himself has known, when he himself has touched the reality, when he himself has seen the face of God, then he becomes a Sufi. He has become wise. He is no longer just knowledgeable, now it is his own experience.'
+		},
+		{
+			time: '0:50:15',
+			desc: 'And if you don’t arrive at any conclusion your life is not going to be transformed. Just by thinking, nobody is transformed; only when you arrive at some conclusions through experience do you grow. Philosophy is a game with words and logic – a beautiful game. If you like it you can play it, but you remain the same. It never changes you.'
+		},
+		{
+			time: '0:51:51',
+			desc: 'Another possibility of getting the divorce is Sufism. Science moves toward the object and becomes experimentation, Sufism moves toward the subject and becomes experience. But both are concerned about reality – science for the reality that is outside and Sufism for the reality that is inside. Both have divorced philosophy.'
+		},
+		{
+			time: '0:54:34',
+			desc: 'The Koran says there are three basic qualities that have to be in the heart of the seeker. The first is khushu. Khushu means humility, humbleness. The second is karamat. Karamat means charity, sharing, the joy of giving. And the third is sijd. Sijd means truthfulness, authenticity; not to pretend, but to be whatever you are. These three are the three pillars of Sufism.'
+		},
+		{
+			time: '0:55:33',
+			desc: 'Humility does not mean the ordinary so-called humbleness. The ordinary humble person is not egoless. He carries a new kind of ego – of being humble. He thinks he is humble, “Nobody is as humble as I am. I am the topmost in humility.” But he goes on comparing. The ego has not changed, the ego has only taken a new posture, a new gesture, more subtle.'
+		},
+		{
+			time: '0:56:22',
+			desc: 'First the ego was very gross. When you go on bragging about your money, it is very gross. One day you renounce your money and then you start bragging that you have renounced all. This is very subtle, but the bragging continues. First you say, “I am somebody.” In a thousand and one ways you try to prove that you are somebody. Then one day seeing the futility of it you drop the whole trip, you turn back, you take another gesture – you stand on your head and you start saying, “I am nobody.” But “I am” continues. The claim was for somebody, now it is for nobody. The claim was there, the claim is still there. Now it has taken a subtle form.'
+		},
+		{
+			time: '0:57:34',
+			desc: 'Humility, khushu, means a man who has understood all the ways of the ego. And by understanding all the ways of the ego, the ego has disappeared. There is no claim, not even of being humble. When there is no claim, there is humility, there is khushu.'
+		},
+		{
+			time: '0:57:58',
+			desc: 'This is one of the most essential qualities for those who want to move toward God – because if you are too much, you will not be moving. You have to be liquid, you have to melt; you cannot remain frozen in your ego. Only when you melt will you start moving. And when you start moving where else can you move? All movement is toward God. Only those who are ossified are not reaching toward God – otherwise, if you are moving, you are moving toward God. There is no other movement.'
+		},
+		{
+			time: '0:58:57',
+			desc: 'The second is charity – karamat. Charity does not mean that you give and you feel very good that you have given, that you give and you oblige the person to whom you have given. Then it is not karamat, then it is not charity. Charity is when you give and you feel obliged that the other has taken it; when you give with no idea that you are obliging anybody in any way; when you give because you have too much – what else can you do? It is not that the other needs.'
+		},
+		{
+			time: '0:59:58',
+			desc: 'Charity is when you give out of your affluence, when you give out of your abundance. It is not that the other is needy and you are helping him; the other is not the question at all. You give because you have – what else can you do? The flower has bloomed and the fragrance spreads to the winds – what else can the flower do? The lamp has been lighted and it shares its light, it spreads its light. The cloud is full of water and it showers – what else can it do?'
+		},
+		{
+			time: '1:0:44',
+			desc: 'When you give out of your abundance, only then is there charity. And then you don’t bother who is worthy of receiving it. That is not the point at all.'
+		},
+		{
+			time: '1:4:43',
+			desc: 'That’s why people say, “Honesty is the best policy.” But the man who says, “Honesty is the best policy” is not an honest man, remember. Policy? – the very word is dishonest. Truth cannot be a policy and honesty cannot be a policy. They can only be your very heart – not policies. Policies can be used and dropped. Policies are political. When honesty pays, you are honest – that’s what it means. “Honesty is the best policy.” When it does not pay, you become dishonest. You have no relationship with honesty. You use it. That’s what it means when you say “policy.”'
+		},
+		{
+			time: '1:5:41',
+			desc: 'Sijd – the Sufi word means to be truthful, to be true. It is not only a question of policy. Whatever happens, whatever the result, not thinking of the result at all but just to be whatever is true. To risk all for truth – that’s what sijd is. It is to risk everything for truth. Because if truth is saved, all is saved, and if truth is lost, all is lost.'
+		},
+		{
+			time: '1:7:34',
+			desc: 'First he is saying that a Sufi lives moment by moment; he does not bother about what is going to happen in the next moment. He has no plan for the next moment. A Sufi has no future. This moment is all. He lives in it, he lives totally in it because there is nowhere else to go.'
+		},
+		{
+			time: '1:8:10',
+			desc: 'You cannot live totally in the moment if you have a future – a part of your being will be flowing toward the future, naturally. If you have a past you cannot live in the present, part of your mind will be flowing toward the past. You will become fragmented. The major part of your being will remain hanging somewhere in the past and the remaining greater part will have already moved somewhere into the future. Nothing will be left for the present. And the present is so small, so atomic, that you can miss it very easily. People are missing it. People have pasts and people have futures, people don’t have any present.'
+		},
+		{
+			time: '1:9:8',
+			desc: 'The Sufi lives in the present. To live in the present, the basic need is to withdraw yourself from the past, to withdraw yourself from the future. Then there comes a concentration of energies, then this small moment becomes luminous, you pour your total energy into it – then there is joy and benediction. If you are miserable, it is only because you live in the past and in the future. A miserable man has a past and a future, a man who lives in bliss has only the moment, this moment. He lives in the now.'
+		},
+		{
+			time: '1:10:3',
+			desc: 'Ashley Montagu has coined a new word – it will be very, very helpful to understand. He says that this newness, this constantly being new in the moment, this constantly dropping out of the past and not jumping into the future is a great art. He calls that art, neoteny. Neo means new, teny means stretched out, extended.'
+		},
+		{
+			time: '1:10:44',
+			desc: 'A man can live his whole life in newness, a man can live his whole life like a child, a man can have the quality of a child extended all over his life – the art is to live in the moment. The person who lives in the moment never grows old. He matures, but he never grows old. He really grows. Growing old is not really growing. Growing old is only dying slowly; growing old is only slowly committing suicide. The man who lives in the moment never becomes old in the sense that people become old. He never becomes knowledgeable. He is always innocent, curious, thrilled, full of wonder. Every moment brings a new surprise. He is ready to explore new dimensions of life. He is always on an adventure. He is an explorer. He is never fed up with life. He is never bored.'
+		},
+		{
+			time: '1:13:13',
+			desc: 'Look at people. Look at people’s eyes. They don’t have the glimmer of surprise. Look at their faces, their faces say that nothing is going to happen anymore. They are bored, utterly bored. If they are not committing suicide it is only because they are cowards. Otherwise, there is nothing to live for; there is no meaning, no significance. There seems to be no joy. Just go to any street and stand at the side and watch people. Just everybody seems to be so full of dust.'
+		},
+		{
+			time: '1:14:15',
+			desc: 'Why do people go on living? – because they are afraid to commit suicide. Otherwise, life has no joy. Or maybe they are so bored that they don’t feel that anything is going to happen even in death. They are so bored, nothing is ever going to happen. Nothing ever happens. And the reason? The reason is that they are burdened by the past.'
+		},
+		{
+			time: '1:14:50',
+			desc: 'Sufism says, “Don’t be burdened by the past and don’t be burdened by the future either. This moment is precious, why waste it in thinking about things that are no more or in thinking about things that are not yet?”'
+		},
+		{
+			time: '1:15:9',
+			desc: 'Let this moment be one of great joy, and that joy becomes a prayer, that joy becomes zikr, that joy becomes a remembrance of God. It is no use just repeating, “Allah, Allah, Allah”; it is no use just repeating, “Rama, Rama, Rama.” When you are full of joy then you remember Allah in the deepest core of your being. It is not that you repeat it verbally; your whole existence says Allah, your every cell, your every fiber of being, says Allah. It is not that you repeat it; it is not verbal, it is existential. It is there, it is constantly there. It becomes a climate inside you. You start living in that juice, in that joy.'
+		},
+		{
+			time: '1:16:22',
+			desc: 'So the first thing Uwais says is, “This is my feeling. I live moment to moment, without any plan or future. I don’t know what is going to happen this evening – maybe death.” By death he simply means that anything is possible, even death is possible. “I live in surprise, I live in wonder, I live in mystery. And the greatest mystery is death.”'
+		},
+		{
+			time: '1:17:4',
+			desc: 'There are only two mysteries: life and death. And the greatest is certainly death – because life is spread out and death is very intense. Life happens in seventy, eighty, a hundred years. Naturally it is spread out. Death happens in a single moment, it is very intense. Death is the culmination, the crescendo. Death is the greatest orgasm there is. Hence along the way, people are afraid of orgasm also because they are afraid of death. Many people don’t have orgasms. Or even if they do, it is a local orgasm, not very orgasmic – because of fear. The orgasmic moment is a death moment. And in death happens the ultimate orgasm. In that moment you utterly disappear into nothingness. It is the greatest experience.'
+		},
+		{
+			time: '1:18:40',
+			desc: 'Uwais says, “I don’t know what is going to happen – maybe death.” Death is a door to God. Those who know how to die know how to enter God. Clingers, clinging to life, never know what God is because they don’t allow death. And death comes every day; as each moment passes by something dies. If you are thirty years old you have been dying for thirty years continuously. If you gather those moments of thirty years, those dead moments that you have already lived, if you gather them, then you are burdened. Then you start growing old. Then you are carrying such a load – how can you be in a dance? That load won’t allow it.'
+		},
+		{
+			time: '1:18:40',
+			desc: 'Uwais says, “I don’t know what is going to happen – maybe death.” Death is a door to God. Those who know how to die know how to enter God. Clingers, clinging to life, never know what God is because they don’t allow death. And death comes every day; as each moment passes by something dies. If you are thirty years old you have been dying for thirty years continuously. If you gather those moments of thirty years, those dead moments that you have already lived, if you gather them, then you are burdened. Then you start growing old. Then you are carrying such a load – how can you be in a dance? That load won’t allow it.'
+		},
+		{
+			time: '1:19:45',
+			desc: 'If you can drop that load every day and you are again fresh, again innocent, again a child, then you know that death is also happening every day. Life and death are happening together. Then one day comes the ultimate death and one accepts it, welcomes it, celebrates it, disappears into it dancing. How you behave at the moment of death will show how you have lived. Your death moment will be a testament.'
+		},
+		{
+			time: '1:20:39',
+			desc: 'Uwais is saying, “I am always facing death and waiting for it. And I am thrilled by the possibility of it.” But to face death means to live courageously. People avoid death, they have even avoided the very idea of it. They think, “Everybody else dies, but I am not going to die.”'
+		},
+		{
+			time: '1:21:9',
+			desc: 'If you live in such innocence you live in ignorance. Ignorance is a great religious quality. A man of knowledge cannot become religious, but an ignorant man can easily become religious.'
+		},
+		{
+			time: '1:22:26',
+			desc: 'Uwais said, “Yes. But how many of them feel it?” They are going to die. Every moment the unknown penetrates life – that’s what death is. But they don’t feel it. They are not aware of it. People live in a kind of sleep, in a kind of slumber. People are almost sleepwalkers.'
+		},
+		{
+			time: '1:25:10',
+			desc: 'People are not alert at all. They are asleep. A kind of dullness, a kind of fog surrounds your being. It is very foggy and confused. Very rarely do you become alert, very, very rarely. Rare are those moments. Gurdjieff used to say that if a man had them seven times in his life it is more than you can expect. Very rarely.'
+		},
+		{
+			time: '1:28:6',
+			desc: 'People are living in that fog. And it is not only that when you drink you become foggy – you are drinking a thousand and one kinds of alcohol every moment. Somebody is money-mad – then money is his alcohol. Somebody is power-mad – then he is drinking power and will become a drunkard. And there are different kinds of mad people. But everybody has his own particular kind of alcohol that makes him drunk.'
+		},
+		{
+			time: '1:28:57',
+			desc: 'Have you seen the eyes of a miser looking at his money? He looks at the money as if he is looking at his beloved. He touches money with such tenderness. He feels one-hundred-rupee notes with such love and care. When the money is there he forgets the whole world.'
+		},
+		{
+			time: '1:30:33',
+			desc: 'But everybody is drunk. They drink different kinds of drinks, but they are still drunk. A Sufi is one who is not drunk. That’s what Uwais means when he says: “Yes, but how many of them feel it?”'
+		},
+		{
+			time: '1:31:24',
+			desc: 'Sufism is the path of love, feeling. If Bodhidharma had been asked he must have said, “How many are aware of it?” He would have used the word aware, not feel. No Zen master would use the word feel – that is the basic difference, otherwise there is no difference.'
+		},
+		{
+			time: '1:35:46',
+			desc: 'You must have heard about the beautiful Sufi legend of Majnu and Laila. It is not an ordinary love story. The word majnu means mad, mad for God. And laila is the symbol of God. Sufis think of God as the beloved; laila means the beloved. Everybody is a Majnu, and God is the beloved. And one has to open one’s heart, the eye of the heart.'
+		},
+		{
+			time: '1:36:33',
+			desc: 'That’s why Uwais says: “Yes, but how many of them feel it?” People have become completely unfeeling, they don’t feel at all. They have bypassed their hearts. They don’t go through the heart, they have reached the head. They have avoided the heart. Hence there seems to be no benediction in life. It is only through the heart that the flowers bloom and it is only through the heart that the birds start singing, and it is only through the heart that you come to realize life not as a dry awareness, but as a celebration.'
+		},
+	],
+	'02': [
+		{
+			time: '',
+			desc: ''
+		},
+		{
+			time: '',
+			desc: ''
+		},
+		{
+			time: '',
+			desc: ''
+		},
+		{
+			time: '',
+			desc: ''
+		},
+	]
+}
+
+var noteMahaGeeta = {
 	'01': [
 		{
 			time: '0:10:52',
@@ -4079,16 +4372,896 @@ var note = {
 	],
 	'24': [
 		{
+			time: '0:1:29',
+			desc: 'आदर्श का अर्थ ही यह होता है कि तुम वह होना चाहते हो जो तुम पाते हो कि हो न सकोगे। गुलाब तो गुलाब हो जाता है, कमल कमल हो जाता है। कमल के हृदय में कहीं कोई आदर्श नहीं है कि मैं कमल बनूं। अगर कमल कमल बनना चाहे तो पागल होगा, कमल नहीं हो पाएगा।',
+		},
+		{
+			time: '0:2:42',
+			desc: 'अष्टावक्र का उदघोष यही है कि जो तुम्हें होना है वह तुम हो ही। कुछ होना नहीं है, जीना है। इस क्षण तुम्हें सब उपलब्ध है। एक क्षण भी टालने की कोई जरूरत नहीं है। एक क्षण भी टाला तो भ्रांति में पड़े। तुम जीना शुरू करो--तुम परिपूर्ण हो।',
+		},
+		{
+			time: '0:3:12',
+			desc: 'समस्त अध्यात्म की मौलिक उदघोषणा यही है कि तुम परिपूर्ण हो, जैसे तुम हो। होने को कुछ परमात्मा ने बाकी नहीं छोड़ा है। और जो परमात्मा ने बाकी छोड़ा है, उसे तुम पूरा न कर पाओगे। जो परमात्मा नहीं कर सका, उसे तुम कर सकोगे--यह अहंकार छोड़ो। जो हो सकता था, हो गया है। जो परमात्मा के लिए संभव था, वह घट गया है। तुम जीना शुरू करो, टालो मत।',
+		},
+		{
+			time: '0:5:23',
+			desc: 'जिस आदमी ने कल में अपने स्वर्ग को देखा है, उसका आज नर्क होगा--बस इतना पक्का है। कल तो आएगा नहीं। और जब भी कल आएगा आज होकर आएगा। और अगर तुमने यह गलत आदत सीख ली कि तुम कल में ही नजर लगाए रहे तो तुम आज को सदा चूकते जाओगे। और जब भी आएगा आज आएगा; जो भी आएगा आज की तरह आएगा। और तुम्हारी आंखें कल पर लगी रहेंगी। कल कभी आता नहीं। ऐसे तुम वंचित हो जाओगे। ऐसे तुम, जो मिला था उसे न भोग पाओगे। जो हाथ में रखा था उसे न देख पाओगे। जो मौजूद था, जो नृत्य-गीत चल ही रहा था, उसमें तुम सम्मिलित न हो पाओगे।',
+		},
+		{
+			time: '0:6:9',
+			desc: 'अध्यात्म की आत्यंतिक घोषणा यही है कि समय के जाल में मत पड़ो। समय है मन का जाल।',
+		},
+		{
+			time: '0:8:12',
+			desc: 'तुम जैसा तर्क पकड़े हो, अगर किसी भूल-चूक से तुम स्वर्ग पहुंच जाओ तो तुम उसे नर्क में रूपांतरित कर लोगे। तुम्हें हर चीज को नर्क बनाने की कला आती है। और उस कला का सबसे महत्वपूर्ण सूत्र यही है कि आज को मत देखना; कल की आशा रखना, कल होगा सब! आज तो सह लो, आज तो रो लो; कल हंसेंगे! आज तो रुदन है, आंसू हैं; कल होंगी मुस्कुराहटें।',
+		},
+		{
+			time: '0:8:47',
+			desc: 'लेकिन कल जब तक आएगा तब तक रोने का अभ्यास भी सघन हो रहा है, इसे याद रखना। प्रतिपल तुम रो रहे हो, आज तुम रो रहे हो। रोज रोते-रोते रोने की कला आती जा रही है, आंखें सूजती जा रही हैं, आंसुओं के सिवाए तुम्हारी और कोई कुशलता नहीं है। कल आएगा तुम्हारे द्वार पर, लेकिन इस अभ्यास को तुम अचानक छोड़ थोड़े ही पाओगे! कल फिर आज की तरह आएगा। फिर तुम्हारा पुरातन तर्क काम करेगा: कल; और रो लो! ऐसे ही तुम रोते रहे हो जन्मों-जन्मों, ऐसे ही तुम रो रहे हो। अगर ऐसे ही तुम्हें रोना है, रोते रहना है, तो बनाओ आदर्श!',
+		},
+		{
+			time: '0:9:29',
+			desc: 'मैं तुमसे कहता हूं: आदर्श-मुक्त हो जाओ। तुम्हें घबड़ाहट होती है, क्योंकि तुम्हारा चित्त कहता है, आदर्श-मुक्त? तुम्हारा अहंकार कहता है, आदर्श-मुक्त? तो उसका तो मतलब हुआ कि फिर तुम कभी परिपूर्ण न हो पाओगे। मैं तुमसे कहता हूं: तुम परिपूर्ण हो। पूर्णता तुम्हें मिली है--वरदान है, भेंट है परमात्मा की! अगर परमात्मा पूर्ण है तो उससे अपूर्ण पैदा हो ही नहीं सकता। और अगर परमात्मा से अपूर्ण पैदा हो रहा है तो तुम एक बात पक्की मानो कि तुम अपूर्ण से पूर्ण की कोई संभावना नहीं।',
+		},
+		{
+			time: '0:11:0',
+			desc: 'अगर तुम सही हो तो नर्क ही एकमात्र सत्य है। अगर मैं सही हूं तो स्वर्ग हो सकता है। चुनाव तुम्हारा है। और तुम्हारी जिंदगी है और तुम्हें चुनना है। मैं तुमसे कहता हूं: भोगो जीवन को इस क्षण! नाचो, गुनगुनाओ! आनंदित होओ! यह आनंद का अभ्यास सघन होगा तो इसी आनंद के अभ्यास की सघनता में कल भी आएगा। और तुम आज में ही रस लेना सीख लोगे, तो कल भी तुम रस लोगे, और रसधार बहेगी। परसों भी आएगा, तब तक तुम्हारा रस का अभ्यास और गहन हो जाएगा। तुम और रस से भर जाओगे। तुम और मुग्ध मतवाले, तुम्हारे रोएं-रोएं में मदिरा फैल गई होगी। परसों भी आएगा; तुम और नाचोगे, और गुनगुनाओगे। धीरे-धीरे तुम पाओगे, तुम्हें नाचना आ गया। अब आंगन टेढ़ा हो कि चौकोर, आंगन हो कि न हो, अब तुम नाच सकते हो। अब तो तुम बैठे भी रहो शांत तो भी भीतर नृत्य चलता है। अब तो तुम न भी बोलो तो भी गीत उठते हैं। अब तो तुम कुछ भी न करो तो भी कमल खिलते चले जाते हैं।',
+		},
+		{
+			time: '0:12:24',
+			desc: 'जिसे करने के लिए चेष्टा की जरूरत है, वह तुम्हारी नियति नहीं। चेष्टा का अर्थ ही यह होता है कि कुछ नियति के विपरीत करने चले हो; तुमने कुछ अपनी योजना बनाई। जो परमात्मा ने तुम्हें ब्लूप्रिंट दिया, जो परमात्मा ने तुम्हें जीवन की दिशा दी, गंतव्य दिया, उससे अन्यथा तुमने कोई योजना बनाई। और इसलिए तो तुम्हारी योजना कभी पूरी नहीं होती। सदा तुम्हारी योजना टूटती है, पराजित होती है।',
+		},
+		{
+			time: '0:12:54',
+			desc: 'तुम परमात्मा से लड़ कर जीत न सकोगे। उससे जीतने का एक ही रास्ता है, उससे हार जाना। प्रेम में हार ही विजय है। प्रार्थना में भी वही बात है। प्रार्थना में भी हार विजय है। तुम हारो!',
+		},
+		{
+			time: '0:14:0',
+			desc: 'मैं यह नहीं कह रहा हूं कि ब्रह्मचर्य फलित नहीं होता; फलित होता है, लेकिन ऐसे ही फलित होता है जैसे वासना फलित हुई है। तुम छोड़ो परमात्मा पर, तुम सहज भाव से बहे चले जाओ। वह जहां ले चले--कभी अंधेरे, कभी उजाले; कभी आंसुओं में, कभी मुस्कुराहटों में--तुम चले चलो। तुम निष्ठा रखो। तुम वासना में भी यही खयाल रखो: प्रभु की मर्जी! उसने जो चाहा है, हो रहा है। तुमने तो वासना पैदा नहीं की।',
+		},
+		{
+			time: '0:18:46',
+			desc: 'मैं यह नहीं कह रहा हूं कि ब्रह्मचर्य घटित नहीं होता, लेकिन आदर्श की तरह कभी घटित नहीं होता। वासना को समझ कर वासना को जी कर, वासना के अनुभव से, वासना के रस में डूब कर, प्रतीति से, साक्षात से, धीरे-धीरे तुम्हें दिखाई पड़ता है कि वासना से कुछ भी मिलने को नहीं है। और धीरे-धीरे वासना में ही तुम्हें दिखाई पड़ना शुरू होता है--निर्वासना की पहली-पहली झलकें।',
+		},
+		{
+			time: '0:19:20',
+			desc: 'ब्रह्मचर्य की पहली झलकें वासना की गहराई में ही मिलती हैं। संभोग की आत्यंतिक गहराई में ही पहली दफे समाधि की किरण उतरती है। वैसी किरण जब उतर आती है, बस फिर घटना घट गई। फिर तुम उस किरण के सहारे चल पड़ो, सूरज तक पहुंच जाओगे। फिर तुम्हें कोई रोक सकता नहीं। लेकिन वह घटना उतनी ही स्वाभाविक है, जैसे वासना स्वाभाविक है, कामना स्वाभाविक है, ब्रह्मचर्य भी स्वाभाविक है। थोपा, आरोपित, आयोजित ब्रह्मचर्य दो कौड़ी का है।',
+		},
+		{
+			time: '0:19:59',
+			desc: 'तुम हिंसक हो, अहिंसा का आदर्श बना लेते हो। सच तो यह है कि तुम आदमी का आदर्श देख कर बता सकते हो कि आदमी कैसा होगा, उल्टा कर लेना। अगर आदमी का आदर्श ब्रह्मचर्य हो तो समझ लेना कामी आदमी है। कामी के अतिरिक्त कौन ब्रह्मचर्य का आदर्श बनाएगा! अगर आदमी दान को आदर्श मानता हो, तो समझना लोभी है। अगर आदमी करुणा को आदर्श मानता हो, समझना क्रोधी है। अगर आदमी कहता हो, जीवन में शांति आदर्श है तो समझ लेना, अशांत आदमी है, विक्षिप्त आदमी है।',
+		},
+		{
+			time: '0:22:32',
+			desc: 'और आदर्श बनाना कहीं और से नहीं आता--तुम्हारे रोग से आता है। स्वस्थ आदमी को स्वास्थ्य का पता नहीं चलता। वस्तुतः स्वास्थ्य की परिभाषा यही है कि जब तुम्हें शरीर का बिलकुल पता न चले तो तुम स्वस्थ। अगर शरीर का कहीं भी पता चले तो बीमार। बीमारी का मतलब क्या होता है? सिर में जब दर्द होता है तो सिर का पता चलता है। सिर में दर्द न हो तो सिर का पता चलता ही नहीं। तुम सोचो, देखो। सिर की तुम्हें याद कब आती है? जब सिर में दर्द होता है। अगर कोई आदमी चौबीस घंटे सिर के संबंध में सोचने लगे तो समझना कि सिर उसका रुग्ण है। पैर में कांटा गड़ता है तो पैर का पता चलता है। जूता काटता है तो जूते का पता चलता है। अगर जूता काटता न हो तो जूते का पता चलता है?',
+		},
+		{
+			time: '0:23:32',
+			desc: 'आदर्श रुग्ण चित्त के लक्षण हैं। स्वस्थ व्यक्ति आदर्श नहीं बनाता; जो स्थिति है, उसको समझने की कोशिश करता है, उसको जीने की कोशिश करता है--ध्यान-पूर्वक, होशपूर्वक। और उसी होश से स्वास्थ्य फलित होता है। उसी होश से ब्रह्मचर्य फलित होता है, करुणा फलित होती है।',
+		},
+		{
+			time: '0:23:53',
+			desc: 'तुम अपने क्रोध को समझो, क्रोध को जीयो--करुणा अपने आप आ जाएगी। आदर्श मत बनाओ। तुम अपनी कामवासना को पहचानो, दीया जलाओ होश का। तुम कामवासना में होशपूर्वक जाओ। ऐसे डरे-डरे, सकुचाते, परेशान, घबड़ाए हुए, तने हुए, नहीं जाना और जाना पड़ रहा है--ऐसे अपराध में डूबे हुए मत जाओ। इसमें कुछ सार न होगा। सहज भाव से जाओ। प्रभु ने जो दिया है, अर्थ होगा। जो समग्र में उठ रहा है, उसमें अर्थ होगा।',
+		},
+		{
+			time: '0:24:31',
+			desc: 'तुम यहां होते नहीं अगर वासना न होती; न तुम्हारे महात्मा होते, न ब्रह्मचर्य का उपदेश देने वाले होते। वे सब वासना के ही फल हैं।',
+		},
+		{
+			time: '0:25:33',
+			desc: 'जब मैं कहता हूं, सभी आदर्श खतरनाक हैं, तो मेरा मतलब इतना ही है कि जीवन पर्याप्त है, इसके ऊपर तुम और आदर्श मत थोपो, जीवन में गहरे उतरो। जीवन की गहराई में ही तुम उन मणियों को पाओगे, जिनको तुम चाहते हो।',
+		},
+		{
+			time: '0:25:49',
+			desc: 'वासना में उतर कर मिलता है ब्रह्मचर्य। मैं यह नहीं कह रहा हूं कि सभी वासना से भरे लोगों को ब्रह्मचर्य मिल जाएगा या मिल गया है। मेरी शर्त खयाल में रखना। वासना में उतर कर मिलता है; लेकिन जो जागरूकता से उतरता है, बस उसी को मिलता है; जो साक्षी-भाव से उतरता है, उसी को मिलता है।',
+		},
+		{
+			time: '0:26:12',
+			desc: 'तो दुनिया में दो तरह के लोग हैं साधारणतः--वासना में उतरते मूर्च्छा से, उनको कुछ नहीं मिलता; फिर वासना से भयभीत हो कर भागते ब्रह्मचर्य की तरफ मूर्च्छा में, उनको भी कुछ नहीं मिलता। मिलता उसे है जो सजग हो कर, जाग कर, जीवन जो दिखाए उसे देखने को राजी होता है; जो कहता है, मेरी निजी कोई मर्जी नहीं, प्रभु जो दिखाएगा उसे देखेंगे, लेकिन साक्षी को जगा कर देखेंगे, पूरा-पूरा देखेंगे, रत्ती-रत्ती देखेंगे, कुछ छोड़ न देंगे, छोड़ने की जल्दी न करेंगे।',
+		},
+		{
+			time: '0:27:19',
+			desc: 'स्वभाव का अर्थ ही यही है, नियति का अर्थ ही यही है: कुछ करने को नहीं है। जाग कर जीना है। और जागना कोई करना थोड़े ही है! वह तो तुम्हारी क्षमता ही है। उसमें कुछ कृत्य जैसा नहीं है।',
+		},
+		{
+			time: '0:27:39',
+			desc: 'लेकिन अहंकार आदर्शों से पलता है। तुम चकित होओगे। अहंकार बहुत घबड़ाता है इस बात से जो मैं कह रहा हूं। क्योंकि अगर मेरी बात तुमने मानी तो अहंकार इसी क्षण मर जाएगा। फिर अहंकार को सजाने के लिए कोई उपाय न रहेगा। अहंकार सजता है आदर्शों से। न तो कभी आदर्श मिलते, लेकिन अहंकार की दौड़ हो जाती। दौड़ में अहंकार है। और आदर्श दौड़ की सुविधा देते हैं। किसी को धन कमाना है, तो अहंकार को सुविधा है। किसी को पद पर पहुंचना है, तो अहंकार को सुविधा है। किसी को मोक्ष पाना है, तो अहंकार को सुविधा है। किसी को त्यागी बनना है, तो अहंकार को सुविधा है। मैं कहता हूं: कुछ बनना नहीं, तुम हो! तो दौड़ खत्म। दौड़ गिरी, अहंकार गिरा।',
+		},
+		{
+			time: '0:28:50',
+			desc: 'तुम कोई आदर्श मत बनाओ। फिर देखो क्या घटता है! तुम इतना ही कह दो कि जो हूं हूं, ऐसा हूं! खोल कर रख दो अपनी किताब, ढांको मत। उदघोषणा कर दो कि बुरा हूं, पापी हूं, क्रोधी हूं, कामी हूं--ऐसा हूं। और अपने बनाए हूं ऐसा नहीं, क्योंकि मैंने कभी ऐसा बनना नहीं चाहा। ऐेसा मैंने अपने को पाया है तो मैं कर क्या सकता हूं? देखूंगा जो है। बैठ कर देखेंगे इस खेल को, जो प्रभु ने दिखाना चाहा, जरूर कोई राज होगा।',
+		},
+		{
+			time: '0:29:27',
+			desc: 'और राज है। राज यही है कि इस लीला को तुम देखने वाले बन जाओ, तुम द्रष्टा बन जाओ।',
+		},
+		{
+			time: '0:29:37',
+			desc: 'आदर्श तुम्हें कर्ता बना देते हैं; कुछ करने का मौका हो जाता है।',
+		},
+		{
+			time: '0:29:43',
+			desc: 'मैं तुमसे आदर्श छीन रहा हूं। अष्टावक्र तुमसे आदर्श छीन रहे हैं, सिर्फ इसलिए ताकि कर्ता को कोई जगह न बचे। आदर्श गए तो करने के सब उपाय गए। फिर करोगे क्या? फिर तो होना ही बचा। शुद्ध होना!',
+		},
+		{
+			time: '0:30:8',
+			desc: 'आदर्श से सावधान रहना! आदर्श के कारण ही तुम्हारा जीवन रिक्त रह गया है। आदर्श के कारण ही आदर्श नहीं फल पाए, नहीं फूल पाए। अगर सच में ही तुम चाहते हो कि आदर्श तुम्हारे जीवन को भर दें तो आदर्शों को बिलकुल भूल जाओ और जीवन के साक्षी हो जाओ। जैसा है, है। जो है, है। इस तथाता में ठहरो। इसमें रत्ती भर हेर-फेर करने की आकांक्षा मत करो। तुम हो कौन? तुम हेर-फेर कर कैसे सकोगे?',
+		},
+		{
+			time: '0:31:52',
+			desc: 'और फिर इस जाल को और भी थोड़ा गौर से देखो। तुम जो भी करोगे, तुम्हीं करोगे न? कामी कोशिश करेगा ब्रह्मचर्य लाने की, लेकिन कामी कोशिश करेगा न? कामी की कोशिश कामना की ही होगी। क्रोधी कोशिश करेगा करुणा की, क्रोधी करेगा न? तो क्रोधी की सारी चेष्टा में क्रोध होगा। करुणा भी क्रोध से विषाक्त हो जाएगी।',
+		},
+		{
+			time: '0:33:48',
+			desc: 'तो मैं तुम्हारे विपरीत किन्हीं आदर्शों को तुम्हारे ऊपर नहीं थोपना चाहता। क्योंकि तुम्हीं थोपोगे उन्हें, अड़चन खड़ी होगी। मैं तो चाहता हूं कि तुम जीवन, जैसा तुम्हारा है, जो तुम्हारे जीवन का यथार्थ है, उस यथार्थ को समझो। उसी यथार्थ की समझ में से खिलेंगे फूल, उठेंगे गीत। उसी यथार्थ के बोध में से तुम्हारे जीवन में क्रांति घटेगी। क्रांति घटती है--तुम्हारे घटाए नहीं घटती। तुम जाग कर देखने लगो जो है--और घटती है!',
+		},
+		{
+			time: '0:36:12',
+			desc: 'अहंकर को मजा ही धार के विपरीत बहने में है। धार के साथ बहने में क्या मजा! धार के साथ बहने में तो तुम बचते ही नहीं, धार ही बचती है। तुम्हारा क्या है? छोड़ दिए हाथ-पैर, चल पड़े, तो गंगा तुम्हें ले जाएगी सागर तक, गिरा देगी वहां बंगाल की खाड़ी में। लेकिन तुम्हारा क्या? तुम इतना भी तो न कह पाओगे कि मैंने इतनी यात्रा की। लोग हंसेंगे। वे कहेंगे, ‘तुमने यात्रा की? यह तो गंगा की यात्रा है। तुम तो बचे कहां? तुम तो उसी दिन मिट गए जिस दिन तुमने धार में अपने को छोड़ा। तुम तो बच सकते थे एक ही तरकीब से कि लड़ते धार से, जाते ऊपर की तरफ। उलटे बहते। विपरीत करते कुछ।',
+		},
+		{
+			time: '0:41:6',
+			desc: 'यह मेरे पास रहने का परिणाम है अजित सरस्वती! अब यह संभलेगा नहीं। अब न तो तुम गियर सम्हाल पाओगे, न ब्रेक सम्हाल पाओगे, न स्टीयरिंग। क्योंकि मेरा सारा प्रयोजन तुम्हें समझाने का इतना ही है कि जीवन के साथ एकरस हो जाओ। जहां जीवन ले जाए वहीं चलो, वहीं मंजिल है।',
+		},
+		{
+			time: '0:41:35',
+			desc: 'तो अब तुम सपने में भी न रोक पाओगे, यह शुभ है। रोक लेते तो दुर्घटना थी। यह शुभ है कि अब सपने में भी तुम रोक नहीं पाते। तुम्हारा नियंत्रण खो रहा है। तुम्हारा नियंत्रण खो रहा है, अर्थात तुम्हारा अहंकार खो रहा है, क्योंकि अहंकार नियंता है। जैसे ही तुमने अहंकार छोड़ा, परमात्मा नियंता है, फिर तुम नियंता नहीं हो। जब तक तुम्हारा अहंकार है, तुम नियंता हो; तब तक परमात्मा इत्यादि की तुम कितनी ही बातें करो, लेकिन परमात्मा से तुम्हारा कोई संबंध नहीं बन सकता। तुम हो, तो परमात्मा नहीं है।',
+		},
+		{
+			time: '0:43:27',
+			desc: 'तुम नहीं चाहते और पहुंच जाते हो, इसलिए असहाय अवस्था मालूम होती है। अगर तुम चाहने लगो तो जिसे तुम असहाय कह रहे हो, वह असहाय न रह जाएगी। उसी अवस्था में तुम पाओगे, जहां तुमने अपना सब आधार छोड़ा, वहीं, जहां तुम निराधार हुए, वहीं परमात्मा का आधार मिला। तब तुम अचानक पाओगे, पहली दफा आसरा मिला। अब तक असहाय थे, क्योंकि अपने सिवाय अपना कोई सहारा नहीं था। वह भी कोई सहारा था? तिनकों को पकड़े थे और सागर में तैरने की सोचते थे। कागज की नाव में बैठे थे। अब पहली दफा तुम पाओगे कि बेसहारा हो कर सहारा मिला। हारे को हरिनाम!',
+		},
+		{
+			time: '0:44:16',
+			desc: 'जैसे ही आदमी पूर्ण रूप से हार जाता है, हरिनाम का उदघोष होता है। निर्बल के बल राम! जब तुम बिलकुल निर्बल सिद्ध हो जाते हो, सब तरह से असहाय, उसी क्षण तुम्हें प्रभु का सहारा मिलना शुरू हो जाता है। तुम्हारे कारण ही बाधा पड़ रही थी, अब कोई बाधा न रही।',
+		},
+		{
+			time: '0:45:23',
+			desc: 'अगर जागना हो तो बेसहारा हो जाओ, असहाय हो जाओ। जब तक तुम्हें अकड़ रहेगी कि मैं कुछ कर लूंगा, तब तक तुम सोए रहोगे। जब तक तुम्हें अकड़ रहेगी कि मैं कर्ता हूं, तब तक तुम सोए रहोगे। जैसे ही तुम्हारी अकड़ टूटने लगेगी, न गियर सम्हलेगा, न ब्रेक, न स्टीयरिंग, अचानक गाड़ी चलने लगेगी तुम्हारे नियंत्रण के बाहर, उसी क्षण तुम जाग जाओगे।',
+		},
+		{
+			time: '0:45:57',
+			desc: 'अहंकार मूर्च्छा है, निद्रा है। निरहंकार होना जाग जाना है, अमूर्च्छा है।',
+		},
+		{
+			time: '0:49:33',
+			desc: 'असल में जब भी कोई चीज नीचे आती है, तभी तुम्हें पता चलता है कि अपने नियंत्रण में सब कुछ नहीं है। जब तक चीजें ठीक चलती हैं, पत्नी झगड़ती नहीं, बच्चे ठीक से स्कूल में पढ़ते हैं, धंधा, दुकान कमाई में चलती है--तब तक सब ठीक है। तब तक तुम्हें पता नहीं चलता कि तुम असहाय हो। फिर अचानक देखा कि दुकान टूटी, दिवाला निकल गया। जब तक दीवाली, तब तक ठीक; जब दिवाला, तब घबड़ाए कि यह अपने बस के बाहर हुई जा रही है बात। मैं तो सोचता था, सब अपने बस में है; और दीवाली ही दीवाली रहेगी।',
+		},
+		{
+			time: '0:51:30',
+			desc: 'अहंकार बड़ा घबड़ाता है पराजय से, उतार से। लेकिन उतार ही मनुष्य को परमात्मा की तरफ लाती है। दीवाला ही परमात्मा की तरफ लाता है। अगर तुम जीतते ही चले जाओ तो तुम कभी धार्मिक बनोगे ही नहीं। तुम्हारी जीत में वस्तुतः तुम्हारी नियति की हार है। और जब तुम हारते हो तब पहली दफे तुम्हें अपनी असली स्थिति का पता चलता है: हम इस विराट में एक छोटी-सी तरंग हैं, एक बूंद हैं सागर में। हमारी जीत क्या, हमारी हार क्या! जीत है तो उसकी, हार है तो उसकी।',
+		},
+		{
+			time: '0:52:57',
+			desc: 'यह जीवन की जो गाड़ी है, इस पर ऐक्सीलरेटर पर पैर तुम्हारा नहीं है, कभी नहीं है; न स्टीयरिंग तुम्हारे हाथ में है। तुम छोटे बच्चे की भांति हो, जो भ्रांति में पड़ गया है। गाड़ी अपने आप चलती है, गाड़ी अपने आप ही चल रही है। तुम्हारे चलाने की जरा भी जरूरत नहीं। तुम नाहक परेशान हो रहे हो, पसीने-पसीने हुए जा रहे हो। यह बच्चा नाहक परेशान हो रहा है। यह सोच रहा है, गाड़ी यह चला रहा है, अगर न चलाए तो मुश्किल हो जाएगी। बड़ा हॉर्न बजा रहा है। यह सोच रहा है इसके बिना तो सब अस्तव्यस्त हो जाएगा यह सारा, अभी दुर्घटना हो जाएगी, कहीं कोई टक्कर हो जाएगी। यह पसीने-पसीने हुए जा रहा है। इसे पता नहीं कि तेरे न हॉर्न बजाने से कुछ होना है, न तू गाड़ी को संभाल रहा है। गाड़ी कोई और संभाले हुए है। किन्हीं विराट हाथों में सब है। हम सिर्फ साक्षी हो जाएं। कर्ता हम नहीं हैं। हम सिर्फ साक्षी हो जाएं, तो बड़ी हंसी आएगी। जीवन की इस विडंबना पर बड़ी हंसी आएगी कि खूब मजाक रही।',
+		},
+		{
+			time: '0:54:25',
+			desc: 'नियंत्रण छोड़ देना ही मेरी देशना है। मैं तुमसे कहता हूं: छोड़ो सब नियंत्रण! तुम्हारे हाथ बड़े छोटे हैं, इनसे नियंत्रण हो भी न सकेगा। तुम छोड़ो प्रभु पर। करने दो उसे नियंत्रण। तुम नहीं थे, तब भी यह जगत चल रहा था। फूल खिलते थे, चांद निकलते थे, वर्षा आती, धूप आती! तुम नहीं थे, तब भी सब चल रहा था। चांद-तारे घूमते, सूरज निकलता! तुम नहीं रहोगे, तब भी सब चलता रहेगा। इतना विराट चल रहा है। तुम नाहक इसमें परेशान हो रहे हो।',
+		},
+		{
+			time: '0:55:44',
+			desc: 'छिपकली सोचती है सम्हाले है छप्पर को! कोई सम्हाले नहीं। हमारे सम्हाले कुछ सम्हला नहीं। लेकिन हमारे अहंकार के कारण हम यह बात मानने को राजी नहीं हो पाते कि हमारे बिना भी महल रह जाएगा। असंभव!',
+		},
+		{
+			time: '0:58:0',
+			desc: 'तुम करो न करो, जो होता है होता है। तुम्हारे किए कुछ भी नहीं है। जिस दिन यह बात तुम्हें समझ में आ जाएगी, जिस दिन तुम्हारा कंबल चोरी चला जाएगा...और वही हुआ, अजित सरस्वती का कंबल चोरी जा रहा है, खींच रहा हूं धीरे-धीरे, काफी तो निकल गया है, थोड़ा-सा पकड़े रह गए हैं वे हाथ में, वह भी जिस दिन छूट जाएगा, उसी दिन यह सपना बंद हो जाएगा। उस दिन तुम अचानक पाओगे: हम व्यर्थ ही परेशान हो रहे थे; जीवन चल ही रहा है, सुंदरतम ढंग से चल रहा है। इससे और ज्यादा गौरवशाली ढंग हो नहीं सकता। बड़ी गरिमा और प्रसाद से चल रहा है। हम व्यर्थ ही इसमें शोरगुल मचा रहे थे। हम व्यर्थ ही चिल्ला रहे थे, चीख रहे थे।',
+		},
+		{
+			time: '0:58:52',
+			desc: 'हम चीखते-चिल्लाते हैं, क्योंकि हमारा अहंकार यह मानने को राजी नहीं हो पाता कि हमारे बिना भी दुनिया चलती रहेगी। हमारे बिना, और दुनिया चलती रहेगी? असंभव! हम गए कि महल का छप्पर गिरा।',
+		},
+		{
+			time: '0:59:12',
+			desc: 'नहीं, महल का छप्पर तुमसे सम्हला नहीं है। न तुम्हारे कंबल के घुमाने से जीवन चल रहा है। इस भ्रांति को छोड़ देने का नाम ही धर्म है। तुम ईश्वर को मानो या न मानो, धार्मिक होने से ईश्वर को मानने न मानने का कुछ प्रयोजन नहीं। तुम इसकी भ्रांति छोड़ दो कि मेरे चलाए सब चल रहा है--तुम धार्मिक हो गए; तुमने जान ही लिया प्रभु को; परमात्मा अवतरित हो ही गया; तुम उसके आमने- सामने खड़े हो गए। फिर साक्षात में क्षण भर देर नहीं होती।',
+		},
+		{
+			time: '1:2:28',
+			desc: 'मैं तुमसे कह रहा हूं, तुम मुक्त हो। हां, तुम्हें अगर आनंद आता हो पांच बजे उठने में, बराबर उठो; लेकिन पांच बजे उठने से मोक्ष मिलेगा, इस भ्रांति में मत पड़ना। तुम्हें अगर सिर के बल खड़े होने से रस मिलता हो, बराबर खड़े हो जाओ, मैं तुम्हें रोकता नहीं। लेकिन मैं तुमसे यह नहीं कह सकता हूं कि सिर के बल तुम खड़े हो गए तो संबोधि की घटना घट जाएगी। तुम सस्ती तरकीबें चाहते हो, मैं तुम्हें कोई तरकीब नहीं देता।',
+		},
+		{
+			time: '1:2:59',
+			desc: 'मेरे रहते इस आश्रम में कोई नियम, अनुशासन होने वाला नहीं है। मेरे रहते यह आश्रम अराजक रहेगा, क्योंकि अराजकता जीवन का लक्षण है। मैं तुम्हें परिपूर्ण स्वतंत्रता देता हूं कि तुम जो भी होना चाहो और जैसे भी होना चाहो, जागरूकता-पूर्वक वही होने में रस लो।',
+		},
+		{
+			time: '1:4:10',
+			desc: 'मैं तुम्हें स्वतंत्रता देता हूं। मैं तुम्हें अपराधी नहीं सिद्ध करना चाहता किसी भी कारण से। क्योंकि नियम दूंगा तो उसके पीछे अपराध का भाव आता है। किसी दिन पांच बजे सुबह तुम न उठ पाए तो पीछे से अपराध का भाव आता है कि आज आज्ञा का उल्लंघन हो गया; तुम्हें मैंने अपराधी कर दिया। पांच बजे उठने से तो कुछ मिलने वाला था नहीं। इतनी सस्ती बात नहीं है। स्वास्थ्यपूर्ण है पांच बजे उठो, लेकिन मोक्ष से कुछ लेना-देना नहीं है। ताजी हवा होती है, सुंदर सुबह होती है, एस्थेटिक है। सौंदर्य का जिन्हें बोध है, वे सुबह पांच बजे उठेंगे; लेकिन धर्म से इसका कुछ लेना-देना नहीं। जिन्हें थोड़ा काव्य का रस है वे चूकेंगे नहीं, क्योंकि सुबह पांच बजे जैसी दुनिया होती है, जैसी सुंदर, आदमी से अछूती! अभी सब बुद्धू और बुद्धिमान, सब सो रहे हैं, अभी दुनिया अछूती है; जैसी भगवान ने बनाई होगी, कुछ-कुछ वैसी है! तो पांच बजे जिनको थोड़ा भी जीवन में रस है, वे जरूर उठेंगे।',
+		},
+		{
+			time: '1:7:16',
+			desc: 'नहीं, मैं तुम्हें कोई अनुशासन नहीं देता। मैं तो तुम्हें सिर्फ केवल एक बोध-मात्र देता हूं कि तुम जो भी करो जाग कर करो।',
+		},
+		{
+			time: '1:7:26',
+			desc: 'अब रह गई बात...पूछा है, अनिवार्य साधना? कुछ अनिवार्य नहीं है यहां। क्योंकि जो भी अनिवार्य हो, वह बंधन बन जाता है। जो करना ही पड़े, वह बंधन बन जाता है। इसी तरह तो हमने बहुत सुंदर चीजें खराब कर दीं। जो करना ही पड़े, उसका रस ही खो जाता है। तुम गए, और मां है, तो उसके पैर छूना ही चाहिए, वह अनिवार्य है, तो मां के पैर छूते हो--मजा खो गया, अनिवार्य हो गया! उससे मौज चली गई, उसमें से मुक्ति चली गई। अब तुम छूते हो, क्योंकि मां है और सदा छूना चाहिए, इसलिए छूते हो--एक नियम, औपचारिकता।',
+		},
+		{
+			time: '1:8:47',
+			desc: 'जो करना पड़ता है, उसमें से सब रस चला जाता है--वह चाहे पत्नी का चुंबन ही क्यों न हो। दुलार और प्रेम और आलिंगन भी कष्टपूर्ण मालूम होने लगते हैं, अगर करने पड़ें। अनिवार्य...!',
+		},
+		{
+			time: '1:11:43',
+			desc: 'इसको ठीक चलना कहते हो? अनिवार्यता? प्रार्थना और अनिवार्य हो सकती है? प्रेम और अनिवार्य हो सकता है? पूजा और अनिवार्य हो सकती है? अनिवार्य तो केवल चीजें कारागृह में होती हैं। जीवन में कुछ भी अनिवार्य नहीं। भूल कर भी किसी चीज को अनिवार्य मत करना, अन्यथा उसी क्षण उस चीज का मूल्य नष्ट हो जाएगा।',
+		},
+		{
+			time: '1:12:9',
+			desc: 'जीवन बड़ा नाजुक है, फूल जैसा नाजुक है! इस पर अनिवार्यता के पत्थर मत रख देना, नहीं तो फूल मर जाएगा। मुझसे कोई आ कर भी पूछता है, आश्रमवासी हैं, मुझसे पूछते हैं आ कर कि हम अनिवार्य-रूप से आपको सुबह सुनने आएं? मैं कहता हूं, भूल कर मत आना। अनिवार्य, और मुझे सुनने? तुम मुझे गालियां देने लगोगे। तुम्हें आना हो तो आना, तुम्हें न आना हो तो न आना। और भूल कर भी अपराध अनुभव मत करना कि हम आश्रम में रहते हैं और हम सुनने न गए और लोग इतने दूर से आते हैं! इसकी फिक्र छोड़ो। तुम्हारी जब मौज हो, तब तुम आ जाना। तो अगर महीने में तुम एक बार भी आए तो इतना पा लोगे जितना कि अनिवार्य आ कर महीने भर में भी नहीं पा सकते थे; क्योंकि पाने की घटना तो प्रेम से घटती है।',
+		},
+		{
+			time: '1:13:0',
+			desc: 'तो यहां अनिवार्य कुछ भी नहीं है। और अनुशासन जो बाहर से थोपा जाए वे तो बेड़ियां हैं। मैं तुमसे कहूं कि ध्यान करो, यह भी कोई बात हुई? मैं रोज सुबह समझा रहा हूं ध्यान का रस, बहाता रसधार सुबह रोज ध्यान की, गंगा तुम्हारे सामने कर देता हूं--अब यह भी तुमसे कहूं कि रोज गंगा में स्नान करो, कि रोज पीयो जलधार? अब यह तुम्हारी मर्जी है। इतना क्या कम है कि मैंने गंगा तुम्हारे सामने ला दी। अब यह भी मुझे करना पड़ेगा? गंगा का इतना गुणगान कर दिया, अब ठीक है, अब तुम्हारी मौज। तुम्हें ध्यान करना हो करो, न करना हो न करो। लेकिन मैं तुमसे यह नहीं कहूंगा कि अनिवार्य रूप से तुम्हें ध्यान करना है। क्योंकि जैसे ही अनिवार्य हुई कोई बात वैसे ही गड़ने लगती है, कांटे की तरह गड़ने लगती है। ध्यान जैसी महिमापूर्ण चीज को खराब तो मत करो।',
+		},
+		{
+			time: '1:14:12',
+			desc: 'नहीं, यहां मेरे पास कुछ भी नियम नहीं है और न कोई अभ्यास है तुम्हें देने को। सब अभ्यास अहंकार के हैं। अध्यात्म का कोई अभ्यास नहीं। मैं तो कहता हूं: जागो! इति ज्ञानं! यही ज्ञान है! इति ध्यानं! यही ध्यान है! इति मोक्षः! यही मोक्ष है!',
+		},
+		{
+			time: '1:14:35',
+			desc: 'तुम जाग कर जीने लगो, ध्यान तुम्हारे चौबीस घंटे पर फैल जाएगा। ध्यान कोई ऐसी चीज थोड़े ही है कि कर लिया सुबह उठ कर और भूल गए फिर। ध्यान तो ऐसी धारा है जो तुम्हारे भीतर बहनी चाहिए। ध्यान तो ऐसा सूत्र है जो तुम्हारे भीतर बना रहना चाहिए; जो तुम्हारे सारे कृत्यों को पिरो दे एक माला में। जैसे हम माला बनाते हैं तो फूलों को धागे में पिरो देते हैं, फूल दिखाई पड़ते, धागा तो दिखाई भी नहीं पड़ता--ऐसा ही ध्यान होना चाहिए, दिखाई ही न पड़े। जीवन के सब काम-- उठना-बैठना, खाना-पीना, चलना, बोलना, सुनना, सब--फूल की तरह ध्यान में अनस्यूत हो जाएं, ध्यान का धागा सब में फैल जाए।',
+		},
+		{
+			time: '1:15:24',
+			desc: 'तो ध्यान तो मेरे लिए जागरण और साक्षी-भाव का नाम है।',
+		},
+		{
+			time: '1:15:31',
+			desc: 'और जब मैं न रहूंगा, तब निश्चित यह उपद्रव होने वाला है। क्योंकि कोई न कोई ‘योग चिन्मय’ इस कुर्सी पर बैठ जायेंगे। ऐसी मुश्किल है...यह कुर्सी खाली थोड़े ही रहेगी। कोई न कोई चलाने लगेगा अनुशासन। जिस दिन अनुशासन चलने लगे, उस दिन समझना मेरा संबंध टूट गया इस जगह से। जिस दिन यहां नियम हो जाए, अनिवार्यता हो जाए, अभ्यास हो जाए, उस दिन जानना यह मेरा आश्रम न रहा; यह एक मुर्दा आश्रम हो गया, जो जुड़ गया दूसरे मुर्दा आश्रमों से।',
+		},
+		{
+			time: '1:16:7',
+			desc: 'मेरे जीते-जी ऐसा न हो सकेगा। मैं स्वयं जी रहा हूं और तुम्हें भी जिंदा देखना चाहता हूं, मुर्दा नहीं। मैं तुम्हें साधक नहीं मानता। मैं तुम्हें सिद्ध मानता हूं। और मैं चाहता हूं कि तुम भी अपनी सिद्धावस्था को स्वीकार कर लो। मैं चाहता हूं कि तुम भी कह सको: अहो, मेरा मुझको नमन!',
+		},
+		{
+			time: '1:22:46',
+			desc: 'समाधि बहुत लोगों को घटती है, बहुत थोड़े-से लोग उसे कहने में थोड़े-बहुत समर्थ हो पाते हैं। हेमा से वह नहीं होगा। उस चेष्टा में पड़ेगी तो उसके भीतर जो घट रहा है उसमें अवरोध आ जाएगा, बाधा आ जाएगी। कहने की फिक्र ही मत करो। अगर बहुत कहने का मन होने लगे--और होगा मन--क्योंकि जब भीतर कुछ घटता है तो हम बांटना चाहते, साझीदार बनाना चाहते औरों को। जब रस भीतर बहता है तो हम चाहते हैं किसी और को भी मिल जाए। लोग इतने प्यासे हैं, लोग इतने भूखे हैं, लोग इतने जल रहे हैं, तो बांटने की इच्छा पैदा होती है। लेकिन जब भी कहने का सवाल उठे तो कहने की जगह हंसना, हेमा! नाचना, गुनगुनाना! उससे आसान होगा। शब्द तुम न बना सकोगी। शब्द तुम्हारा संभव नहीं होगा। कुछ और ढंग से तुम्हें कहना होगा--जैसे मीरा ने कहा, गुनगुना कर कहा; बुद्ध ने कह कर कहा; जैसे चैतन्य ने कहा, ले गए, ले कर मंजीरा और मृदंग, नाचते हुए कहने लगे।',
+		},
+		{
+			time: '1:24:0',
+			desc: 'अपना ढंग खोजना होगा। शब्द निश्चित तुम्हारा ढंग नहीं है। हंसो, नाचो, गुनगुनाओ--हजार ढंग हो सकते हैं।',
+		},
+		{
+			time: '1:24:16',
+			desc: 'लेकिन अपना ढंग खोजना ही पड़ता है, जब घटना घट जाती है। नहीं तो भीतर कुछ उबलने लगता है। और भीतर कुछ तैयार होता है, पकता है--और हम उसे बांट न पाएं तो बोझिल होने लगते हैं; जैसे वर्षा के मेघ जब भर जाते जल से तो वर्षा होती है। वर्षा स्वाभाविक है।',
+		},
+		{
+			time: '1:25:14',
+			desc: 'प्रत्येक को अपनी विधि, अपनी व्यवस्था खोजना पड़ती है। अभिव्यक्ति सभी के लिए एक जैसी नहीं हो सकती। फिर स्त्री-पुरुषों में भी बड़ा फर्क है। इसलिए तो तुम्हें स्त्री सदगुरु बहुत कम दिखाई पड़ते हैं--उसका कारण यह नहीं है कि स्त्रियां मोक्ष को उपलब्ध नहीं हुईं। मेरे देखे तो स्त्रियां मोक्ष को ज्यादा आसानी से उपलब्ध हो सकती हैं, बजाय पुरुषों के। क्योंकि पुरुषों के अहंकार को गिरने में बड़ी देर लगती है। स्त्रियों का अहंकार बड़ी सरलता से गिर जाता है। लेकिन फिर भी तुम्हें बुद्ध, महावीर, पार्श्व, कृष्ण, क्राइस्ट, शंकर, नागार्जुन ऐसे पुरुषों की श्रृंखलाबद्ध कतार दिखाई पड़ती है-- ऐसे स्त्रियों के नाम लेने जाओ तो उंगलियों पर भी नहीं गिने जा सकते। कभी कोई सहजो, कोई मीरा, राबिया, थैरेसा--बस ऐसे तीन चार नाम हैं। इसका यह अर्थ नहीं है, इस गलत तर्क में मत पड़ जाना कि इसलिए स्त्रियां मोक्ष को उपलब्ध नहीं हुईं, या स्त्रियों ने पाया नहीं, या स्त्रियां पा नहीं सकतीं।',
+		},
+		{
+			time: '1:26:31',
+			desc: 'स्त्रियों ने पाया--उतना ही जितना पुरुषों ने, शायद थोड़ा ज्यादा। लेकिन स्त्रियां शब्द में नहीं कह पातीं। यह अड़चन है। और बिना शब्द में कहे, तुम्हें बुद्ध का पता न चलता अगर बुद्ध ने शब्द में न कहा होता। अगर बुद्ध चुप बैठे रहते बोधि-वृक्ष के नीचे, किसी को कानों-कान खबर न होती। अगर मैं न बोलूं तो तुम यहां न आ सकोगे। मैं तो न बोल कर भी मैं ही रहूंगा। क्या फर्क पड़ेगा मेरे न बोलने से? मेरे लिए कोई फर्क न पड़ेगा, लेकिन तुम न आ सकोगे।',
+		},
+		{
+			time: '1:27:6',
+			desc: 'तुम मुझे सुनने आए हो--सुनते-सुनते शायद तुम फंस भी जाओ, सुनते-सुनते शायद तुम मेरे साथ उलझ भी जाओ, सुनते-सुनते शायद तुम मुझमें धीरे-धीरे पग जाओ। लेकिन आए थे तुम सुनने। सुनते-सुनते शायद तुम गुनने भी लगो। गुनते-गुनते शायद तुम गुनगुनाने भी लगो। मेरे पास बैठते-बैठते हो सकता है यह पागलपन तुम्हें भी छू जाए। तुम मदमस्त हो जाओ। लेकिन तुम आए थे मुझे सुनने।',
+		},
+		{
+			time: '1:27:43',
+			desc: 'शब्द की गति है जगत में। शब्द के अतिरिक्त और कोई संवाद का उपाय नहीं दिखाई पड़ता। इसलिए स्त्रियां सदगुरु तो हुईं, लेकिन उनका पता भी नहीं चल सका। ज्ञान को तो उपलब्ध हुईं, लेकिन वे गुरु न बन पाईं। शिष्य तो शब्द सुनने आते हैं। मीरा ने ऐसे अदभुत भजन गाए, फिर भी कोई शिष्य थोड़े ही पैदा कर पाई मीरा। कोई मीरा की स्थिति सदगुरु की तरह थोड़े ही है। अदभुत गाया, जिन्होंने सुना उन्होंने भी रस पाया; लेकिन गुरु की स्थिति तो नहीं बन पाई। क्योंकि गुरु का तो अर्थ ही यह है: जो मीरा को मिला था वही वह दूसरों को भी मिलाने में सहयोगी हो जाती। वह नहीं हो पाया।',
+		},
+		{
+			time: '1:28:38',
+			desc: 'तो मैं हेमा से यही कहूंगा: अगर तुझे भर जाए भाव, बांटने का मन होने लगे और शब्द कहने को न मिलें, किसी के पैर दबाने लगना; वह तेरा रास्ता होगा। किसी का सिर दबाने लगना, किसी को प्रेम देना, नाचना, गाना, गुनगुनाना! खोजना कोई उपाय। शब्द तो तेरा उपाय नहीं हो सकता। लेकिन बांटना तो पड़ता है, बिना बांटे रहा नहीं जा सकता। जब सुगंध आ गई फूल में तो पंखुरी को खिलना ही होगा, सुगंध को विसर्जित होना ही होगा, गंध चढ़ेगी पंखों पर हवा के, जाएगी दूर-दूर लोकों तक, तो नियति पूरी होती है।',
+		},
+		{
+			time: '1:29:48',
+			desc: 'तब तुम्हारा हृदय ही नहीं धड़कता है जब समाधि फलित होती है--तब तुम पहली दफे पाते हो तुम्हारे हृदय के साथ सारा जगत धड़क रहा है। पत्थर भी धड़क रहे हैं; वहां भी हृदय है। वृक्ष भी धड़क रहे हैं, चांद-तारे भी धड़क रहे हैं। तब तुम्हारी धड़कन के साथ सारा जगत एक लयबद्ध, एक छंदोबद्ध गति में आ जाता है--एक गीत, एक संगीत--जिसमें तुम अलग नहीं हो; एक विराट आर्केस्ट्रा के हिस्से हो गए हो!',
+		},
+		{
+			time: '1:30:51',
+			desc: 'उस घटना के करीब है हेमा। अगर चलती रही और इस बात को सुन कर कि मुझे समाधि की पहली प्रतीति हुई है, अकड़ न गई...। क्योंकि उस अकड़ में ही मर जाता सब। इसलिए पहली दफा वर्षों पहले जब उसे आबू में हुआ था, मैंने कुछ कहा नहीं, मैं चुप ही रहा। अब कहता हूं, लेकिन फिर भी खतरा तो सदा है। अब इस बात को बहुत अहंकार का हिस्सा मत बना लेना। नहीं तो जो हुआ है वह वहीं अटक जाएगा। जहां अहंकार आया वहीं गति अवरुद्ध हो जाती है।',
+		},
+		{
+			time: '1:31:31',
+			desc: 'ऐसा हुआ है तो यह मत सोचना कि मेरे किए हुआ है। ऐसा सोचना, प्रभु का प्रसाद है! ऐसा सोचना कि कृतज्ञ उसकी, उसका आशीष है! ऐसा सोचना कि मैं अपात्र, कैसे यह हो पाया! आश्चर्य! अहो!',
+		},
+		{
+			time: '1:31:49',
+			desc: 'अहोभाव का इतना ही अर्थ है कि भीतर अहो का भाव उठता रहे, कि अहो, मुझे होना नहीं था और हुआ! मैं पात्र नहीं थी, और हुआ! अपात्र थी, और हुआ!',
+		},
+		{
+			time: '1:33:26',
+			desc: 'और जो व्यक्ति जहर पीने को राजी हो गया है मस्ती में, उसके लिए जहर भी अमृत हो जाता है। जो प्रभु के साथ चलने को राजी हो गया है--सब स्थितियों में, चाहे जहर पिलाए तो भी, चाहे नर्क में फेंक दे तो भी--उसका नर्क समाप्त हुआ; अब उसके लिए स्वर्ग ही स्वर्ग है।',
+		},
+		{
+			time: '1:34:46',
+			desc: 'सूरज ऊगता ही है, हम जरा राजी भर हो जाएं। हमारे न राजी होने पर भी सूरज तो ऊगता ही है, लेकिन हम आंख खोल कर नहीं देखते। तो हम अंधेरे में ही रहे आते हैं। आंख बंद, तो हमारी रात जारी रहती है। जब हम राजी हो जाते हैं तो हम आंख खोल कर देखने की तत्परता दिखाते हैं! सूरज तो ऊगता ही रहा है। हर रात के बाद सुबह है। हर भटकन के बाद पड़ाव है। हर संसार के बाद मोक्ष है। बस हम आंख खोल कर देखने को तैयार हों!',
+		},
+	],
+	'25': [
+		{
+			time: '0:2:18',
+			desc: 'आदमी अपने दुख की बात करता, अपनी चिंताओं की, बेचैनियों की, अपने संताप की। आदमी वही बात करता है, जो उसे मिला है। जब आनंद की किरण फूटती है, तो एक नई ही बात शुरू होती है। जब प्रभु से मिलन होता, तो सब भूल जाते जन्मों-जन्मों के जाल; जैसे कभी हुए ही न हों; जैसे रात में जो देखा था वह सच ही न रहा हो। सुबह का सूरज सारी रातों को झूठ कर जाता। और सूरज के ऊगने पर फिर कौन अंधेरे की बात करे!',
+		},
+		{
+			time: '0:7:27',
+			desc: 'बंध की ठीक-ठीक परिभाषा हो जाए तो मोक्ष की भी परिभाषा हो जाती है। क्योंकि जो बंध नहीं है, वही मोक्ष है। और आसान है पहले बंधन की परिभाषा कर लेना, क्योंकि बंधन से हम परिचित हैं।',
+		},
+		{
+			time: '0:7:47',
+			desc: 'आनंद की परिभाषा करनी हो तो बुद्ध कहते हैं: दुख का निरोध। दुख से हम परिचित हैं। जहां दुख न रह जाएगा, वहां आनंद। अंधेरी रात से हम परिचित हैं। सुबह की परिभाषा करनी हो तो कहना होगा: जहां अंधेरा न रह जाए।',
+		},
+		{
+			time: '0:8:10',
+			desc: 'लेकिन इस परिभाषा से बड़ी भूलें भी हो गई हैं। कुछ लोग सोचने लगते हैं कि शायद अंधेरे को मिटाना पड़ेगा, तब सुबह होगी। परिभाषा तो बिलकुल ठीक है कि जहां अंधेरा न रह जाए, वहां सुबह। लेकिन इस परिभाषा को तुम अनुष्ठान मत बना लेना। तुम यह मत सोचना कि हम अंधेरे को मिटाएंगे तो सुबह हो जाएगी। तब सब उल्टा हो जाएगा। सुबह आती है, तब अंधेरा मिटता है। अंधेरे को मिटाने की कोई संभावना नहीं है। तुम तो सुबह को पुकारना। तुम तो सुबह को खोजना। तुम तो दीये को जलाना। यद्यपि यह परिभाषा बिलकुल ठीक है कि जब अंधेरा नहीं रह जाता, तब सुबह। परिभाषा की तरह ठीक है, साधन की तरह खतरनाक है।',
+		},
+		{
+			time: '0:8:58',
+			desc: 'जहां कोई दुख नहीं रह जाता, वहां आनंद है। तो तुम दुख को मिटाने में मत लग जाना, नहीं तो तुम आनंद तक कभी न पहुंचोगे। परिभाषा की तरह बिलकुल सुंदर है। तुम तो आनंद को पुकारना। तुम तो आनंद को जगाना।',
+		},
+		{
+			time: '0:9:15',
+			desc: 'मेरे पास लोग आते हैं। वे कहते हैं कि हम कैसे दुख से छूटें? मैं कहता हूं, तुम दुख से ध्यान हटाओ। तुम जब तक दुख से छूटना चाहोगे, तब तक न छूट सकोगे। क्योंकि दुख से छूटने में तुम दुख ही पर तो नजर रखे हो। दुख से छूटने के लिए तुमने अपनी आंखें दुख में ही गड़ा दी हैं। दुख से छूटने के लिए तुम दुख का ही चिंतन करते हो। जिसका तुम चिंतन करते हो, वह बढ़ता है। दुख से छूटने के लिए तुम क्षण भर को दुख को भूलते नहीं हो। जिसको तुम भूलते नहीं वह गहरा उतरता जाता है। जिसका स्मरण करोगे, वही हो जाओगे। जिससे छूटना चाहोगे, उसकी याद बार-बार करनी पड़ेगी।',
+		},
+		{
+			time: '0:9:59',
+			desc: 'देखा तुमने, कभी किसी को विस्मरण करना हो तो विस्मरण करना मुश्किल हो जाता है! ऐसे हजारों लोग आते हैं जीवन में और भूल जाते हैं। लेकिन किसी को विस्मरण करना हो, फिर कठिनाई हो जाती है। क्योंकि विस्मरण करने में तो स्मरण करना पड़ता है। स्मरण से तो उल्टी प्रक्रिया शुरू हो जाती है।',
+		},
+		{
+			time: '0:11:8',
+			desc: 'तुमने देखा, अगर कोई आदमी बहुत बीमार हो तो चिकित्सक कहते हैं, पहली जरूरत है नींद! अगर नींद आ जाए तो आधी बीमारी ठीक हो जाए। क्यों? नींद का इतना मूल्य क्या है? क्योंकि नींद न आए तो बीमार बीमारी को भूल नहीं पाता। वह घाव में अंगुली डाल कर खेलता है। वह बार-बार वही सोचता है कि सिर में दर्द है, सिर में दर्द है, सिर में दर्द है! वह जितनी बार सोचता है, दर्द को उतना बल देता है।',
+		},
+		{
+			time: '0:11:53',
+			desc: 'तुम जिससे छूटना चाहोगे, उसी में अटक जाओगे।',
+		},
+		{
+			time: '0:11:58',
+			desc: 'ध्यान को बदलना। ध्यान रात से हटे, सुबह पर लगे। ध्यान अंधेरे से हटे, दीये पर लगे। दुख की बात ही मत उठाओ। दुख है, उसकी उपेक्षा करो। सुख को जगाओ। इधर सुख जगने लगेगा, उधर दुख तिरोधान होने लगेगा।',
+		},
+		{
+			time: '0:12:22',
+			desc: 'तो परिभाषाओं को तुम साधना मत समझना। अनेक लोग परिभाषाओं को साधना मान लेते हैं। परिभाषाएं तो केवल इंगित हैं, इशारे हैं, किसी बात को कहने के ढंग हैं। और कहना पड़ता है उल्टी तरफ से, क्योंकि उल्टे से तुम परिचित हो। आनंद को हम बुद्धों की तरफ से तो कह नहीं सकते, क्योंकि उसके लिए फिर कोई भाषा नहीं है। बुद्धों की कोई भाषा नहीं है; वहां तो मौन भाषा है। आनंद को कहना हो तो अबुद्धों की तरफ से कहना पड़ेगा। अबुद्धों को आनंद का कोई पता नहीं है। अड़चन समझो। बुद्धों के पास कोई भाषा नहीं है, आनंद का अनुभव है। अबुद्धों के पास भाषा है, आनंद का कोई अनुभव नहीं है। अब इन दोनों के बीच कैसे संवाद हो? तो हम बुद्धों के अनुभव को अबुद्धों की भाषा में अनुवादित करते हैं। जब हम कहते हैं, आनंद दुख का निरोध है, तो अनुवाद है यह। जब हम कहते हैं, सूरज का ऊगना रात का मिट जाना है, तो अनुवाद है यह। तुम्हारी भाषा में अनुवाद है, तुम्हें अनुभव नहीं है। और उनका अनुवाद है जिन्हें अनुभव है, लेकिन जिनके पास भाषा नहीं है।',
+		},
+		{
+			time: '0:14:6',
+			desc: 'जब मन सक्रिय होता है तब बंध है। मन की क्रिया बंधन है। तुमसे लोगों ने कहा, क्रोध बंध है। तुमसे लोगों ने कहा, काम बंध है, लोभ बंध है--वह बात पूरी नहीं है: क्योंकि अगर दान तुम करोगे सोच कर, तो वह भी बंध है। अगर तुम करुणा करोगे सोच कर, तो वह भी बंध है। अष्टावक्र बड़ी मौलिक परिभाषा दे रहे हैं। वे कह रहे हैं, मन की क्रिया-मात्र बंध है। जहां मन सक्रिय हुआ, तरंगें उठीं, वहां तुम बंध गए। जहां मन पूरा निष्क्रिय हुआ, वहीं तुम मुक्त हो गए। उन क्षणों को खोजो जहां मन की कोई क्रिया न हो।',
+		},
+		{
+			time: '0:15:5',
+			desc: '--जब तुमने कुछ चाहा। चाहा कि निकले यात्रा पर। जरा सोचा तुमने कि बने शेखचिल्ली।',
+		},
+		{
+			time: '0:17:35',
+			desc: 'इसको अष्टावक्र तुम्हारे मन का संसार कहते हैं।...नाम कल्पना! कुछ है नहीं--खेल है। लेकिन मन उस खेल में रसलीन हो जाता, डूब जाता।',
+		},
+		{
+			time: '0:18:6',
+			desc: 'यहां विषय का कोई भेद नहीं है। ऐसा नहीं कहा जा रहा कि जो लोग धन चाहते हैं वे संसारी हैं और बंधन में हैं। तुमने अगर परमात्मा चाहा तो भी तुम बंधन में हो। तुमने अगर सत्य चाहा तो भी तुम बंधन में हो। देखना सूत्र को:',
+		},
+		{
+			time: '0:18:27',
+			desc: 'वांछा किसकी? इसकी कोई जरूरत कहने की नहीं। क्योंकि किसी की भी वांछा उठे, वांछा के पीछे लहरें उठती हैं, झील डांवांडोल हो जाती है। जैसे शांत झील है, तुम बैठे किनारे, उठा कर एक पत्थर फेंक दिया, छपाक अवाज हुई और झील लहरों से भर गई--ऐसे ही वांछा का पत्थर, चाह का पत्थर, जैसे ही मन में पड़ता है कि सारा डांवांडोल हो जाता है।',
+		},
+		{
+			time: '0:18:54',
+			desc: 'तुम करके देखो। करके देखने की बात नहीं है, रोज तुम कर ही रहे हो। तुम इस शेखचिल्ली को कहीं किसी दूसरे में मत देखना। कई बार तुम अगर जरा पकड़ने की कोशिश करोगे तो अपने में ही पकड़ लोगे। कितनी बार नहीं यह शेखचिल्ली तुम्हारे भीतर तुम्हारे कितने रूप लेता! मन शेखचिल्ली है। और जब तुम शेखचिल्ली को पकड़ लो, तो जरा हंसना अपने पर और अपनी मूढ़ता पर। क्योंकि जो व्यक्ति अपनी मूढ़ता पर हंसने लगे वह बुद्धिमान होना शुरू हो गया। क्योंकि जो मूढ़ता पर हंसता है वह साक्षी हो गया।',
+		},
+		{
+			time: '0:19:34',
+			desc: 'सोचा कि उलझे। सोच-विचार में जाल है। जब भी तुमने कोई विचार उठाया कि तुम उसमें डूबे। जैसे ही विचार उठता है, तुम गौण हो जाते हो, विचार प्रमुख हो जाता है। भीतर सब मूल्य परिवर्तन हो जाते हैं। तुम विचार में इतने संलग्न हो जाते हो कि तुम्हें स्मरण भूल जाता है कि तुम द्रष्टा हो; तुम विचारक हो जाते हो।',
+		},
+		{
+			time: '0:20:5',
+			desc: 'तीन स्थितियां हैं तुम्हारी। एक तो साक्षी की--तब मन बिलकुल नहीं है, क्योंकि कोई तरंग ही नहीं है। मन तो तरंगों का जोड़ है, विचार के प्रवाह का नाम है। साक्षी की दशा--तब झील बिलकुल मौन है, कोई हवा कंपाती नहीं।',
+		},
+		{
+			time: '0:20:25',
+			desc: 'फिर दूसरी अवस्था है--विचारक की। झील कंप गई। विचार के बीज पड़ गए हैं। विचार का पत्थर गिरा, वांछा उठी, सब कंपित हो गया, दर्पण खो गया--वह दर्पण जैसी शांत झील जो अभी तक चांद को झलकाती थी, अब नहीं झलकाती। अब चांद भी टुकड़े-टुकड़े हो गया। चांदी फैल गई पूरी झील पर, लेकिन चांद का प्रतिबिंब अब कहीं भी ठीक से नहीं बनता, सब विकृत हो गया। यह दूसरी अवस्था।',
+		},
+		{
+			time: '0:20:54',
+			desc: 'फिर तीसरी अवस्था--कर्ता की। वह जो विचार में तुमने पकड़ लिया, जल्दी ही कर्म बनेगा। साक्षी, विचार और कर्म। कर्म में आ गए तो घने जंगल में आ गए संसार के। विचार में थे, तो आ रहे थे संसार की तरफ। साक्षी से चूक गए थे, कर्म में आए न थे, मध्य में अटके थे--त्रिशंकु थे।',
+		},
+		{
+			time: '0:21:24',
+			desc: 'साक्षी को जो उपलब्ध हो ले वह व्यक्ति है धार्मिक। जो विचार में उलझा रहे, वह व्यक्ति है दार्शनिक। और जो कर्म में उतर आए, वही है राजनीतिज्ञ।',
+		},
+		{
+			time: '0:21:41',
+			desc: 'धर्म, दर्शनशास्त्र और राजनीति--ये तुम्हारे चित्त की तीन अवस्थाएं हैं। धर्म का कोई संबंध न तो कृत्य से है और न विचार से है। धर्म का संबंध तो शुद्ध साक्षीभाव से है। फिर दर्शनशास्त्र है, उसका संबंध सिर्फ विचार से है। वह तरंगों का हिसाब लगाता; तरंगों के हिसाब में झील को भूल जाता; तरंगों की गिनती में भूल ही जाता किसकी तरंगें हैं। और फिर सबसे ज्यादा भटकी हुई अवस्था राजनीतिक चित्त ही है; वह तरंगों तक से चूक जाता है। वह तो तरंगों के जो परिणाम होते हैं--अगर झील में तरंगें हैं तो तरंगों से जो आवाज उठती, वह पास की वादियों में गूंजने लगती है--उसका हिसाब रखता है। जब तक कर्म न बन जाए कोई चीज, तब तक राजनीति नहीं बनती।',
+		},
+		{
+			time: '0:22:42',
+			desc: 'जिन लोगों ने कृष्ण की गीता पर टीका लिखी है, उनमें तीन तरह के लोग हैं। एक तो राजनीतिज्ञ हैं; जैसे तिलक, अरविंद, गांधी--इन्होंने कृष्ण की गीता पर टीकाएं लिखीं। इन सबकी कोशिश यह है कि गीता में कर्मयोग सिद्ध करें कि कर्म ही सब कुछ है। फिर दूसरे विचारकों ने टीकाएं लिखी हैं। उनका आग्रह है कि वे विचार की किसी परंपरा को सिद्ध करें--अगर विचार की कोई परंपरा भक्ति को मानती है तो भक्ति को सिद्ध करें; अगर विचार की कोई परंपरा ज्ञान को मानती है तो ज्ञान को सिद्ध करें; विचार की कोई परंपरा अद्वैत को मानती है तो अद्वैत सिद्ध करें, द्वैत को मानती है तो द्वैत सिद्ध करें, या द्वैताद्वैत सिद्ध करें। हजारों विचार की परंपराएं हैं। वे विचारकों की व्याख्याएं हैं।',
+		},
+		{
+			time: '0:23:45',
+			desc: 'तीसरी व्याख्या कभी की नहीं गई। क्योंकि तीसरी व्याख्या तो की नहीं जा सकती। तीसरी व्याख्या है साक्षी-भाव की। वह तो अनुभव की बात है। उस व्याख्या में तो कोई उतरता है--कर नहीं सका, करने का कोई उपाय नहीं है। क्योंकि अगर वह तीसरी भी व्याख्या की जाए तो वह दूसरी व्याख्या बन जाएगी। अगर कोई यह भी सिद्ध करने की चेष्टा करे कि साक्षी-भाव है गीता का मूल उद्देश्य, ध्यान है, समाधि है--तो भी वह विचार का हिस्सा हो जाएगा।',
+		},
+		{
+			time: '0:24:51',
+			desc: 'फिर मजा है कि कुछ लोग पकड़ते, कुछ लोग छोड़ते। कुछ लोग संसार को पकड़े हुए हैं। इन पकड़े हुए लोगों को कुछ समझाते हैं कि छोड़ो, संसार में दुख है, छोड़ो, भागो! लेकिन जो भाग रहे हैं वे सुखी नहीं दिखाई पड़ते। उनके जीवन में कोई प्रसाद नहीं मालूम होता। जो भाग कर बैठ गए हैं जंगलों-पहाड़ों में, मठों में, उनके जीवन में कोई किरण नहीं दिखाई पड़ती, कोई विभा नहीं दिखाई पड़ती।...बात क्या हो गई? न पकड़ने से कुछ मिलता न छोड़ने से कुछ मिलता। क्योंकि पकड़ते भी तुम वही हो, छोड़ते भी तुम वही हो। कभी-कभी तो ऐसा होता है कि पकड़ने वाले शायद तुम्हें थोड़े-बहुत सुखी भी दिखाई पड़ें, भगोड़े बिलकुल सुखी नहीं दिखाई पड़ते। क्योंकि पकड़ने वाले को कम से कम जीवन के साधारण क्षणभंगुर सुख तो मिलते हैं। क्षणभंगुर सही! कभी किसी स्त्री के प्रेम में कोई पड़ जाता है, तो क्षणभंगुर ही सही, एक सपना तो देखता है सुखी होने का। टूट जाएगा यह सपना, यह भी सच है। लेकिन था--यह भी सच है। लेकिन जो भाग गया है, उसको तो क्षणभंगुर भी खो जाता है; शाश्वत तो मिलता नहीं, क्षणभंगुर भी खो जाता है।',
+		},
+		{
+			time: '0:27:24',
+			desc: 'शिष्यों ने बहुत सोचा, कुछ अर्थ समझ में न आया कि इसमें अर्थ क्या है? वे वापिस आए। कथा-गुरु हंसा और उसने कहा, अर्थ सीधा-साफ है। आदमी स्त्रियों के भोग से इतनी जल्दी नहीं मरता, जितना स्त्रियों के पीछे भागने से मरता है। वह जो भागता था, रोज जाता, रोज आता--वह चालीस साल में खत्म हो गया। जो भोगता था, वह नब्बे साल तक जीया।',
+		},
+		{
+			time: '0:27:52',
+			desc: 'आदमी धन को भोगने से उतना नहीं टूटता, जितना धन के पीछे भागने से टूटता है। आदमी संसार से उतना नहीं टूटता, जितना संसार से भागने लगे तो टूट जाता है। सांसारिक व्यक्तियों के चेहरे पर तो तुम्हें कभी-कभी रौनक भी दिखाई पड़ जाए; लेकिन जिनको तुम तपस्वी कहते हो, उनके चेहरे पर तुम्हें कोई रौनक नहीं दिखाई पड़ेगी। वे मुर्दा हैं। हां, यह हो सकता है तुम उनके मरेपन को ही तपश्चर्या समझते हो तो तुम्हें दिखाई पड़े कुछ। पीला पड़ जाए आदमी उपवास से तो भक्त कहते हैं: ‘कैसा कुंदन जैसा रूप निखर आया! देखो, कैसा स्वर्ण जैसा!’ जो उनके भक्त नहीं, उनसे पूछो तो वे कहेंगे: इनको हम पीतल भी नहीं कह सकते, सोना तो दूसरी बात है। यह सोना तुमको दिखाई पड़ता है; दिखाई भी पड़ता है, यह भी पक्का नहीं--तुम देखना चाहते हो, इसलिए दिखाई पड़ता है।',
+		},
+		{
+			time: '0:28:50',
+			desc: 'तुमने कभी तुम्हारे त्यागियों को आनंदित देखा? कभी किसी जैन मुनि को तुमने आनंदित देखा? और तुमने कभी यह भी सोचा कि इतने जैन मुनि हैं, इनमें कोई आनंदित नहीं दिखाई पड़ता, कोई नाचता, गीत गुनगुनाता नहीं दिखाई पड़ता? इनमें तो आनंद होना चाहिए। ये तो सब संसार छोड़ कर चले गए हैं। इन्होंने तो दुख के सब रास्ते तोड़ दिए। इन्होंने तो सब सेतु गिरा दिए। इनके हाथ में तो इकतारा होना चाहिए। इनके हृदय में तो वीणा बजनी चाहिए। इनके पैरों में तो घूंघर होना चाहिए। ये तो गाएं...पद घुंघरू बांध मीरा नाची रे! मगर नहीं, न कोई नाच है, न पद में घुंघरू हैं, न प्राणों में घुंघरू हैं। सब उदास, सब खाली, सब रिक्त, सब मुर्दा, मरघट की तरह हैं ये लोग।',
+		},
+		{
+			time: '0:29:44',
+			desc: 'तुम्हारे महात्मा यानी जीते-जी मरघट। फिर भी तुम सोचते नहीं कि हुआ क्या है? कहीं ऐसा तो नहीं कि भोग तो गलत है ही, त्याग और भी गलत है? भोगी तो नासमझ है ही, त्यागी भी नासमझ है--भोगी से भी ज्यादा नासमझ है।',
+		},
+		{
+			time: '0:30:23',
+			desc: 'जो सुखी होता, दुखी होता। सुख और दुख दोनों में कोई भी आनंद नहीं है। आनंद बड़ी ही पारलौकिक बात है। सुखी आदमी आनंदित आदमी नहीं है; सुखी आदमी दुख को दबाए बैठा है। सुखी आदमी क्षण भर को दुख को भुला बैठा है।',
+		},
+		{
+			time: '0:30:47',
+			desc: 'तुम कब अपने को सुखी कहते हो, तुमने खयाल किया? फिल्म देखने चले गए, दो घंटे फिल्म में डूब गए--तुम कहते हो, बड़ा सुख मिला! बाहर निकले, फिर तुम्हारा दुख मौजूद है। कभी शराब पी ली--तुम कहते हो, बड़ा सुख मिला! सुबह उठे, फिर तुम्हारा दुख मौजूद है; वहीं का वहीं खड़ा है; शायद बढ़ भी गया हो रात में। तुम जब बेहोश पड़े थे, तब दुख बढ़ रहा था। क्योंकि इस जगत में कोई भी चीज ठहरी हुई नहीं है, सब चीजें बढ़ रही हैं। तुम रात सोए थे, वृक्ष बढ़ रहे थे। तुम रात सोए थे, तुम्हारा बच्चा बड़ा हो रहा था। तुम रात सोए थे, तुम्हारा दुख भी बढ़ रहा था। तुम शराब पी कर पड़े थे तो विस्मरण हो गया था; लेकिन विस्मरण से तो कुछ मिटता नहीं। यह तो शुतुरमुर्ग की दृष्टि है।',
+		},
+		{
+			time: '0:32:44',
+			desc: 'लेकिन तुम जिसे सुख कहते हो वह सब शुतुरमुर्गी बातें हैं। कभी इसमें कभी उसमें, थोड़ा अपने को उलझा लेते हो। कोई ताश के पत्ते लिए बैठा है, खेल रहा है। किसी ने शतरंज बिछा रखी है, झूठे-नकली घोड़े, वजीर-बादशाह बना रखे हैं--खेल रहा है। कैसे लोग डूब जाते हैं, तुम जरा सोचो! शतरंज के खेलने वाले ऐसे डूब जाते हैं कि सारी दुनिया भूल जाती है। कैसी एकाग्रता! और किस पर ये एकाग्रता कर रहे हैं--जहां कुछ भी नहीं है! अपने ही बनाए हाथी-घोड़े हैं!',
+		},
+		{
+			time: '0:33:35',
+			desc: 'अंतिम विश्लेषण में, इस जगत में जो भी चल रहा है--खेल है। उस खेल को अति गंभीरता से ले लेना भ्रांति है। लेकिन हम लेते हैं। हम लेते हैं एक कारण से कि वही एकमात्र उपाय है दुख को भूलने का।',
+		},
+		{
+			time: '0:34:7',
+			desc: 'तुम राह से जा रहे हो, हजार जरूरी काम हों, अगर दो आदमी लड़ते हों राह के किनारे, तुम रुक जाते हो। टिका दी साइकिल, खड़े हो गए, देखने लगे। क्या देखते हो? दो आदमी लड़ते हैं, इसको देखना भी अशोभन है, अभद्र है। यह तो लड़ने जैसा ही है। यह तो तुम्हारे देखने से भी उनको लड़ने में गति मिलेगी। तुम पाप के भागीदार हो रहे हो। तुम प्रोत्साहन दे रहे हो। अगर कोई खड़ा न हो तो शायद वे भी अपने-अपने रास्ते चले जाएं कि क्या सार है! लेकिन जब भीड़ खड़ी हो जाए तो उनका भी जाना मुश्किल हो जाता, अहंकार पर चोट पड़ती, दांव लग जाता: इतने लोग देख रहे हैं! अब अगर हटे तो कायर! इतने लोगों की मौजूदगी लड़ा देगी। तुम अगर खड़े हो गए, तो तुम उनके लड़ने का कारण बन रहे हो।',
+		},
+		{
+			time: '0:35:55',
+			desc: 'सुबह जब तुम अखबार उठा कर पढ़ते हो, तो तुम जल्दी से देखते हो: ‘कहां डाका पड़ा? कहां हत्या हुई? कौन प्रधानमंत्री मारा गया? कौन गिराया गया? कौन क्या हुआ?’ अगर अखबार में कुछ भी न हो तो तुम ऐसे उदासी से पटक देते हो कि आज कोई समाचार ही नहीं। तुम किन समाचारों की प्रतीक्षा कर रहे हो? तुम चाहते क्या हो? तुम अपनी चाहत तो देखो। तुम बस अपनी उत्तेजना के लिए कुछ भी, कुछ भी हो जाए...।',
+		},
+		{
+			time: '0:37:7',
+			desc: 'मुर्गे लड़ाते हैं लोग, कबूतर लड़ाते हैं लोग। अगर तुम्हारे पड़ोस में पति-पत्नी लड़ने लगें, तो तुम दीवाल से कान लगा कर बैठ जाते हो। रस है तुम्हारा ऐसी बातों में, जिनके द्वारा तुम किसी भांति अपने पर से अपना ध्यान हटा लो।',
+		},
+		{
+			time: '0:37:31',
+			desc: 'सारा धर्म कहता है: अपने पर ध्यान लगाओ, तो आनंद फलित होगा। तुम अपने पर से ध्यान हटा रहे हो। और जब तुम्हारा ध्यान थोड़ी देर को हट जाता है, तुम सफल हो जाते--तुम कहते, जरा सुख मिला! जरा-सा सुख मिला। संगीत में डूब गए, कि संभोग में डूब गए, कि शराब में डूब गए--जरा-सा सुख मिला। क्षण भर को अपने को भूल गए, किया विस्मरण--सुखी थे? विस्मरण सुख है? तो फिर सब बुद्ध नासमझ हैं। क्योंकि वे कहते हैं, आत्म-स्मरण आनंद है।',
+		},
+		{
+			time: '0:38:7',
+			desc: 'तो आनंद और सुख की परिभाषा समझ लो। आत्म-स्मरण आनंद है। स्वेच्छा से आत्म-स्मरण की तरफ जाना साधना है। आत्म-विस्मरण सुख है। जबर्दस्ती स्वयं की याद दिला दे कोई चीज तो दुख है। तुम जिसे दुख कहते हो, उससे आनंद करीब है, बजाय तुम्हारे सुख के।',
+		},
+		{
+			time: '0:38:38',
+			desc: 'फिर से मैं समझा दूं: आत्म-स्मरण आनंद है; आत्म-विस्मरण सुख है। और दुख है दोनों के बीच में। दुख में मजबूरी से आदमी को स्वयं का थोड़ा बहुत स्मरण करना पड़ता है--मजबूरी से, जबर्दस्ती; करना नहीं चाहता! सिर में दर्द है और अपनी याद आती है। हृदय में एक कांटा चुभा है और पीड़ा के कारण याद आती। करना पड़ता है! भागता है कि कोई उपाय खोज ले, कहीं शराब की बोतल खोल ले और अपने को भूल जाए।',
+		},
+		{
+			time: '0:39:14',
+			desc: 'जहां भी तुम अपने को भुलाने जाते हो--भला वह मंदिर हो या मस्जिद, प्रार्थना हो या नमाज-- वह सब शराब है। जहां भूलने का तुम उपाय खोजते हो, वह सब शराब है। भूलना-मात्र आदमी को अपने से दूर ले जाता है।',
+		},
+		{
+			time: '0:39:41',
+			desc: 'तपश्चर्या का अर्थ है: जब दुख हो तो उससे भागना नहीं। तपश्चर्या का अर्थ है: जब जीवन में दुख हो, तो उससे जरा भी भागने की कोशिश न करनी, बल्कि ठीक उस दुख के बीच ध्यानस्थ हो कर बैठ जाना; उस दुख को देखना; उस दुख के प्रति जागना और साक्षी-भाव पैदा करना।',
+		},
+		{
+			time: '0:40:2',
+			desc: 'इसलिए मैंने कहा कि दुख से आनंद करीब है, बजाय सुख के। मैं तुमसे यह नहीं कह रहा हूं कि तुम दुख पैदा करो, क्योंकि वह तो दुखवाद होगा, वह एक तरह का मैसोचिज्म होगा। मैं तुमको यह नहीं कह रहा कि तुम अपने को सताओ; जैसा कि कई मूढ़ सता रहे हैं। जिंदगी में दुख अपने-आप काफी है, अब तुम्हें कुछ और करने की जरूरत नहीं है। जीवन काफी दुखदायी है, दुख ही दुख से भरा है। जन्म दुख है, जरा दुख है, मृत्यु दुख है--यहां दुख ही दुख हैं। बुद्ध ने कहा, यहां दुखों की कोई कमी है? सब तरफ दुख ही दुख हैं।',
+		},
+		{
+			time: '0:40:39',
+			desc: 'तुम्हें दुख बनाने की जरूरत नहीं, दुख तो हैं; तुम सिर्फ दुखों से भागो मत, दुखों के प्रति जागो! तुम दुखों को सुख में भुलाने की चेष्टा मत करो। तुम दुखों को ध्यान बना लो, और उसी ध्यान से तुम पाओगे, तुम आत्म-स्मरण में सरकने लगे। धीरे-धीरे दुख को देखते-देखते, तुम्हें वह भी दिखाई पड़ने लगेगा जो दुख को देख रहा है। सुख में तो देखने वाला सो जाता है। इसलिए तो सुख में कभी परमात्मा याद नहीं आता। इसलिए तो सुखी आदमी एक तरह के अभिशाप में है और दुखी आदमी को एक तरह का वरदान है। सुखी तो भूल जाता अपने को, परमात्मा की सुध कौन रखे? परमात्मा तो हमारा आत्यंतिक केंद्र है। हम अपने को ही भूल गए, तो अपने केंद्र की कहां सुध रही? परमात्मा तो हमारे भीतर छिपा है; हम अपने को ही भूल गए तो परमात्मा को भी भूल गए। इसलिए कभी-कभी दुख में परमात्मा की भला याद आए, सुख में जरा भी याद नहीं आती; सुख में तो आदमी बिलकुल भूल जाता है।',
+		},
+		{
+			time: '0:41:48',
+			desc: 'सुख आएं तो सौभाग्य मत समझना। सुख आएं तो उनके भी साक्षी बनना। और दुख आएं तो दुर्भाग्य मत समझना; दुख आएं तो उनके भी साक्षी बनना। और दोनों के साक्षी बन कर तुम पाओगे कि दोनों के पार हो गए हो।',
+		},
+		{
+			time: '0:42:6',
+			desc: 'जो न सुखी होता न दुखी, जहां न सुख है न दुख, वहीं बंधन के पार हो जाता है आदमी। जब तक सुखी होता, दुखी होता, छोड़ता, पकड़ता, तभी तक बंधन है। तदा बंधः!',
+		},
+		{
+			time: '0:42:48',
+			desc: 'कहां है मुक्ति? मोक्ष कहां है? लोग सोचते हैं, शायद मोक्ष कहीं किसी पारलौकिक भूगोल का हिस्सा है, कोई ज्यॉग्राफी है। मोक्ष ज्यॉग्राफी नहीं है, भूगोल नहीं है। मोक्ष तो तुम्हारे ही चित्त की आत्यंतिक रूप से शांत हो गई दशा है।',
+		},
+		{
+			time: '0:43:12',
+			desc: 'लोग सोचते हैं, संसार बाहर है। संसार भी बाहर नहीं है--तुम्हारी ही विक्षुब्ध चेतना है। मोक्ष भी कहीं दूर ऊपर आकाश में है? नहीं, जरा भी नहीं। मोक्ष भी तुम्हारी फिर से शांत हो गई आत्मा है।',
+		},
+		{
+			time: '0:43:28',
+			desc: 'तो ऐसा समझो कि संसार है ज्वर-ग्रस्त चेतना; मोक्ष है ज्वर-मुक्त चेतना। संसार है उद्विग्न लहरें तुम्हारे चैतन्य की; मोक्ष है लहरों का फिर सो जाना, विश्राम में खो जाना। झील जब शांत हो जाए और चांद का प्रतिबिंब बनने लगे पूरा-पूरा तो मोक्ष; और झील जब उद्विग्न हो जाए, और लहरें ही लहरें फैल जाएं और चांद का प्रतिबिंब टूट जाए--तब संसार।',
+		},
+		{
+			time: '0:44:27',
+			desc: 'यह शुद्धतम मोक्ष की परिभाषा है। इसका यह अर्थ हुआ कि ऐसा भी नहीं है कि तुम्हें किसी दिन मोक्ष मिलेगा, तुम चाहो तो अभी भी, कभी-कभी, भरे संसार में भी क्षण भर को तुम मोक्ष का रस ले सकते हो। क्योंकि अगर क्षण भर को भी विचार बंद हो जाएं, और क्षण भर को भी कोई वांछा न हो, क्षण भर को भी चित्त में क्रिया रुक जाए, कोई गति-आवागमन न हो, न कुछ पकड़ने का भाव उठे न छोड़ने का--तो उस क्षण में तुम मोक्ष में हो। और वही स्वाद तुम्हें फिर और-और मोक्ष में ले जाएगा। ध्यान का अर्थ है: थोड़ी-थोड़ी झलकें। समाधि का अर्थ है: झलकों का ठहर जाना, थिर हो जाना।',
+		},
+		{
+			time: '0:45:21',
+			desc: 'लेकिन तुम देखो! जिनको तुम त्यागी कहते हो, वे भी चाह कर रहे हैं--मोक्ष की चाह कर रहे हैं! अष्टावक्र की परिभाषा में तुम्हारे त्यागी, त्यागी नहीं हैं।',
+		},
+		{
+			time: '0:45:35',
+			desc: 'तुम पूछो अपने त्यागी से कि तुमने संसार क्यों छोड़ा? वह कहता है, मोक्ष की तलाश में। तुम पूछो अपने त्यागी से, तुमने धन-द्वार, घर-द्वार क्यों छोड़ा? तो वह कहता है, मोक्ष की तलाश में; आत्मा के आनंद को खोजना, सत्य को खोजना। मगर यह तो फिर त्याग न हुआ।',
+		},
+		{
+			time: '0:48:13',
+			desc: 'तुम अपने त्यागियों को देखते हो? तुम्हारे ही जैसे, ठीक तुम्हारे जैसे ही वांछा से भरे, कामना से भरे, तुम्हारे ही जैसे वासना से भरे। माना कि उनके वासना के विषय दूसरे, तुम्हारे विषय दूसरे; पर विषय-भेद से थोड़े कोई भेद पड़ता है! वासना का अर्थ है: कुछ भी चाहा, तो चूके, तो अपने से चूके। चाह-मात्र अपने से वंचित कर जाती है। लेकिन भागते जाते हैं अपनी चाह के पीछे और चिल्लाते भी जाते हैं कि भाइयो! त्यागो, त्यागो! वासना में कुछ सार नहीं है!',
+		},
+		{
+			time: '0:48:57',
+			desc: 'तुम जरा सुनो अपने जुलाहों को--तुम्हारे महात्मा! वे कहते हैं: ‘भाइयो! त्यागो, त्यागो! वासना में कुछ भी रखा नहीं; दुख ही दुख है।’ और तुम उनसे ही पूछो कि महाराज, आप उपवास करते, घर छोड़ दिया, मंदिर में बैठे हैं, बड़ा ध्यान लगाते हैं--किसलिए? अगर तुम्हारा महात्मा उत्तर दे दे कि इसलिए, तो चूक गया। कोई भी उत्तर वह दे, कहे कि इसलिए, तो वासना मौजूद है।',
+		},
+		{
+			time: '0:49:31',
+			desc: 'तुम्हारा महात्मा अगर हंसे और कहे कि ‘किसलिए भी नहीं, सिर्फ जीवन की व्यर्थता दिखाई पड़ गई...! मैंने जीवन छोड़ा नहीं है--जीवन छूट गया है। मैं कुछ चाहने में नहीं लगा हूं, मैं कुछ खोजने में भी नहीं लगा हूं--मैंने तो यह जान लिया कि जिसको खोजना है, वह मेरे भीतर है, उसको खोजने की कोई जरूरत नहीं है। मैं कहीं जा भी नहीं रहा हूं, अपने घर में बैठा हूं। मेरी सब यात्रा समाप्त हो गई है। मैं मोक्ष भी नहीं खोज रहा हूं, परमात्मा भी नहीं खोज रहा हूं। मेरी प्रार्थना कुछ मांगने के लिए नहीं है। उपवास मेरा आनंद है, कुछ चाह नहीं। ध्यान मेरा आनंद है, कुछ चाह नहीं। ये मेरे साधन नहीं हैं, ये मेरे साध्य हैं।’',
+		},
+		{
+			time: '0:50:19',
+			desc: 'अगर तुमसे कोई महात्मा ऐसा कहे, और ऐसा तुम पाओ कि किसी महात्मा के जीवन में ऐसा है भी; क्योंकि कहने से कुछ नहीं होता; हो सकता है ‘मारो-मारो’ चिल्ला रहा हो, फिर भी तुम्हें उसकी आंखों में ऐसी झलक मिले, उसके सान्निध्य में भी ऐसा लगे कि न उसकी कोई पकड़ है न कोई छोड़ है, न त्याग है न भोग है, जो होता है होता है, वह चुपचाप किनारे पर बैठा देख रहा है--अगर तुम ऐसी विश्राम की चेतना को पा लो, वहां झुकाना अपना सिर। वह झुकने की जगह है। वह मंदिर की चौखट आ गई। वैसा आदमी मंदिर है।',
+		},
+		{
+			time: '0:50:59',
+			desc: 'लेकिन अगर कहीं भी पाने की, कोई आकांक्षा अभी भी सरक रही हो मन के किसी कोने में, फिर वह पाना कुछ भी क्यों न हो, तो संसारी संसारी है। सिर के बल खड़ा हो जाए, इससे कुछ भेद नहीं पड़ता। भूखा मरे, इससे कुछ भेद नहीं पड़ता। नंगा खड़ा हो जाए, इससे कुछ भेद नहीं पड़ता।',
+		},
+		{
+			time: '0:51:24',
+			desc: 'संसार और मोक्ष अष्टावक्र की परिभाषा में तुम्हारे चित्त की दशाएं हैं--चाह और अचाह की।',
+		},
+		{
+			time: '0:51:46',
+			desc: 'जब मन एकरस होता, बस होता, कोई क्रिया नहीं होती, कोई हलन-चलन नहीं होता, कोई कंपन नहीं होता, स्तब्ध ज्योति ठहरी होती है अकंप, न कहीं जाना, न होने की कोई वांछा, जैसा है है--ऐसा सर्वस्वीकार, ऐसी तथाता; जैसे दर्पण कोरा; जैसे कोरा कागज, जिस पर कुछ लिखा नहीं है, ऐसा जब मन कोरा होता--उस कोरे मन का नाम ही ध्यान है। और उस कोरे मन में जब कोई संभावना नहीं रह जाती...। क्योंकि कुछ कोरे कागज होते हैं जिनमें अदृश्य लिखावट होती है। कोरा कागज हो सकता है, लेकिन ऐसी रासायनिक प्रक्रियाएं होती हैं कि तुम रासायनिक द्रव्यों से लिख सकते हो, दिखाई न पड़े, थोड़ी आंच बताओ तो दिखाई पड़ने लगे। जब कोरा कागज ऐसा होता है कि उसमें अदृश्य लिखाई भी नहीं होती, कितनी ही आंच दिखाओ कुछ भी दिखाई नहीं पड़ेगा, कुछ भी पैदा नहीं होगा--तब जानना आ गए अपने घर, मंजिल मिली। तदा मुक्तिः।',
+		},
+		{
+			time: '0:53:42',
+			desc: 'किसी दृष्टि में लगा है--आंख से जो दिखाई पड़ता है उसमें लगा है; कान से जो सुनाई पड़ता है उसमें लगा है; हाथ से जो स्पर्श में आता है उसमें लगा है--तो दृष्टि में लगा है।',
+		},
+		{
+			time: '0:53:55',
+			desc: 'समझो इस बात को। तुम राह से गुजरे, देखा एक सुंदर स्त्री को जाते हुए--मन उसके पीछे चलने लगा। तुम न भी जाओ उसके पीछे, तुम मुंह मोड़ लो, तुम आंख बंद कर लो, तुम उस तरफ देखो ही नहीं--लेकिन मन चलने लगा। तुम्हारे चलने से कुछ मन के चलने का संबंध नहीं। तुम्हारा शरीर चले न चले, मन चलने लगा। फिर वहीं से एक त्यागी निकल रहा है। तुम उस स्त्री के सौंदर्य के भोग के लिए आतुर होने लगे, मन में कल्पना उठने लगी। फिर एक त्यागी निकलता है वहीं से, उसने भी सुंदर स्त्री देखी। सुंदर स्त्री देख कर ही वह शास्त्रों के वचन अपने भीतर दोहराने लगा कि ‘स्त्री में है क्या? हड्डी, मांस, मज्जा, मल-मूत्र--है क्या स्त्री में? कुछ भी तो नहीं है।’ वह समझाने लगा अपने को। यह त्यागी है, लेकिन इस त्याग के पीछे भी कहीं गहरे में राग छिपा है; नहीं तो यह बात भी क्या उठानी? और स्त्री में मल-मूत्र छिपा है तो तुममें क्या कोई सोना-चांदी छिपा है।',
+		},
+		{
+			time: '0:56:13',
+			desc: 'लाख तुम ऐसी कोशिशें करो, तुम जीतोगे नहीं। यह सब सोच-विचार ही है।',
+		},
+		{
+			time: '0:56:46',
+			desc: 'वह दिल तो भोग मांगता ही जाता है। उस दिल को तुम रोको, बंधन डालो, जंजीरें पहनाओ-- इससे भी कोई फर्क नहीं पड़ता। तुम निकल रहे राह से--तुम भोगी हो तो भोग की आकांक्षा उठती है; त्यागी निकलता, उसको भी भोग की आकांक्षा निकलती है, वह त्याग की बातों से उस आकांक्षा को दबाता। मगर दोनों दृष्टि में उलझ गए; जो दिखाई पड़ा उसमें उलझ गए।',
+		},
+		{
+			time: '0:57:12',
+			desc: 'तुम उस आदमी की कल्पना करो जो वहीं रास्ते से निकलता है और जो दिखाई पड़ता है, वह न तो इस तरफ न उस तरफ, किसी तरह की उलझन पैदा नहीं करता। स्त्री निकली, निकली--स्त्री स्त्री है! न तो शोरगुल मचाने की जरूरत है कि स्वर्ग निकल गया पास से, न शोरगुल मचाने की जरूरत है कि यह कार्पोरेशन की मैला-गाड़ी निकल गई पास से। स्त्री, स्त्री है--निकल गई, निकल गई! तुम ऐसे ही चले गए, जैसे कुछ भी न निकला। इस अवस्था का नाम है: दृष्टि के पार हो जाना।',
+		},
+		{
+			time: '0:57:50',
+			desc: 'तुमने कान से कुछ सुना और उसमें रस पड़ गया। एक गीत सुन लिया, फिर-फिर गीत को सुनने की आकांक्षा होने लगी--तो दृष्टि में उलझ गए। तुमने कुछ छुआ, प्रीतिकर लगा, फिर-फिर छूना चाहा--तो फिर दृष्टि में उलझ गए।',
+		},
+		{
+			time: '0:58:4',
+			desc: 'खयाल रखना, तुमने जा कर किसी साधु की वाणी सुनी, किसी संत के वचन सुने, सुनने के कारण अच्छे लगे और उलझ गए--तो वह भी दृष्टि है। समझ के कारण ठीक लगना एक बात है, सुनने के कारण ठीक लगना बिलकुल दूसरी बात है। तुम, सिर्फ कानों को प्रीतिकर लगे, इसलिए उलझ गए; कर्णमधुर लगे, इसलिए उलझ गए--तो फिर तुम दृष्टि में उलझ गए। तुम्हारी समझ को ठीक लगे...।',
+		},
+		{
+			time: '0:59:1',
+			desc: 'जब तुम देखते हुए--और नहीं देखते; चलते हुए--और नहीं चलते; छूते हुए--और नहीं छूते; सुनते हुए--नहीं सुनते; सब होता रहता है, लेकिन तुम अपने द्रष्टा-भाव में थिर होते हो, वहां से तुम विचलित नहीं होते, वहां अविचलित तुम्हारी अंतरज्योति कंपती नहीं, कोई हवा का झोंका तुम्हें हिलाता नहीं; सब आता है जाता है, तुम वही के वही बने रहते हो, एकरस, ज्यों के त्यों--यही मोक्ष है। मोक्ष कहीं सात स्वर्गों के पार नहीं। और संसार बाजार में, दुकान में, व्यवसाय में नहीं। संसार तुम्हारे चित्त की एक दशा; मोक्ष भी तुम्हारे चित्त की एक दशा। मोक्ष वैसी दशा जैसा स्वाभाविक होना चाहिए; और संसार वैसी दशा जैसा रोग-ग्रस्त अवस्था में हो जाता है। संसार यानी बीमार आत्मा की अवस्था। मोक्ष यानी स्वस्थ आत्मा की अवस्था।',
+		},
+		{
+			time: '1:0:4',
+			desc: '‘स्वस्थ’ शब्द बड़ा अच्छा है। इसका अर्थ ही होता है: स्वयं में स्थित। स्वास्थ्य का अर्थ ही होता है, जो स्वयं में स्थित हो गया। आत्मस्थ जो हुआ, वही स्वस्थ; बाकी सब बीमार।',
+		},
+		{
+			time: '1:0:21',
+			desc: 'शरीर की बीमारी थोड़े ही कोई बीमारी है; असली बीमारी तो आत्मा का अस्वस्थ होना है। अपने से च्युत हो जाना, अपने से हट जाना, अपने केंद्र से डांवांडोल हो जाना: अस्वास्थ्य। अपने केंद्र पर बैठ जाना, अडिग: स्वास्थ्य। इसी स्वास्थ्य को अष्टावक्र मोक्ष कह रहे हैं।',
+		},
+		{
+			time: '1:1:0',
+			desc: '‘जब मैं हूं तब बंध है। जब मैं नहीं हूं तब मोक्ष है। इस प्रकार विचार कर न इच्छा कर, न ग्रहण कर और न त्याग कर।’',
+		},
+		{
+			time: '1:1:11',
+			desc: 'सरल, अनूठे, पर अति कठिन! जितने सरल उतने कठिन। सरल ही तो हमें करना कठिन हो गया है। कठिन तो हम कर लेते हैं, सरल अटका देता है।',
+		},
+		{
+			time: '1:1:28',
+			desc: 'कठिन को तो करने में अहंकार को रस आता है, इसलिए कर लेते हैं। कठिन में तो अहंकार को चुनौती है, कुछ करके दिखला देने का मजा है। कठिन में तो कर्ता होने की सुविधा है। तो आदमी कठिन को करने में बड़ा उत्सुक होता है।',
+		},
+		{
+			time: '1:1:48',
+			desc: 'तुम ध्यान रखना, तुम जीवन में जो भी कर रहे हो, कहीं वह इसलिए तो नहीं कर रहे हो कि वह कठिन है? बड़ा मकान बनाना कठिन है। बड़ी कार खरीद लाना कठिन है। बड़ा धन-अंबार लगा लेना कठिन है। कहीं तुम इसलिए तो पीछे नहीं लगे हो? खाओगे, पीयोगे, ओढ़ोगे--क्या करोगे उस धन के अंबार का? लेकिन आदमी धन का ढेर लगाता जाता है। क्यों? पूछो उससे। शायद बहुत कठिन था, इसलिए चुनौती थी। कुछ दिखला कर--मैं भी कुछ हूं--दुनिया को बतला देने का मजा था। जो बिलकुल सरल है, उसमें तो किसी को रस नहीं आता।',
+		},
+		{
+			time: '1:2:32',
+			desc: 'सिकंदर सारी दुनिया जीतना चाहता था। डायोजनीज ने उससे कहा, क्या करोगे सारी दुनिया को जीतने के बाद? सिकंदर ने कहा, क्या करेंगे? फिर विश्राम करेंगे!',
+		},
+		{
+			time: '1:2:43',
+			desc: 'डायोजनीज खूब हंसने लगा। उसने कहा, अगर विश्राम ही करना है तो हम अभी विश्राम कर रहे हैं, तो तुम भी करो। सारी दुनिया जीत कर विश्राम करोगे, यह बात कुछ समझ में नहीं आई। इसमें तर्क क्या है? क्योंकि सारी दुनिया के जीतने का विश्राम से कोई भी तो संबंध नहीं है। विश्राम मैं बिना कुछ जीते कर रहा हूं। जरा मेरी तरफ देखो!',
+		},
+		{
+			time: '1:3:3',
+			desc: 'और वह कर ही रहा था विश्राम। वह नदी-तट पर नग्न लेटा था। सुबह की सूरज की किरणें उसे नहला रही थीं। मस्त बैठा था। मस्त लेटा था। कहीं कुछ करने को न था, विश्राम में था। तो वह खूब हंसने लगा। उसने कहा, सिकंदर तुम पागल हो! तुम जरा मुझे कहो तो, कि अगर विश्राम दुनिया को जीतने के बाद हो सकता है, तो डायोजनीज कैसे विश्राम कर रहा है? मैं कैसे विश्राम कर रहा हूं? मैंने तो कुछ जीता नहीं। मेरे पास तो कुछ भी नहीं है। मेरे हाथ में एक भिक्षा-पात्र हुआ करता था, वह भी मैंने छोड़ दिया। वह इस कुत्ते की दोस्ती के कारण छोड़ दिया।',
+		},
+		{
+			time: '1:4:38',
+			desc: 'नहीं, सिकंदर भी संदेह न कर सका। वह आदमी सच कह रहा था। वह निश्चित ही विश्राम में था। उसकी आंखें, उसका सारा भाव, उसके चेहरे की विभा...वह ऐसा था जैसे दुनिया में कुछ पाने को बचा नहीं, सब पा लिया है। कुछ खोने को नहीं, कोई भय नहीं, कोई प्रलोभन नहीं।',
+		},
+		{
+			time: '1:5:20',
+			desc: 'डायोजनीज ने कहा, जाते हो, एक बात कहे देता हूं, कहनी तो नहीं चाहिए, शिष्टाचार में आती भी नहीं, लेकिन मैं कहे देता हूं: तुम मरोगे बिना विश्राम किए।',
+		},
+		{
+			time: '1:5:30',
+			desc: 'और सिकंदर बिना विश्राम किए ही मरा! भारत से लौटता था, रास्ते में ही मर गया, घर तक भी नहीं पहुंच पाया। और जब बीच में मरने लगा और चिकित्सकों ने कहा कि अब बचने की कोई उम्मीद नहीं, तो उसने कहा, सिर्फ मुझे चौबीस घंटे बचा दो, क्योंकि मैं अपनी मां को मिलना चाहता हूं। मैं अपना सारा राज्य देने को तैयार हूं। मैंने यह राज्य अपने पूरे जीवन को गंवा कर कमाया है, मैं वह सब लुटा देने को तैयार हूं...चौबीस घंटे! मैंने अपनी मां को वचन दिया है कि मरने के पहले जरूर उसके चरणों में आ जाऊंगा।',
+		},
+		{
+			time: '1:6:2',
+			desc: 'चिकित्सकों ने कहा कि तुम सारा राज्य दो या कुछ भी करो, एक श्वास भी बढ़ नहीं सकती।',
+		},
+		{
+			time: '1:6:9',
+			desc: 'सिकंदर ने कहा, किसी ने अगर मुझे पहले यह कहा होता, तो मैं अपना जीवन न गंवाता। जिस राज्य को पाने में मैंने सारा जीवन गंवा दिया, उस राज्य को देने से एक श्वास भी नहीं मिलती! डायोजनीज ठीक कहता था कि मैं कभी विश्राम न कर सकूंगा।',
+		},
+		{
+			time: '1:6:33',
+			desc: 'खयाल रखना, कठिन में एक आकर्षण है अहंकार को। सरल में अहंकार को कोई आकर्षण नहीं है। इसलिए सरल से हम चूक जाते हैं। सरल...परमात्मा बिलकुल सरल है। सत्य बिलकुल सरल है, सीधा-साफ, जरा भी जटिलता नहीं।',
+		},
+		{
+			time: '1:7:17',
+			desc: 'मैं ही बंध हूं। मेरा भाव मुझे दूर किए है परमात्मा से। यह सोचना कि मैं हूं, मेरे और उसके बीच फासला है। यही सीमा अटका रही। जिस क्षण मैं जानता हूं--वही है, मैं नहीं।',
+		},
+		{
+			time: '1:7:51',
+			desc: 'एक ही चीज गिरा देनी है: मैं-भाव, अस्मिता, अहंकार। और जब तक चित्त में लहरें हैं, तब तक अहंकार नहीं गिरता, क्योंकि अहंकार सभी लहरों के जोड़ का नाम है। अहंकार तुम्हारी सारी अशांति का संघट है। अहंकार कोई वस्तु नहीं है कि तुम उठा कर फेंक दो। अहंकार तुम्हारे पूरे पागलपन का संगृहीत नाम है। जैसे-जैसे तुम शांत होते जाओगे, वैसे-वैसे अहंकार विसर्जित होता जाएगा।',
+		},
+		{
+			time: '1:8:25',
+			desc: 'जैसे तुम गए और देखा दरिया में तूफान है, फिर तूफान शांत हो गया--फिर तुम क्या पूछते हो तूफान कहां गया? जब दरिया शांत है तो तूफान कहां है? क्या तुम कहोगे कि तूफान अब शांत अवस्था में है? तूफान है ही नहीं। और जब तूफान था तब क्या था? तब भी दरिया ही था, सिर्फ अस्तव्यस्त दरिया था। बड़ी लहरें उठती थीं, आकाश को छू लेने का पागलपन था, बड़ा महत्वाकांक्षी दरिया था, बड़ी आकांक्षा, बड़ी चाहत, बड़ा विचार, कुछ कर दिखाने का भाव दरिया में था। थक गया, हार गया, समझ लिया कि कुछ सार नहीं, सो गया, विश्राम में लौट गया--तूफान गया।',
+		},
+		{
+			time: '1:9:11',
+			desc: 'तूफान कोई वस्तु नहीं है, तूफान एक उद्विग्न अवस्था है। अहंकार भी तूफान जैसा है। तुम्हारे चित्त की उद्विग्न अवस्था का नाम अहंकार है। जैसे-जैसे तुम शांत होने लगे, अहंकार विदा होने लगा। परम शांति में तुम्हारी सीमा खो जाती है, तुम अचानक असीम के साथ एक हो जाते हो।',
+		},
+		{
+			time: '1:9:54',
+			desc: 'बड़ा सीधा सूत्र है, लेकिन तुम कहोगे, बड़ा जटिल है! यह तो उलझा दिया। सीधी बात कहो, या तो कहो कि ग्रहण करो, भोगो--समझ में आता है। यह भी समझ में आता है कि मत भोगो, छोड़ो, त्यागो। यह भी समझ में आता है। यह क्या बात है? यह तो बड़ी उलझन है।',
+		},
+		{
+			time: '1:10:36',
+			desc: 'जो कहते हैं, भोगो...चार्वाक कहते हैं, भोगो! बृहस्पति ने कहा, ‘कोई फिक्र न करो। ऋणं कृत्वा घृतं पिवेत! अगर ऋण ले कर घी पीना पड़े तो पीयो मजे से, लौट कर आता कौन? किसका ऋण चुकाना है? किसको चुकाना है? मरे कि मरे। भोग लो, लूट कर भी भोगना हो तो भोग लो। अपनी है कि पराई है स्त्री, इसकी फिक्र मत करो। कौन किसका है? मर गए कि सब राख है। कोई मर कर आता नहीं। कोई आत्मा इत्यादि नहीं, इसलिए अपराध इत्यादि की व्यर्थ बातों में मत पड़ो। न कोई पाप है, न कोई पुण्य।’',
+		},
+		{
+			time: '1:11:15',
+			desc: 'यह भी बात समझ में आती है। सौ में निन्यानबे लोग यही मानते हैं, चाहे कहते कुछ भी हों। उनके कहने पर मत जाना--देखना, क्या करते हैं? उनकी किताबों में मत खोजना, उनके चेहरों में खोजना।',
+		},
+		{
+			time: '1:12:39',
+			desc: 'सौ में निन्यानबे आदमी चार्वाकवादी हैं। चार्वाक का पुराना नाम है लोकायत। वह नाम बड़ा प्यारा है। लोकायत का अर्थ होता है: लोग को जो प्रिय है। सबको जो प्रिय है। कहें लोग कुछ भी, ऊपर से कुछ भी गुनगुनाएं, राम-राम जपें; ऊपर से मोक्ष, परमात्मा, धर्म की बातें करें--लेकिन भीतर से अगर पूछो तो हर आदमी का दिल चार्वाक है।',
+		},
+		{
+			time: '1:14:14',
+			desc: 'हृदय खोजो आदमी का, तो सौ में निन्यानबे आदमी नास्तिक हैं और सौ में निन्यानबे आदमी भोगवादी हैं। वह भी समझ में आता है, स्वाभाविक लगता है।',
+		},
+		{
+			time: '1:14:25',
+			desc: 'फिर थोड़े-से लोग हैं जो त्यागी हैं। वे भी समझ में आते हैं। भोग के तर्क से उनके तर्क में कुछ विरोध नहीं। वे कहते हैं, जीवन में कुछ नहीं है, इसलिए हम छोड़ते हैं। वह भी बात समझ में आती है: ‘जहां कुछ नहीं है, उससे भागो! किसी और की तलाश करो, जहां कुछ हो!’',
+		},
+		{
+			time: '1:14:55',
+			desc: 'तो जब मुझसे कोई पूछता है, ‘हम अपनी कामवासना का क्या करें? आप कहते हैं दबाओ मत। आप कहते हैं भोगो मत। करें क्या फिर?’ ये दो बातें साफ समझ में आती हैं। द्वैत सदा समझ में आता, अद्वैत समझ में नहीं आता।',
+		},
+		{
+			time: '1:15:8',
+			desc: 'मैं उनसे कहता हूं, जागो! न भोगो न भागो--जागो। न दबाओ न दमन करो, न भोग में अपने को नष्ट करो--साक्षी बनो। देखो। जो होता हो उसे देखो। वासना पकड़े तो पकड़ने दो, तुम क्या करोगे? तुम दूर भीतर बैठे देखते रहो कि वासना पकड़ती है। तुमने उठाई भी नहीं। जिसने उठाई वह जाने। तुम अपने को क्यों बेचैन किए लेते हो? क्रोध उठता है, क्रोध को भी देखो। लोभ उठता है, लोभ को भी देखो। तुम सिर्फ देखने पर ध्यान रखो कि देखूंगा। जो भी उठेगा, देखूंगा।',
+		},
+		{
+			time: '1:15:51',
+			desc: 'सुबह होती है तो क्या करते हो--सुबह को देखते। रात हो जाती तो क्या करते, रात को देखते। जवान होते तो जवानी देखते, बूढ़े हो जाते तो बुढ़ापे को देखते। मौसम बदलते, ऋतुएं बदलतीं--ऐसा ही तुम्हारा चित्त भी डांवांडोल होता रहता है, तुम देखते रहो। अगर तुमने देखने के सूत्र को पकड़ लिया, तो तुम धीरे-धीरे पाओेगे सब ऋतुएं दूर हो गईं; न काम बचा, न ब्रह्मचर्य बचा; न भोग बचा न त्याग बचा। दोनों गए। एक दिन अंततः आदमी पाता है: अकेला बैठा हूं घर में, कोई भी नहीं बचा। एकांत, बिलकुल अकेला, शुद्ध चैतन्य, चिन्मात्र! अहो चिन्मात्रं! आश्चर्य कि मैं सिर्फ चैतन्य-मात्र हूं, और सब व्यर्थ की बकवास थी--पकड़ो, छोड़ो, यह करो, वह करो। कर्ता भी भूल थी, भोक्ता भी भूल थी। संस्कृत में जो शब्द है वह बड़ा बहुमूल्य है।',
+		},
+		{
+			time: '1:17:3',
+			desc: 'हिंदी में अनुवाद सदा किया जाता रहा है: ‘इस प्रकार विचार कर, न इच्छा कर, न ग्रहण कर, और न त्याग कर।’ लेकिन यह ‘विचार करना’ नहीं है। क्योंकि विचार करने को तो मना किया है अष्टावक्र ने शुरू में ही।',
+		},
+		{
+			time: '1:17:19',
+			desc: 'तो जिन्होंने भी अनुवाद किए हैं अष्टावक्र के, वे ठीक नहीं मालूम पड़ते हैं। क्योंकि तीन सूत्रों के पहले ही वे कहते हैं: ‘जब मन कुछ चाहता है, कुछ सोचता है, कुछ त्यागता, कुछ ग्रहण करता, जब वह सुखी-दुखी होता, तब बंध है।’',
+		},
+		{
+			time: '1:17:41',
+			desc: 'तो विचार तो नहीं हो सकता ‘मत्वेति’ का अर्थ। मत्वेति बनता है मति से। मति एक बड़ी पारिभाषिक धारणा है। तुमने सुनी कहावत कि जब परमात्मा किसी को मिटाना चाहता तो उसकी मति भ्रष्ट कर देता। मति क्या है? तुम्हारे सोचने पर निर्भर नहीं है मति। तुम तो सोच-सोच कर जो भी करोगे वह मन का ही खेल होगा। मति है मन के पार जो समझ है, उसका नाम मति है। मन के पार जो समझ है, सोच-विचार से ऊपर जो समझ है, शुद्ध समझ, जिसको अंग्रेजी में अंडरस्टेंडिंग कहें, थिंकिंग नहीं, विचारणा नहीं, अंडरस्टेंडिंग, प्रज्ञा जिसको बुद्ध ने कहा है--मति।',
+		},
+		{
+			time: '1:18:51',
+			desc: 'जो ऐसी मति में थिर हो गया है--मैं अगर अनुवाद करूं तो ऐसा करूंगा--जो ऐसी मति को उपलब्ध हो गया है, मत्वेति, कि अब न तो इच्छा उठती, न ग्रहण उठता, न त्याग का भाव उठता। जो ऐसी मति को उपलब्ध हो गया है, जहां मन नहीं उठता। जिसको झेन फकीर नो-माइंड कहते हैं, वही मति। यह तुम्हारे सोच-विचार का सवाल नहीं है। जब तुम्हारा सब सोच-विचार खो जाएगा, तब तुम उस घड़ी में आओगे, जिसको मति कहें।',
+		},
+		{
+			time: '1:19:28',
+			desc: 'मति तुम्हारी और मेरी नहीं होती। मति तो एक ही है। मेरे विचार मेरे, तुम्हारे विचार तुम्हारे हैं। जब तुम्हारे विचार खो गए, मेरे विचार खो गए, मैं निर्विचार हुआ, तुम निर्विचार हुए--तो मुझमें तुममें कोई भेद न रहा। और जो उस घड़ी में घटेगा--वह मति। वह मति न तो तुम्हारी न मेरी। विचार तो सदा मेरे-तेरे होते हैं। और अष्टावक्र तो कहते हैं, जब मैं हूं तब बंध है। और विचार के साथ तो मैं जुड़ा ही रहता है। इसलिए तो लोग बड़े लड़ते हैं। कहते हैं, मेरा विचार। इसकी भी फिक्र नहीं करते कि सत्य क्या है? मेरा विचार सत्य होना ही चाहिए, क्योंकि मेरा है। दुनिया में जो विवाद चलते हैं, वह कोई सत्य के अनुसंधान के लिए थोड़े ही हैं। सत्य के अनुसंधान के लिए विवाद की जरूरत ही नहीं है। विवाद चलते हैं कि जो मैं कहता हूं वही सत्य; जो तुम कहते हो वही गलत। तुम कहते हो, इसलिए वह गलत। और मैं कहता हूं, इसलिए यह सही। और कोई आधार नहीं है। मैंने कहा है, तो गलत हो कैसे सकता है!',
+		},
+		{
+			time: '1:20:35',
+			desc: 'तो विचार में तो मैं-तू है। मति में मैं-तू नहीं है। या ऐसा होगा कहना ज्यादा ठीक कि विचार हमारे-तुम्हारे होते, विचार मनुष्यों के होते; मति परमात्मा की। मति वहां है जहां हम खो गए होते हैं।',
+		},
+		{
+			time: '1:21:9',
+			desc: 'इसको भी समझ लेना। जरा भी इच्छा न हो। जो हो, उसे होने दें। अगर किसी क्षण दुख हो, तो उसे होने दें; इच्छा करके हम दुख को न हटाएं। और किसी क्षण सुख हो, तो उसे होने दें; इच्छा करके हम सुख को न हटाएं। हम इच्छा करके हटाने का काम ही बंद कर दें। हम तो यही कह दें: जो हो तेरी मर्जी। जैसी तेरी मर्जी वैसे रहेंगे। जो अनंत की मर्जी, वही मेरी मर्जी। मैं अपने को अलग-थलग न रखूंगा। मेरा अपना कोई निजी लक्ष्य नहीं अब। जो सर्व का लक्ष्य है, वही मेरा लक्ष्य है।',
+		},
+		{
+			time: '1:22:3',
+			desc: 'ऐसी घड़ी में, ऐसी मति में, ऐसी प्रज्ञा में, ऐसे बोधोदय में, कहां दुख? कहां सुख? कहां बंधन? कहां मुक्ति? सब द्वंद्व खो जाते हैं। सब द्वैत सो जाते हैं। एक ही बचता है अहर्निश। एक ही गूंजता है, एक ही गाता, एक ही जीता, एक ही नाचता है। ऐसी घड़ी में तुम सर्व के अंग हो जाते, सर्व के साथ प्रफुल्लित, सर्व के साथ खिले हुए। तुम्हारा सब संघर्ष समाप्त हो जाता है। तुम सर्व के साथ लयबद्ध हो जाते; छंदोबद्ध हो जाते।',
+		},
+		{
+			time: '1:22:59',
+			desc: 'सर्व के साथ जो छंदबद्ध हो गया है, उसी को मैं संन्यासी कहता हूं। जो हो--अच्छा हो, बुरा हो--अब कोई चिंता न रही। जैसा हो, हो; अब मेरी कोई अपेक्षा न रही। अब जो होगा वह मुझे स्वीकार है। नर्क तो नर्क और स्वर्ग तो स्वर्ग। ऐसी परम स्वीकृति का नाम संन्यास है।',
+		},
+		{
+			time: '1:23:26',
+			desc: 'ये संन्यास के महत सूत्र हैं। इन्हें तुम समझना, सोच-विचार कर नहीं, ध्यान कर-कर के, ताकि इनसे मति का जन्म हो जाए।',
+		},
+		{
+			time: '1:23:56',
+			desc: 'और इस जीवन के लिए, इस जीवन की परम क्रांति के लिए तुम्हीं प्रयोग-स्थल हो, तुम ही परीक्षा हो। तुम्हीं को अपनी परीक्षा लेनी है। तुम्हीं को जनक बनना है और तुम्हीं को अष्टावक्र भी। यह संवाद तुम्हारे भीतर ही घटित होना है।',
+		},
+		{
+			time: '1:25:24',
+			desc: 'जीवन में परीक्षाएं दूसरों की मत लेना। और दूसरों की परीक्षाओं से जो तुम्हें मिल भी जाएगा, वह कभी तुम्हारा नहीं होगा। दूसरे के अनुभव कभी तुम्हारे अनुभव नहीं हो सकते। जीवन की आत्यंतिक रहस्यमयता तो उसी के सामने प्रगट होती है, जो अपने को ही अपना परीक्षा-स्थल बना लेता, जो अपने को ही अपनी प्रयोग-भूमि बना लेता।',
+		},
+		{
+			time: '1:25:55',
+			desc: 'इसलिए कहता हूं: सोच-विचार से नहीं, प्रयोग से, ध्यान से मति उपलब्ध होगी। और तुमने सदा सुन रखा है: स्वर्ग कहीं ऊपर, नर्क कहीं नीचे। उस भ्रांत धारणा को छोड़ दो। स्वर्ग तुम्हारे भीतर, नर्क तुम्हारे भीतर। स्वर्ग तुम्हारे होने का एक ढंग और नर्क तुम्हारे होने का एक ढंग। मैं से भरे हुए तो नर्क, मैं से मुक्त तो स्वर्ग।',
+		},
+		{
+			time: '1:26:39',
+			desc: 'संसार बंधन, और मोक्ष कहीं दूर सिद्ध-शिलाएं हैं जहां मुक्त पुरुष बैठे हैं--ऐसी भ्रांतियां छोड़ दो। अगर मन में चाह है, चाहत है, तो संसार। अगर मन में कोई चाहत नहीं, छोड़ने तक की चाह नहीं, त्याग तक की चाह नहीं, कोई चाह नहीं--ऐसी अचाह की अवस्था मोक्ष।',
+		},
+		{
+			time: '1:27:9',
+			desc: 'बाहर मत खोजना स्वर्ग-नरक, संसार-मोक्ष को। ये तुम्हारे होने के ढंग हैं। स्वस्थ होना मोक्ष है, अस्वस्थ होना संसार है। इसलिए बाहर छोड़ने को भी कुछ नहीं है, भागने को भी कुछ नहीं है। हिमालय पर भी बैठो तो तुम तुम ही रहोगे और बाजार में भी बैठो तो तुम तुम ही रहोगे। इसलिए मैंने तुमसे नहीं कहा है, मेरे संन्यासियों को मैंने नहीं कहा है, तुम कुछ भी छोड़ कर कहीं जाओ। मैंने उनको सिर्फ इतना ही कहा, तुम जाग कर देखते रहो, जो घटता है घटने दो। गृहस्थी है तो गृहस्थी सही। और किसी दिन अगर तुम अचानक अपने को हिमालय पर बैठा हुआ पाओ तो वह भी ठीक, जाते हुए पाओ तो वह भी ठीक है।',
+		},
+		{
+			time: '1:27:53',
+			desc: 'जो घटे, उसे घटने देना; इच्छापूर्वक अन्यथा मत चाहना। अन्यथा की चाह से मैं संगठित होता है। तुम अपनी कोई चाह न रखो, सर्व की चाह के साथ बहे चले जाओ। यह गंगा जहां जाती है, वहीं चल पड़ो। तुम पतवारें मत उठाना। तुम तो पाल खोल दो, चलने दो हवाओं को, ले चलने दो इस नदी की धार को।',
+		},
+		{
+			time: '1:28:22',
+			desc: 'इस समर्पण को मैंने संन्यास कहा है। इस समर्पण में तुम बचते ही नहीं, सिर्फ परमात्मा बचता है। किसी न किसी दिन वह घड़ी आएगी, वह मति आएगी कि हटेंगे बादल, खुला आकाश प्रगट होगा। तब तुम हंसोगे, तब तुम जानोगे कि अष्टावक्र क्या कह रहे हैं--न कुछ छोड़ने को, न कुछ पकड़ने को। जो भी दिखाई पड़ रहा है, स्वप्नवत है; जो देख रहा है, वही सत्य है।',
+		},
+	],
+	'26': [
+		// can be generated at once using copy text from ckeditor > CTRL + D
+		{
 			time: '',
-			endtime: '',
-			tag: '',
 			desc: '',
 		},
-	]
+	],
+}
 
+var bookPathConst = {
+	MAHA_GEETA: "osho-maha-geeta/cbr/OSHO-Maha_Geeta_",
+	SUFIS_VOL_1: "sufis/vol-1/cbr/OSHO-Sufis_The_People_of_Path_1_",
+}
+
+var bookNoteConst = {
+	[bookPathConst.MAHA_GEETA]: noteMahaGeeta,
+	[bookPathConst.SUFIS_VOL_1]: noteSufisVol1
+}
+
+var searchTagConst = {
+	[bookPathConst.MAHA_GEETA]: `<p>
+					Search 
+
+					<!-- 25 -->
+					<span class="search-tag">तुम दुख से ध्यान हटाओ</span>, 
+					<span class="search-tag">नींद न आए तो बीमार बीमारी को भूल नहीं पाता</span>, 
+					<span class="search-tag">दुख की बात ही मत उठाओ</span>, 
+					<span class="search-tag">उन क्षणों को खोजो जहां मन की कोई क्रिया न हो</span>, 
+					<span class="search-tag">तुमने अगर परमात्मा चाहा तो भी तुम बंधन में हो</span>, 
+					<span class="search-tag">जो व्यक्ति अपनी मूढ़ता पर हंसने लगे वह बुद्धिमान होना शुरू हो गया</span>, 
+					<span class="search-tag">सोचा कि उलझे। सोच-विचार में जाल है</span>,
+					<span class="search-tag">सुखी आदमी क्षण भर को दुख को भुला बैठा है</span>, 
+					<span class="search-tag">तुम जिसे दुख कहते हो, उससे आनंद करीब है, बजाय तुम्हारे सुख के</span>, 
+					<span class="search-tag"> दुख में मजबूरी से आदमी को स्वयं का थोड़ा बहुत स्मरण करना पड़ता है</span>, 
+					<span class="search-tag">उस दुख को देखना</span>, 
+					<span class="search-tag">तुम दुखों को ध्यान बना लो</span>, 
+					<span class="search-tag">सुखी आदमी एक तरह के अभिशाप में है</span>, 
+					<span class="search-tag">दुखी आदमी को एक तरह का वरदान है</span>, 
+					<span class="search-tag">सुख आएं तो सौभाग्य मत समझना</span>, 
+					<span class="search-tag">दुख आएं तो दुर्भाग्य मत समझना</span>, 
+					<span class="search-tag">मोक्ष तो तुम्हारे ही चित्त की आत्यंतिक रूप से शांत हो गई दशा है</span>, 
+					<span class="search-tag">कुछ भी चाहा, तो चूके, तो अपने से चूके</span>, 
+					<span class="search-tag">जिसको खोजना है, वह मेरे भीतर है</span>, 
+					<span class="search-tag">जब तुम देखते हुए--और नहीं देखते</span>, 
+					<span class="search-tag">एक श्वास भी नहीं मिलती</span>, 
+					<span class="search-tag">एक ही चीज गिरा देनी है: मैं-भाव</span>, 
+					<span class="search-tag">परम शांति में तुम्हारी सीमा खो जाती है</span>, 
+					<span class="search-tag">जो होता हो उसे देखो</span>, 
+					<span class="search-tag">जब तुम्हारा सब सोच-विचार खो जाएगा</span>, 
+					<span class="search-tag">जैसी तेरी मर्जी वैसे रहेंगे</span>, 
+					<span class="search-tag">तुम्हारा सब संघर्ष समाप्त हो जाता है</span>, 
+					<span class="search-tag">अब जो होगा वह मुझे स्वीकार है</span>, 
+					<span class="search-tag">तुम्हीं को अपनी परीक्षा लेनी है</span>, 
+					<span class="search-tag">सोच-विचार से नहीं, प्रयोग से, ध्यान से मति उपलब्ध होगी</span>, 
+					<span class="search-tag">मैं से भरे हुए तो नर्क, मैं से मुक्त तो स्वर्ग</span>, 
+					<span class="search-tag">जाग कर देखते रहो, जो घटता है घटने दो</span>, 
+					<span class="search-tag">जो घटे, उसे घटने देना; इच्छापूर्वक अन्यथा मत चाहना</span>, <br>
+
+					<!-- 24 -->
+					<span class="search-tag">होना नहीं है</span>, 
+					<span class="search-tag">तुम वंचित हो जाओगे</span>, 
+					<span class="search-tag">समय के जाल</span>, 
+					<span class="search-tag">आदर्श-मुक्त हो जाओ</span>, 
+					<span class="search-tag">आनंदित होओ</span>, 
+					<span class="search-tag">सदा तुम्हारी योजना टूटती है</span>, 
+					<span class="search-tag">तुम हारो</span>, 
+					<span class="search-tag">संभोग की आत्यंतिक गहराई</span>, 
+					<span class="search-tag">आदमी का आदर्श देख कर</span>, 
+					<span class="search-tag">उसी होश से स्वास्थ्य फलित होता है</span>, 
+					<span class="search-tag">कामवासना में होशपूर्वक जाओ</span>, 
+					<span class="search-tag">प्रभु जो दिखाएगा उसे देखेंगे</span>, 
+					<span class="search-tag">दौड़ गिरी, अहंकार गिरा</span>, 
+					<span class="search-tag">जहां जीवन ले जाए वहीं चलो</span>, 
+					<span class="search-tag">परमात्मा नियंता है</span>, 
+					<span class="search-tag">बेसहारा हो कर सहारा मिला</span>, 
+					<span class="search-tag">बेसहारा हो जाओ, असहाय हो जाओ</span>, 
+					<span class="search-tag">निरहंकार होना जाग जाना है</span>, 
+					<span class="search-tag">जीत है तो उसकी, हार है तो उसकी</span>, 
+					<span class="search-tag">हम सिर्फ साक्षी हो जाएं। कर्ता हम नहीं हैं</span>, 
+					<span class="search-tag">छोड़ो सब नियंत्रण</span>, 
+					<span class="search-tag">तुम्हारे किए कुछ भी नहीं है</span>, 
+					<span class="search-tag">तुम इसकी भ्रांति छोड़ दो कि मेरे चलाए सब चल रहा है</span>, 
+					<span class="search-tag">नियम दूंगा तो उसके पीछे अपराध का भाव आता है</span>, 
+					<span class="search-tag">तुम जो भी करो जाग कर करो</span>, 
+					<span class="search-tag">जो करना ही पड़े, वह बंधन बन जाता है</span>, 
+					<span class="search-tag">जीवन में कुछ भी अनिवार्य नहीं</span>, 
+					<span class="search-tag">तुम जाग कर जीने लगो</span>, 
+					<span class="search-tag">जिस दिन अनुशासन चलने लगे, उस दिन समझना मेरा संबंध टूट गया इस जगह से</span>, 
+					<span class="search-tag">जहां अहंकार आया वहीं गति अवरुद्ध हो जाती है</span>, 
+					<span class="search-tag">ऐसा सोचना, प्रभु का प्रसाद है</span>, 
+					<span class="search-tag">जब हम राजी हो जाते हैं तो हम आंख खोल कर देखने की तत्परता दिखाते हैं</span>, <br /> 
+
+					<!-- 23 -->
+					<span class="search-tag">लाभ-हानि</span>, 
+					<span class="search-tag">परम संन्यास</span>, 
+					<span class="search-tag">सभी ठीक है</span>, 
+					<span class="search-tag">उलझन निर्मित</span>, 
+					<span class="search-tag">सारी ऊर्जा व्यर्थ कामों में</span>, 
+					<span class="search-tag">एकांत</span>, 
+					<span class="search-tag">शून्य</span>, 
+					<span class="search-tag">अव्यस्त</span>, 
+					<span class="search-tag">बचपना</span>, 
+					<span class="search-tag">असफल</span>, 
+					<span class="search-tag">विफल</span>, 
+					<span class="search-tag">भूल जाना संसार को</span>, 
+					<span class="search-tag">चैतन्यमात्र</span>, 
+					<span class="search-tag">कर्मों में उलझे</span>, 
+					<span class="search-tag">कर्म को भूलो</span>, 
+					<span class="search-tag">कर्मों को बदलने की कोशिश</span>, 
+					<span class="search-tag">न पकड़ो न छोड़ो</span>, 
+					<span class="search-tag">सब ठीक या सब गलत</span>, <br />
+
+					<span class="search-tag">सुन</span>, 
+					<span class="search-tag">निराशा</span>, 
+					<span class="search-tag">सुनो</span>, 
+					<span class="search-tag">सुनने</span>, 
+					<span class="search-tag">श्रोता</span>, 
+					<span class="search-tag">दुख</span>, 
+					<span class="search-tag">परीक्षा</span>, 
+					<span class="search-tag">आंसु</span>,
+				</p>`,
+	[bookPathConst.SUFIS_VOL_1]: `<p>
+					Search 
+					<span class="search-tag">innocent</span>, 
+					<span class="search-tag">acceptance</span>, 
+					<span class="search-tag">choiceless</span>, 
+					<span class="search-tag">totality</span>, 
+					<span class="search-tag">you cannot</span>, 
+					<span class="search-tag">three basic qualities</span>, 
+					<span class="search-tag">You cannot live totally</span>, 
+					<span class="search-tag">withdraw yourself</span>, 
+					<span class="search-tag">Don’t be burdened</span>, 
+					<span class="search-tag">I don’t know</span>, 
+					<span class="search-tag">drop that load every day</span>, 
+					<span class="search-tag">unknown penetrates life</span>, 
+				</p>`,
 }
 
 $(document).ready(function() {
+	var path = get_parameters_javascript("path") || bookPathConst.MAHA_GEETA; // sufis/vol-1/OSHO-Sufis_The_People_of_Path_1_
+
+	// var note = path === bookPathConst.SUFIS_VOL_1 ? noteSufisVol1 : noteMahaGeeta
+	var note = bookNoteConst[path];
+
 	$('body').addClass('dark-mode hide-settings'); // dark-mode has-background
 
 	var cutSecondsArr = [];
@@ -4185,6 +5358,7 @@ $(document).ready(function() {
 	// note markup
 	// var file = '01';
 	var file = get_parameters_javascript("file");
+
 	// console.log('file', file)
 	var noteMarkup = `
 		<a href="#" id="top">Top</a>
@@ -4210,7 +5384,7 @@ $(document).ready(function() {
 
 			<div id="audio-wrap">
 				<audio id="audio" controls>
-				  <source src="../../../../videos/osho-maha-geeta/cbr/OSHO-Maha_Geeta_${file}.mp3" type="audio/mpeg">
+				  <source src="../../../../videos/${path}${file}.mp3" type="audio/mpeg">
 				  Your browser does not support the audio tag.
 				</audio>
 			</div>
@@ -4269,35 +5443,7 @@ $(document).ready(function() {
 		        </button>
 		      </div>
 		      <div class="modal-body cut-list">
-				<p>
-					Search 
-					<span class="search-tag">लाभ-हानि</span>, 
-					<span class="search-tag">परम संन्यास</span>, 
-					<span class="search-tag">सभी ठीक है</span>, 
-					<span class="search-tag">उलझन निर्मित</span>, 
-					<span class="search-tag">सारी ऊर्जा व्यर्थ कामों में</span>, 
-					<span class="search-tag">एकांत</span>, 
-					<span class="search-tag">शून्य</span>, 
-					<span class="search-tag">अव्यस्त</span>, 
-					<span class="search-tag">बचपना</span>, 
-					<span class="search-tag">असफल</span>, 
-					<span class="search-tag">विफल</span>, 
-					<span class="search-tag">भूल जाना संसार को</span>, 
-					<span class="search-tag">चैतन्यमात्र</span>, 
-					<span class="search-tag">कर्मों में उलझे</span>, 
-					<span class="search-tag">कर्म को भूलो</span>, 
-					<span class="search-tag">कर्मों को बदलने की कोशिश</span>, 
-					<span class="search-tag">न पकड़ो न छोड़ो</span>, 
-					<span class="search-tag">सब ठीक या सब गलत</span>, 
-					<span class="search-tag">सुन</span>, 
-					<span class="search-tag">निराशा</span>, 
-					<span class="search-tag">सुनो</span>, 
-					<span class="search-tag">सुनने</span>, 
-					<span class="search-tag">श्रोता</span>, 
-					<span class="search-tag">दुख</span>, 
-					<span class="search-tag">परीक्षा</span>, 
-					<span class="search-tag">आंसु</span>,
-				</p>
+				${searchTagConst[path]}
 				
 				<input id="cut-list-search" class="mb-3" type="text" value="" placeholder="Search" />
 				<button id="btn-cut-list-search">Go</button>
@@ -4358,12 +5504,12 @@ $(document).ready(function() {
 
 		var noteKeys = Object.keys(note);
 		noteKeys.forEach((item, index) => {
-			cutListMarkup += `<h2 class="change-audio-file cursor-pointer" file="${item}">${item} <a href="${item}.html" class="ml-3">${item}.html</a></h2>`;
-
 			searchedNote = note[item]?.filter(o => o.desc?.indexOf( searchText ) >= 0);
 			// console.log('searchedNote', searchedNote)
 
 			if(searchedNote?.length > 0) {
+				cutListMarkup += `<h2 class="change-audio-file cursor-pointer" file="${item}">${item} <a href="${item}.html" class="ml-3">${item}.html</a></h2>`;
+
 				searchedNote?.forEach((item, index) => {
 			      cutListMarkup += getCutItemMarkup(item);
 			    });
@@ -4408,9 +5554,9 @@ $(document).ready(function() {
 		return `<div class="cut ${cutTag}" timeseconds="${timeseconds}" time="${item.time}" endtime="${item.endtime}">
 	      	<span class="cut-index">${item.time}</span>
 	      	<span class="cut-desc">${item.desc}</span>
-	      	<span class="cut-tag">${item.tag}</span>
-	      	<span class="cut-endtime">${item.endtime}</span>
       	</div>`;
+      	// <span class="cut-tag">${item.tag}</span>
+      	// <span class="cut-endtime">${item.endtime}</span>
 	}
 
 
