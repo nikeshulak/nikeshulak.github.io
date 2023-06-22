@@ -1,5 +1,8 @@
 sudo chmod u+x curlrequests.sh
 
+\\wsl.localhost\Ubuntu\var\www\html\videos\osho-maha-geeta\cbr
+\\192.168.16.101\htdocs\videos\osho-maha-geeta\cbr
+
 This PC\HONOR 8S\Internal storage\Download\apache
 
 #osho #ashtavakra #maha-geeta
