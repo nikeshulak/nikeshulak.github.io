@@ -111,7 +111,8 @@ body:not(.hide-settings) .audio-goto {
 }
 @media (min-width: 992px) {
     body {
-        padding-top: 80px;
+        padding-bottom: 90px;
+        padding-top: 10px;
         padding-right: 40%;
     }
     .audio #audio-wrap {
@@ -257,4 +258,9 @@ body.dark-mode .cut {
 }
 .dark-mode .close {
     color: #fff;
+}
+
+.ck-editor {
+    overflow-y: scroll;
+    max-height: 645px;
 }

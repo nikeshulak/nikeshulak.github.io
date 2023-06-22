@@ -5378,7 +5378,7 @@ $(document).ready(function() {
 
 				<button id="prev-btn" type="button" class="btn btn-dark mb-2" title="Press p">Prev</button>
 				<button id="next-btn" type="button" class="btn btn-dark mb-2" title="Press n">Next</button>
-				<button id="scroll-to-currenttime-btn" type="button" class="btn btn-dark mb-2" title="Press s">Scroll</button>
+				<button id="scroll-to-currenttime-btn" type="button" class="btn btn-dark mb-2" title="Press s">Down</button>
 				<button id="expand-btn" type="button" class="btn btn-dark mb-2" title="Press e">Expand</button>
 			</div>
 
@@ -5744,6 +5744,14 @@ $(document).ready(function() {
 
 	      case "s":
 	        $('#scroll-to-currenttime-btn').trigger('click');
+
+			// var e = jQuery.Event("keyup");
+
+			// e.which is used to set the keycode
+			// e.which = 38; // it is up
+			// e.which = 40; // it is down
+			// $(".ck-editor .ck-content p").trigger(e);
+
 	        break;
 
 	      case "e":
@@ -5769,13 +5777,20 @@ $(document).ready(function() {
 	);
 
 	$('#back-btn').click(function() {	
-		// console.log('play')
-		var audio = document.getElementById('audio');
+		// back from current audio time
+		// var audio = document.getElementById('audio');
+		// var seconds = audio.currentTime;
 
-		var seconds = audio.currentTime;
-		audio.currentTime = seconds - 10; // -10 second
+		var hms = document.getElementById('hms').value;
+		// console.log('hms', hms)
+		var seconds = hmsToSeconds(hms)
+		// console.log('seconds', seconds - 1)
 
-		// getCurrentTime(audio.currentTime);
+		// play from seconds
+		audio.currentTime = seconds - 1; // -10 second
+
+		// copy
+		getCurrentTime(seconds - 1);
 	})
 
 	$('#fast-btn').click(function() {	
