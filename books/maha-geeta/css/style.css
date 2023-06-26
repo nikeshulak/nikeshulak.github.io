@@ -264,3 +264,22 @@ body.dark-mode .cut {
     overflow-y: scroll;
     max-height: 645px;
 }
+
+/* for article */
+blockquote {
+    position: relative;
+    text-align: center;
+    padding: 2.84em 3.2em 2.75em;
+    border-radius: 5px;
+}
+blockquote {
+    color: #ffffff;
+    background-color: #7e1111;
+    background-image: linear-gradient(to bottom right,#7e1111 0%,#7e1111 100%);
+}
+blockquote p {
+    margin: 0;
+    font-size: 1.667em;
+    line-height: 1.27em;
+    font-weight: 500;
+}

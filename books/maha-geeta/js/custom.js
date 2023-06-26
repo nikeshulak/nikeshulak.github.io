@@ -5141,6 +5141,11 @@ var searchTagConst = {
 	[bookPathConst.MAHA_GEETA]: `<p>
 					Search 
 
+					<!-- 30 -->
+					<span class="search-tag">मैं कौन हूं</span>, 					
+					<span class="search-tag">भीतर लगता है कैसे मिलेगा</span>, 					
+					<span class="search-tag"></span>, 					
+
 					<!-- 25 -->
 					<span class="search-tag">तुम दुख से ध्यान हटाओ</span>, 
 					<span class="search-tag">नींद न आए तो बीमार बीमारी को भूल नहीं पाता</span>, 
