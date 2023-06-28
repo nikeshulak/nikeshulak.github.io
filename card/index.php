@@ -119,17 +119,17 @@ http://localhost/nikeshulak.github.io/card/index.php?name=Mangala%20Sangami&numb
 			'responded' => false
 		],
 		[
-			'name' => 'मधु सुदन पासाछे',
-			'receiver' => '',
-			'receiverLink' => '',
-			'sent' => false,
+			'name' => 'मधु सुदन पासाछें',
+			'receiver' => 'Madhusudan Pasachhe',
+			'receiverLink' => 'https://www.facebook.com/profile.php?id=100078260682351',
+			'sent' => true,
 			'responded' => false
 		],
 		[
 			'name' => 'नानी छोरी श्रेष्ठ',
-			'receiver' => '',
-			'receiverLink' => '',
-			'sent' => false,
+			'receiver' => 'सुमि उलक शृेषठ',
+			'receiverLink' => 'https://www.facebook.com/sum.shrestha.94',
+			'sent' => true,
 			'responded' => false
 		],
 		[
@@ -182,10 +182,10 @@ http://localhost/nikeshulak.github.io/card/index.php?name=Mangala%20Sangami&numb
 			'responded' => false
 		],
 		[
-			'name' => 'शर्मिला श्रेष्ठ',
-			'receiver' => '',
-			'receiverLink' => '',
-			'sent' => false,
+			'name' => 'रुजल श्रेष्ठ', // शर्मिला श्रेष्ठ
+			'receiver' => 'Sharmila Shrestha',
+			'receiverLink' => 'https://www.facebook.com/sharmila.shrestha.16144',
+			'sent' => true,
 			'responded' => false
 		],
 		[
@@ -617,23 +617,23 @@ http://localhost/nikeshulak.github.io/card/index.php?name=Mangala%20Sangami&numb
 		],
 		[
 			'name' => 'अनिश श्रेष्ठ',
-			'receiver' => '',
+			'receiver' => 'Tyler Durden',
 			'receiverLink' => '',
-			'sent' => false,
+			'sent' => true,
+			'responded' => true
+		],
+		[
+			'name' => 'सुनिल गमाल',
+			'receiver' => 'सुनिल गमाल',
+			'receiverLink' => 'https://www.facebook.com/profile.php?id=100069577389074',
+			'sent' => true,
 			'responded' => false
 		],
 		[
 			'name' => 'सुनिल गमाल',
-			'receiver' => '',
-			'receiverLink' => '',
-			'sent' => false,
-			'responded' => false
-		],
-		[
-			'name' => 'राम गमाल',
-			'receiver' => '',
-			'receiverLink' => '',
-			'sent' => false,
+			'receiver' => 'Sunil Gamal',
+			'receiverLink' => 'https://www.facebook.com/sunil.gamal.73',
+			'sent' => true,
 			'responded' => false
 		],		
 		[
@@ -842,6 +842,7 @@ http://localhost/nikeshulak.github.io/card/index.php?name=Mangala%20Sangami&numb
 
 			<span class="remove-child"></span>
 
+			<!-- <div class="card-chulhai">चुल्है</div> -->
 			<div class="card-name">
 				<!-- Name -->
 				<input id="card-name" type="text" value="<?php echo $name;?>">
@@ -854,6 +855,16 @@ http://localhost/nikeshulak.github.io/card/index.php?name=Mangala%20Sangami&numb
 		</div>
 
 		<style>			
+			.card-chulhai {
+			    position: absolute;
+			    left: 200px;
+			    top: 81px;
+			    display: block;
+			    font-weight: bold;
+			    font-size: 26px;
+			    transform: rotate(345deg);
+			}
+
 			.only-one span.remove-husband,
 			.only-one span.remove-wife,
 			.only-one span.remove-child
@@ -896,9 +907,9 @@ http://localhost/nikeshulak.github.io/card/index.php?name=Mangala%20Sangami&numb
 			.card-time {
 			    position: absolute;
 			    top: 477px;
-			    left: 231px;
-			    font-size: 22px;
-			    width: 70px;
+			    left: 211px;
+			    font-size: 20px;
+			    width: 110px;
 			}
 			.card input[type="text"] {
 			    width: 100%;
@@ -928,6 +939,7 @@ http://localhost/nikeshulak.github.io/card/index.php?name=Mangala%20Sangami&numb
 		<!-- <input type="text" name="time" value="<?php // echo $time;?>" placeholder="Time"> -->
 		<select name="time">
 			<option value="">Select time</option>
+			<option value="बिहान देखी">बिहान देखी</option>
 			<option value="३:००">३:००</option>
 			<option value="४:००">४:००</option>
 			<option value="५:००">५:००</option>
