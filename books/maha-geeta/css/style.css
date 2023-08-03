@@ -10,7 +10,8 @@
 body {
     font-size: 19px;
     /* font-family: "Lora",serif; */
-    font-family: arial, sans-serif;
+    /* font-family: arial, sans-serif; */
+    font-family: monospace;
     line-height: 30px;
     color: #8f8a86;
     padding: 130px 56px 130px 10px;
