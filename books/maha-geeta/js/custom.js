@@ -5140,6 +5140,12 @@ var bookNoteConst = {
 var searchTagConst = {
 	[bookPathConst.MAHA_GEETA]: `<p>
 					Search 
+					
+					<!-- 44 -->
+					<span class="search-tag">लीलापूर्वक सुनो</span>, 					
+
+					<!-- 43 -->
+					<span class="search-tag">भाला</span>, 					
 
 					<!-- 30 -->
 					<span class="search-tag">मैं कौन हूं</span>, 					
@@ -5740,7 +5746,8 @@ $(document).ready(function() {
 	        break;
 
 	      case "p":
-	        $('#prev-btn').trigger('click');
+	        // $('#prev-btn').trigger('click');
+					$('#pause-btn').trigger('click');
 	        break;
 
 	      case "n":
