@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500&display=swap');
+
 :root {
     --primary: #0f1f1f;
 }
@@ -7,14 +9,39 @@
 .cursor-pointer {
     cursor: pointer;
 }
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #666; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
 body {
-    font-size: 19px;
+    font-size: 26px;
+    line-height: 38px;
     /* font-family: "Lora",serif; */
     /* font-family: arial, sans-serif; */
-    font-family: monospace;
-    line-height: 30px;
+    /* font-family: monospace; */
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
     color: #8f8a86;
     padding: 130px 56px 130px 10px;
+    letter-spacing: 1.3px;
 	/* space for search in mobile / tiktok control space */
 }
 @media (max-width: 991px) {
@@ -112,7 +139,7 @@ body:not(.hide-settings) .audio-goto {
 }
 @media (min-width: 992px) {
     body {
-        padding-bottom: 90px;
+        padding-bottom: 84px;
         padding-top: 10px;
         padding-right: 40%;
     }

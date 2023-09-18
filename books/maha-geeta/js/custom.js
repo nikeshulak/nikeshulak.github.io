@@ -5140,6 +5140,8 @@ var bookNoteConst = {
 var searchTagConst = {
 	[bookPathConst.MAHA_GEETA]: `<p>
 					Search 
+					<!-- 49 -->
+					<span class="search-tag">मैं कौन हूं</span>, 					
 					
 					<!-- 44 -->
 					<span class="search-tag">लीलापूर्वक सुनो</span>, 					
@@ -5376,6 +5378,7 @@ $(document).ready(function() {
 		<div class="audio">
 			<div class="audio-goto">
 				<span class="mr-2">${file}</span>
+				<button id="time-play-btn" type="button" class="btn btn-dark mb-2" title="">Time play</button>
 				<button id="pause-btn" type="button" class="btn btn-dark mb-2" title="Press spacebar">Play</button>
 				<input type="text" id="hms" value="0:0:0" class="mb-2" />
 				<button id="goto-btn" type="button" class="btn btn-dark mb-2" title="Press g">Go</button>
@@ -5708,6 +5711,33 @@ $(document).ready(function() {
 		togglePause();
 	})
 
+	$('#time-play-btn').click(function() {
+		var time = 30 * 60 * 1000; // 30 min
+		var pauseAfterTime = 5 * 60 * 1000 // pause after 5 min
+
+		console.log('start', new Date())
+		// play
+		togglePause()
+		// pause after 5 min
+		setTimeout(function() {
+			console.log('pause', new Date())
+			togglePause()
+		}, pauseAfterTime)
+
+
+		// play again each 30 min
+		setInterval(function() {
+			console.log('play', new Date())
+			togglePause()
+
+			// pause after 5 min
+			setTimeout(function() {
+				console.log('pause', new Date())
+				togglePause()
+			}, pauseAfterTime)
+		}, time);
+	})
+
 	/*$('#play-btn').click(function() {	
 		var audio = document.getElementById('audio');
 		audio.play();
@@ -6004,7 +6034,7 @@ $(document).ready(function() {
 
 
 	// ck editor
-    ClassicEditor
+  document.querySelector( '#editor' ) && ClassicEditor
         .create( document.querySelector( '#editor' ) )
         .catch( error => {
             console.log( error );
