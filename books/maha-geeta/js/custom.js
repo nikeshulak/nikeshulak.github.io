@@ -867,7 +867,8 @@ $(document).ready(function() {
 	}
 
 	function togglePause() {
-		$body = $('body');
+		// console.log($('body'))
+		var $body = $('body');
 
 		// $this.toggleClass('playing'); // paused
 		$body.toggleClass('playing');
