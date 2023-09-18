@@ -94,6 +94,7 @@ img {
     /* top: 0;*/
     bottom: 0;
     height: 130px;
+    z-index: 1051;
 }
 .footer {
     /* bottom: 0;*/
