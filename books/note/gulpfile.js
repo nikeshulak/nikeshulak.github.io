@@ -1,0 +1,15 @@
+// gulp jsBundle
+// to combine
+const { src, dest } = require('gulp');
+const concat = require('gulp-concat');
+
+const jsBundle = () =>
+  src([
+    'books/maha-geeta/*.js',
+    'books/noteMahaGeeta.js',
+    'books/noteSufisVol1.js'
+  ])
+    .pipe(concat('note-combined.js'))
+    .pipe(dest('./'));
+
+exports.jsBundle = jsBundle;
