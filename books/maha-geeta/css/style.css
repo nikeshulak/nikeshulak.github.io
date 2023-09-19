@@ -6,6 +6,30 @@
 * {
     box-sizing: border-box;
 }
+
+/* full size figure in mobile 
+<figure class="image">
+<img src="https://devdiscourse.blob.core.windows.net/devnews/13_12_2019_00_42_27_4846826.jpg" class="">
+</figure>
+*/
+figure.image {
+    margin-bottom: 0;
+    margin-right: -56px;
+    height: 250px;
+    margin-top: 75px;
+}
+figure.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+figure.image + .cut {
+    margin-bottom: 90px;
+    margin-right: -56px;
+    font-size: 32px;
+    line-height: 48px;
+}
+
 .cursor-pointer {
     cursor: pointer;
 }

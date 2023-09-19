@@ -90,7 +90,16 @@ const noteMahaGeeta = {
 	'48': mahaGeeta48,
 	'49': mahaGeeta49,
 	'50': mahaGeeta50,
-	'51': [
+	'51': mahaGeeta51,
+	'52': mahaGeeta52,
+	'53': mahaGeeta53,
+	'54': mahaGeeta54,
+	'55': mahaGeeta55,
+	'56': mahaGeeta56,
+	'57': mahaGeeta57,
+	'58': mahaGeeta58,
+	'59': mahaGeeta59,
+	'91': [
 {
 	time: '',
 	desc: ``

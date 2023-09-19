@@ -29,7 +29,18 @@ var bookNoteConst = {
 var searchTagConst = {
 	[bookPathConst.MAHA_GEETA]: `<p>
 					Search 
-					प्रभु <br />
+					
+					<span class="search-tag"></span>,
+					<span class="search-tag"></span>,
+					<span class="search-tag">स्तुति</span>,
+					<span class="search-tag">निंदा</span>,		
+					<span class="search-tag">सिर्फ सुन</span>,		
+					<span class="search-tag">आंख तो होती ही तब है जब शून्य होती है</span>,		
+					<span class="search-tag">स्यादवाद</span>,		
+					<span class="search-tag">मैं अज्ञानी हूं</span>,		
+					<span class="search-tag">बुद्धि को छोड़</span>,
+
+					<span class="search-tag">प्रभु</span>, 					
 
 					<!-- 49 -->
 					<span class="search-tag">मैं कौन हूं</span>, 					
