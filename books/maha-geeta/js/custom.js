@@ -29,9 +29,39 @@ var bookNoteConst = {
 var searchTagConst = {
 	[bookPathConst.MAHA_GEETA]: `<p>
 					Search 
+					<span class="search-tag"></span>,
+					<span class="search-tag"></span>,
+					<span class="search-tag"></span>,
+					<span class="search-tag"></span>,
+					<span class="search-tag"></span>,
+					<span class="search-tag">उत्सव के क्षण में ही तुम उसके पास होते हो</span>,
+
+					<span class="search-tag">जो तुम्हें पाना है वह मिला हुआ है</span>,
+					<span class="search-tag">जिस दिन तुम मौन होना चाहो, क्या मौन का अभ्यास करना पड़ेगा?</span>,
+					<span class="search-tag">जब तक संसार सत्य है</span>,
+					<span class="search-tag">जिसे तू खोज रहा है, वह तू है</span>,
+					<span class="search-tag">दौड़ो मत, खोजो भी मत; जरा शांत होकर बैठ जाओ</span>,
+					<span class="search-tag">प्रयास भी नहीं करना</span>,
+					<span class="search-tag">उसको ही खोज लो</span>,
+					<span class="search-tag">तुम्हारे अकर्ता हो जाने की सहज दशा</span>,
+					<span class="search-tag">वही मुझको भी चला लेगा</span>,
+					<span class="search-tag">अगर तुम सोच रहे हो कि मुझे सुनकर तुम समझ लोगे, समझ में सारे निचोड़ लोगे, फिर अपने जीवन का वैसा व्यवस्थापन करोगे, तब तुम सुख को पाओगे--तुम चूक गये।</span>,
+					<span class="search-tag">ध्यान तो करें, लेकिन ध्यान से फायदा क्या है? </span>,
+					<span class="search-tag">नींद नहीं आती, क्या तकलीफ है?</span>,
+
+					<span class="search-tag">प्यास ही बचे और तुम न बचो</span>,
+					<span class="search-tag">तुम ही बीमारी हो</span>,
+					<span class="search-tag">खालीपन में जो भराव आता है</span>,
+					<span class="search-tag">आंख बंद हो जाये तो</span>,
+
+					<!-- 53 -->
+					<span class="search-tag">मेरे किये कुछ नहीं होता है। मेरे मांगे कुछ नहीं होता।</span>,
 					
-					<span class="search-tag"></span>,
-					<span class="search-tag"></span>,
+					<!-- 52 -->
+					<span class="search-tag">जो प्रभु कराये करते रहो</span>,
+					<span class="search-tag">तुम सिर्फ साक्षी हो जाओ</span>,
+
+					<!-- 51 -->
 					<span class="search-tag">स्तुति</span>,
 					<span class="search-tag">निंदा</span>,		
 					<span class="search-tag">सिर्फ सुन</span>,		

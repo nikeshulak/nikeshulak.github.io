@@ -8,8 +8,19 @@
 }
 
 /* full size figure in mobile 
+https://devdiscourse.blob.core.windows.net/devnews/13_12_2019_00_42_27_4846826.jpg
+https://www.osholeela.org/wp-content/uploads/2020/12/Osho-Namaste.jpg
+https://e1.pxfuel.com/desktop-wallpaper/38/912/desktop-wallpaper-osho-purnima-osho.jpg
+https://oshoworld.com/wp-content/uploads/2020/11/I-am-NOT-an-Orator_24.jpg
+https://www.messagefrommasters.com/Meditation/Awareness/F0653.jpg
+https://4.bp.blogspot.com/-ZPKtSfsfg2Q/UUfA7vnePUI/AAAAAAAAVCk/BNPRKk-u4sQ/s280/Osho1.jpg
+https://i0.wp.com/astitvameditation.com/wp-content/uploads/2020/09/679292-osho-050618.jpg
+https://www.oshonews.com/wp-content/uploads/2022/11/osho543.jpg
+http://4.bp.blogspot.com/_EFAGE6MfFb8/TJmLzLsISeI/AAAAAAAAAYU/OcO_xfQI91U/s1600/osho.jpg
+https://www.oshonews.com/wp-content/uploads/2015/03/Osho-high-hat.jpg
+https://i1.sndcdn.com/artworks-000656589946-uz1s7k-t500x500.jpg
 <figure class="image">
-<img src="https://devdiscourse.blob.core.windows.net/devnews/13_12_2019_00_42_27_4846826.jpg" class="">
+<img src="https://oshoworld.com/wp-content/uploads/2020/11/A-Flame-of-Awakening_osho-e1606370082392.jpg" class="">
 </figure>
 */
 figure.image {
@@ -28,6 +39,8 @@ figure.image + .cut {
     margin-right: -56px;
     font-size: 32px;
     line-height: 48px;
+    border-bottom: 8px solid #22d4ef;
+    color: #fff;
 }
 
 .cursor-pointer {
@@ -66,6 +79,7 @@ body {
     color: #8f8a86;
     padding: 130px 56px 130px 10px;
     letter-spacing: 1.3px;
+    overflow-x: hidden;
 	/* space for search in mobile / tiktok control space */
 }
 @media (max-width: 991px) {
@@ -118,7 +132,9 @@ img {
     /* top: 0;*/
     bottom: 0;
     height: 130px;
-    z-index: 1051;
+    /* z-index: 1051; */
+    /* 2147483641 + 1 for awesome record tool hiding */
+    z-index: 2147483641;
 }
 .footer {
     /* bottom: 0;*/
