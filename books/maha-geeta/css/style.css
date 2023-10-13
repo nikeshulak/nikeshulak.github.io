@@ -43,6 +43,10 @@ figure.image + .cut {
     color: #fff;
 }
 
+.cut-list-wrap {
+    padding-bottom: 40px;
+}
+
 .cursor-pointer {
     cursor: pointer;
 }

@@ -30,10 +30,26 @@ var searchTagConst = {
 	[bookPathConst.MAHA_GEETA]: `<p>
 					Search 
 					<span class="search-tag"></span>,
+					
+					<!-- 61 -->
+					<span class="search-tag">जहां-जहां सुख मिलता हो वहां-वहां आंख बंद करके गौर से देखो--भीतर से आ रहा, बाहर से</span>,
+					<span class="search-tag">भीतर से जब भी संबंध जुड़ जाता है, सुख मिलता है</span>,
+					<span class="search-tag">जिस घड़ी में भी तुम अपने से जुड़ जाते, सुख बरस जाता</span>,
 					<span class="search-tag"></span>,
 					<span class="search-tag"></span>,
 					<span class="search-tag"></span>,
 					<span class="search-tag"></span>,
+					
+					<!-- 60 -->
+					<span class="search-tag">जीवन जैसा है वैसी ही मृत्यु होगी</span>,
+					<span class="search-tag">जीवन जैसा मिले उसे वैसा ही जी लेना</span>,
+					<span class="search-tag">जीवन और परमात्मा के बीच एक विरोध खड़ा कर दिया</span>,
+					<span class="search-tag">चलाना हो तो चला, न चलाना हो तो न चला</span>,
+					<span class="search-tag">तुम्हारा हर प्रयास तनाव लायेगा</span>,
+					
+					<!-- 59 -->
+					<span class="search-tag">कर लेना</span>,
+
 					<span class="search-tag">उत्सव के क्षण में ही तुम उसके पास होते हो</span>,
 
 					<span class="search-tag">जो तुम्हें पाना है वह मिला हुआ है</span>,
