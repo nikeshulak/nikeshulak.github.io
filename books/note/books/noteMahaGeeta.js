@@ -99,6 +99,7 @@ const noteMahaGeeta = {
 	'57': mahaGeeta57,
 	'58': mahaGeeta58,
 	'59': mahaGeeta59,
+	'71': mahaGeeta71,
 	'91': [
 {
 	time: '',

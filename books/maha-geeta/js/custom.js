@@ -29,16 +29,17 @@ var bookNoteConst = {
 var searchTagConst = {
 	[bookPathConst.MAHA_GEETA]: `<p>
 					Search 
+					<!-- 63 -->
+					<span class="search-tag">जो भी दिखाई पड़े, होश से समझना कि झूठ है</span>,
+					<span class="search-tag"></span>,
+					<span class="search-tag"></span>,
+					<span class="search-tag"></span>,
 					<span class="search-tag"></span>,
 					
 					<!-- 61 -->
 					<span class="search-tag">जहां-जहां सुख मिलता हो वहां-वहां आंख बंद करके गौर से देखो--भीतर से आ रहा, बाहर से</span>,
 					<span class="search-tag">भीतर से जब भी संबंध जुड़ जाता है, सुख मिलता है</span>,
 					<span class="search-tag">जिस घड़ी में भी तुम अपने से जुड़ जाते, सुख बरस जाता</span>,
-					<span class="search-tag"></span>,
-					<span class="search-tag"></span>,
-					<span class="search-tag"></span>,
-					<span class="search-tag"></span>,
 					
 					<!-- 60 -->
 					<span class="search-tag">जीवन जैसा है वैसी ही मृत्यु होगी</span>,
@@ -223,7 +224,7 @@ $(document).ready(function() {
 	// var note = path === bookPathConst.SUFIS_VOL_1 ? noteSufisVol1 : noteMahaGeeta
 	var note = bookNoteConst[path];
 
-	$('body').addClass('dark-mode hide-settings'); // dark-mode has-background
+	$('body').addClass('dark-mode hide-settings show-calendar'); // dark-mode has-background
 
 	var cutSecondsArr = [];
 
@@ -321,8 +322,30 @@ $(document).ready(function() {
 	var file = get_parameters_javascript("file");
 
 	// console.log('file', file)
+	// /widgets/calendar-full.php 705px
 	var noteMarkup = `
 		<a href="#" id="top">Top</a>
+		<div class="pending-task">
+			<ul>
+				<li>Mum global, muktinath - mobile banking kahile dekhi khuleko</li>
+				<li>send byaz notice on 11th</li>
+				<li>6 month shrada - kartik 25 saturday (baaje lai sweater)</li>
+				<li>siddhi ganesh on kartik end</li>
+				<li>kotha vada on kartik end</li>
+
+				<li>7 month - mangsir 23 saturday</li>
+				<li>8 month - push 24 tuesday</li>
+				<li>9 month - magh 25 thursday</li>
+				<li>10 month - falgun 25 friday</li>
+				<li>11 month - chaitra 24 saturday (7:37 pachi)</li>
+				<li>11.5 month</li>
+				<li>12 month</li>
+				<li>13 month</li>
+			</ul>
+		</div>
+		<div class="calendar">
+			<iframe src="https://hamropatro" scrolling="no" marginwidth="0" marginheight="0" style="border:none;margin-top: -463px; margin-left: -270px; width:1180px; height: 1120px; overflow:hidden;" allowtransparency="true"></iframe>
+		</div>
 		<div class="audio">
 			<div class="audio-goto">
 				<span class="mr-2">${file}</span>
@@ -335,6 +358,8 @@ $(document).ready(function() {
 
 				<button id="" type="button" class="btn btn-dark mb-2" data-toggle="modal" data-target="#modalCut" title="Cut">Cut (${note[file]?.length || 0})</button>
 				
+				<button id="calendar-btn" type="button" class="btn btn-dark mb-2">Calendar</button>
+
 				<button id="back-btn" type="button" class="btn btn-dark mb-2" title="Press b">Back</button>
 				<button id="fast-btn" type="button" class="btn btn-dark mb-2" title="Press f">Fast</button>
 
@@ -492,6 +517,10 @@ $(document).ready(function() {
 		$('#cut-list-search').val( $(this).text() );
 
 		$('#btn-cut-list-search-all').trigger('click');
+
+		$('#modalCut').animate({
+			scrollTop: $('#cut-list-search').offset().top - 0 // "#myDiv"
+	}, 2000);
 	})
 
 	function changeAudioFile() {
@@ -766,6 +795,10 @@ $(document).ready(function() {
 	  },
 	  true
 	);
+
+	$('#calendar-btn').click(function() {
+		$('body').toggleClass('show-calendar');
+	})
 
 	$('#back-btn').click(function() {	
 		// back from current audio time
