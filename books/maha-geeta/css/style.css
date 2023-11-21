@@ -180,6 +180,9 @@ body.hide-settings .audio audio {opacity: 0;}
 .hide-settings #top {
     opacity: 0.3;
 }
+body.hide-json-editor .note-jsoneditor {
+    display: none;
+}
 /*body.hide-settings .footer {
     display: block;
 }
@@ -354,7 +357,7 @@ body.dark-mode .cut {
 .dark-mode .footer {
     background: var(--primary);
 }
-.dark-mode input {
+.dark-mode input, .dark-mode textarea {
     background: var(--primary);
     color: #fff;
     border: 1px solid #fff;

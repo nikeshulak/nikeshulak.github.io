@@ -100,12 +100,26 @@ const noteMahaGeeta = {
 	'58': mahaGeeta58,
 	'59': mahaGeeta59,
 	'71': mahaGeeta71,
-	'91': [
-{
-	time: '',
-	desc: ``
-}
-	],
+	'72': mahaGeeta72,
+	'73': mahaGeeta73,
+	'74': mahaGeeta74,
+	'75': mahaGeeta75,
+	'76': mahaGeeta76,
+	'77': mahaGeeta77,
+	'78': mahaGeeta78,
+	'79': mahaGeeta79,
+	'80': mahaGeeta80,
+	'81': mahaGeeta81,
+	'82': mahaGeeta82,
+	'83': mahaGeeta83,
+	'84': mahaGeeta84,
+	'85': mahaGeeta85,
+	'86': mahaGeeta86,
+	'88': mahaGeeta88,
+	'88': mahaGeeta88,
+	'89': mahaGeeta89,
+	'90': mahaGeeta90,
+	'91': mahaGeeta91,
 }
 
 // export { noteMahaGeeta };
