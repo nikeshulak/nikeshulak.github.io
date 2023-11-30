@@ -31,6 +31,10 @@ var searchTagConst = {
 					Search 
 					<!--  -->
 					<span class="search-tag"></span>,
+
+					<!-- 84 -->
+					<span class="search-tag">जिस विषय के प्रति तुम झुकते हो, उसका कोई मूल्य नहीं है, मूल्य तुम्हारे झुकने का है।</span>,
+					<span class="search-tag">तो जो लोग गुरु के बिना इस यात्रा में निकलते हैं, उनका सच में ही बड़ा खतरा है। वे वस्तुतः पागल हो सकते हैं।</span>,
 					
 					<!-- 79 -->
 					<span class="search-tag">तुम्हारे किये तो कुछ भी न होगा</span>,
@@ -371,7 +375,7 @@ $(document).ready(function() {
 	// var note = path === bookPathConst.SUFIS_VOL_1 ? noteSufisVol1 : noteMahaGeeta
 	var note = bookNoteConst[path];
 
-	$('body').addClass('dark-mode hide-settings show-calendar hide-json-editor'); // dark-mode has-background
+	$('body').addClass('dark-mode hide-settings hide-json-editor'); // show-calendar dark-mode has-background
 
 	var cutSecondsArr = [];
 
@@ -497,6 +501,7 @@ $(document).ready(function() {
 
 		
     <div class="note-jsoneditor">
+
 			<input id="timeJson" type="text" value="" placeholder="0:0:0" style="text-align: center;" />
       <textarea id="descJson"></textarea>
       <input id="updateNoteJson" type="button" value="Add" />
@@ -510,6 +515,7 @@ $(document).ready(function() {
 						right: 10px;
 						z-index: 1;
 						width: 38%;
+						margin-top: 58px;
 				}
 				.note-jsoneditor input, .note-jsoneditor textarea {
 						width: 100%;
@@ -578,6 +584,9 @@ $(document).ready(function() {
 				<button id="open-fullscreen" type="button" class="btn btn-dark mb-2">Fullscreen</button>
 				<button id="close-fullscreen" type="button" class="btn btn-dark mb-2">Close Fullscreen</button>
 				<br>
+				
+				<div id="getLocalIP"></div>
+				<script src="../js/getLocalIP.js"></script>
 				<br>
 
 				<input value="${file}" id="next-page-input" style="width: 50px;">
@@ -585,6 +594,7 @@ $(document).ready(function() {
 				<br>
 				<br>
 				
+				<p>Add text in current cut selected..</p>
 				<input value="" id="cut-text-input" style="width: 100%;">
 				<button class="btn btn-dark" id="cut-text-btn">Go</button>
 		      </div>
@@ -623,6 +633,15 @@ $(document).ready(function() {
 		</div>
 
 		<div class="cut-list">
+			
+			<!-- find string in page -->
+			<form name="f1" id="f1" action="" class="mb-3">
+				<input type="text" class="t1" name="t1" value="" placeholder="Search in page" />
+				<input type="submit" name="b1" value="Find" />
+			</form>
+			<script src="../js/findString.js"></script>
+
+			<!-- switch cut list -->
 			<input id="switch-cut-list-input" type="text" placeholder="Switch cut list e.g 1 to 91" />
 			<input type="button" id="switch-cut-list-button" value="Switch" />
 
