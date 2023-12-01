@@ -19,11 +19,13 @@ var selectedNote = {
 var bookPathConst = {
 	MAHA_GEETA: "osho-maha-geeta/cbr/OSHO-Maha_Geeta_",
 	SUFIS_VOL_1: "sufis/vol-1/cbr/OSHO-Sufis_The_People_of_Path_1_",
+	MAIN_MRITYU_SIKHATA_HUN: "main-mrityu-sikhata-hun/OSHO-Main_Mrityu_Sikhata_Hun_",
 }
 
 var bookNoteConst = {
 	[bookPathConst.MAHA_GEETA]: noteMahaGeeta,
-	[bookPathConst.SUFIS_VOL_1]: noteSufisVol1
+	[bookPathConst.SUFIS_VOL_1]: noteSufisVol1,
+	[bookPathConst.MAIN_MRITYU_SIKHATA_HUN]: {}
 }
 
 var searchTagConst = {
@@ -453,6 +455,27 @@ var searchTagConst = {
 					<span class="search-tag">unknown penetrates life</span>, 
 				</p>`
 	},
+	[bookPathConst.MAIN_MRITYU_SIKHATA_HUN]: {
+		'01': [
+			"आत्मा की अमरता को वे ही जान सकते हैं, जो जीते जी मरने का प्रयोग कर लेते हैं।",
+			"समाधि का एक ही अर्थ है कि जो घटना मृत्यु में अपने आप घटती है, समाधि में साधक चेष्टा और प्रयास से सारे जीवन की ऊर्जा को सिकोड़कर भीतर ले जाता है, जानते हुए।",
+			"सिर्फ आधा घंटा भी कोई इस बात का संकल्प करे कि मैं वापस लौटना चाहता हूं, मैं मरना चाहता हूं, मैं डूबना चाहता हूं अपने भीतर, मैं अपनी सारी ऊर्जा को सिकोड़ लेना चाहता हूं",
+			"स्त्री और पुरुष के शरीर के मिलते ही एक विद्युत वृत्त, एक इलेक्ट्रिक सर्किल पूरा हो जाता है और वह जो बाहर निकल गई है चेतना, तीव्रता से भीतर वापस लौट आती है।",
+			"लोग आमतौर से कहते हैं कि योगी बहुत स्वस्थ होते हैं, लेकिन सचाई बिलकुल उलटी है। सचाई आज तक यह है कि योगी हमेशा रुग्ण रहा है और कम उम्र में मरता रहा है।",
+			"संकल्प से खींची जा सकती है ऊर्जा भीतर। सिर्फ संकल्प से, सिर्फ यह धारणा, सिर्फ यह भावना कि मैं अंदर वापस लौट आऊं, वापस लौट आऊं, वापस लौट आऊं--इसकी तीव्र पुकार, इसका तीव्र आंदोलन, पूरे प्राण इससे भर जाएं कि मैं भीतर वापस लौट आऊं--मैं केंद्र पर वापस लौट आऊं, मैं वापस लौट आऊं, मैं वापस लौट आऊं।",
+			"एक बार यह अनुभव हो जाए कि मैं अलग और यह शरीर अलग, मौत खतम हो गई।",
+			"इसके पहले कि सारे द्वार बंद हो जाएं, जिनमें थोड़ी भी सामर्थ्य और साहस है, उन्हें अपने पर प्रयोग करने चाहिए और चेष्टा करनी चाहिए भीतर जाने की, ताकि वे अनुभव कर सकें।",
+			"तो मैं तो राजी हो गया था इस बात पर बोलने के लिए सिर्फ इसलिए हो सकता है कि कोई हिम्मत का आदमी आ जाए, तो उसको मैं निमंत्रण दूंगा कि मेरी तैयारी है भीतर ले चलने की, तुम्हारी तैयारी हो तो आ जाओ। वहां बताया जा सकता है कि जीवन क्या है और मृत्यु क्या है।"
+		]
+	}
+}
+
+function myCopyFunction() {
+	navigator.clipboard.readText()
+	.then((text) => {
+		// console.log('text copied', text);
+		$('#descJson').val(text)
+	});
 }
 
 $(document).ready(function() {
@@ -461,7 +484,7 @@ $(document).ready(function() {
 	// var note = path === bookPathConst.SUFIS_VOL_1 ? noteSufisVol1 : noteMahaGeeta
 	var note = bookNoteConst[path];
 
-	$('body').addClass('dark-mode hide-settings hide-json-editor show-calendar'); // show-calendar dark-mode has-background
+	$('body').addClass('dark-mode hide-settings'); // show-calendar hide-json-editor dark-mode has-background
 
 	var cutSecondsArr = [];
 
@@ -579,6 +602,17 @@ $(document).ready(function() {
 		})
 	})
 
+	var winWidth = $(window).width();
+	var jsonEditorMarkup = `<div class="note-jsoneditor">
+		<input id="timeJson" type="text" value="" placeholder="0:0:0" style="text-align: center;" />
+		<input id="descJson" type="text" value="" />
+		<input id="updateNoteJson" type="button" value="Add" title="Press a" />
+
+		<div id="jsoneditor" style="width: 100%; height: 440px;"></div>
+	</div>`
+	var jsonEditorMarkupMobile = winWidth < 768 ? jsonEditorMarkup : '';
+	var jsonEditorMarkupWeb = winWidth >= 768 ? jsonEditorMarkup : '';
+
 	var noteMarkup = `
 		<a href="#" id="top">Top</a>
 		<div class="pending-task">
@@ -605,29 +639,6 @@ $(document).ready(function() {
 		</div>
 
 		
-    <div class="note-jsoneditor">
-
-			<input id="timeJson" type="text" value="" placeholder="0:0:0" style="text-align: center;" />
-      <textarea id="descJson"></textarea>
-      <input id="updateNoteJson" type="button" value="Add" />
-
-			<div id="jsoneditor" style="width: 100%; height: 440px;"></div>
-			
-			<script src="../js/custom-jsoneditor.js"></script>
-			<style>
-				.note-jsoneditor {
-						position: fixed;
-						right: 10px;
-						z-index: 1;
-						width: 38%;
-						margin-top: 58px;
-				}
-				.note-jsoneditor input, .note-jsoneditor textarea {
-						width: 100%;
-						margin-bottom: 8px;
-				}
-			</style>
-    </div>
 
 		<div class="audio">
 			<div class="audio-goto">
@@ -637,9 +648,12 @@ $(document).ready(function() {
 				<input type="text" id="hms" value="0:0:0" class="mb-2" />
 				<button id="goto-btn" type="button" class="btn btn-dark mb-2" title="Press g">Go</button>
 
-				<button id="" type="button" class="btn btn-dark mb-2" data-toggle="modal" data-target="#modalSettings" title="Settings">Settings</button>
-
 				<button id="" type="button" class="btn btn-dark mb-2" data-toggle="modal" data-target="#modalCut" title="Cut">Cut (${note[file]?.length || 0})</button>
+
+				<button id="btn-goto-predicted" type="button" class="btn btn-dark mb-2" title="">Go to Predicted</button>
+				<button id="btn-scrollto-predicted" type="button" class="btn btn-dark mb-2" title="">Scroll to Predicted</button>
+				
+				<button id="" type="button" class="btn btn-dark mb-2" data-toggle="modal" data-target="#modalSettings" title="Settings">Settings</button>
 				
 				<button id="calendar-btn" type="button" class="btn btn-dark mb-2">Calendar</button>
 
@@ -683,6 +697,8 @@ $(document).ready(function() {
 				<a href="../js/custom.zip" class="custom-zip btn btn-dark mb-2">custom.zip</a>
 				<a href="../css/style.zip" class="style-zip btn btn-dark mb-2">style.zip</a>
 				<a href="../../maha-geeta.zip" class="maha-geeta-zip btn btn-dark mb-2">maha-geeta.zip</a>
+				<a href="../js/custom.js" class="btn btn-dark mb-2">custom.js</a>
+				<a href="../../note/note-combined.js" class="btn btn-dark mb-2">note-combined.js</a>
 				<br>
 				<br>
 
@@ -691,7 +707,7 @@ $(document).ready(function() {
 				<br>
 				
 				<div id="getLocalIP"></div>
-				<script src="../js/getLocalIP.js"></script>
+				<script src="../../maha-geeta/js/getLocalIP.js"></script>
 				<br>
 
 				<input value="${file}" id="next-page-input" style="width: 50px;">
@@ -718,6 +734,25 @@ $(document).ready(function() {
 		        </button>
 		      </div>
 		      <div class="modal-body cut-list">
+								
+						${jsonEditorMarkupMobile}
+						<script src="../../maha-geeta/js/custom-jsoneditor.js"></script>
+						<style>
+							/* .note-jsoneditor {
+									position: fixed;
+									right: 10px;
+									z-index: 1;
+									width: 38%; 
+									margin-top: 58px;
+							} */
+							.note-jsoneditor input {
+								height: 30px;
+								font-size: 13px;
+								line-height: 13px;
+								margin-bottom: 8px;
+								width: 100%;
+							}
+						</style>
 
 						<div class="search-tag-list">
 							${searchMarkup}
@@ -748,12 +783,16 @@ $(document).ready(function() {
 				<input type="text" class="t1" name="t1" value="" placeholder="Search in page" />
 				<input type="submit" name="b1" value="Find" />
 			</form>
-			<script src="../js/findString.js"></script>
+			<script src="../../maha-geeta/js/findString.js"></script>
 
 			<!-- switch cut list -->
-			<input id="switch-cut-list-input" type="text" placeholder="Switch cut list e.g 1 to 91" />
-			<input type="button" id="switch-cut-list-button" value="Switch" />
+			<div class="mb-3">
+				<input id="switch-cut-list-input" type="text" placeholder="Switch cut list e.g 1 to 91" />
+				<input type="button" id="switch-cut-list-button" value="Switch" />
+			</div>
 
+			<!-- jsoneditor -->
+			${jsonEditorMarkupWeb}
 			<div class="cut-list-wrap"></div>
 		`;
 
@@ -931,6 +970,49 @@ $(document).ready(function() {
 	})
 
 
+	// on scroll - predict seconds in mp3
+	// window.addEventListener("scroll", (event) => {
+  //   let scroll = this.scrollY;
+	// 	goToPredicted(scroll)
+	// });
+
+	function goToPredicted(scroll) {
+		// console.log('scroll', scroll)
+		let audioDuration = document.getElementById('audio').duration;
+		// console.log('audioDuration', audioDuration)
+		let hasTimeHeight = $('#has-time').height();
+		let scrollPercent = scroll/hasTimeHeight*100;
+
+		let secondsPredicted = parseInt(audioDuration*scrollPercent/100);
+		// console.log('secondsPredicted', secondsPredicted);
+
+		if(!isNaN(secondsPredicted)) {
+			document.getElementById('audio').currentTime = secondsPredicted;	
+		}
+	}
+
+	$('#btn-goto-predicted').click(function() {
+		let scroll = window.scrollY;
+		goToPredicted(scroll)
+	})
+	$('#btn-scrollto-predicted').click(function() {
+		scrollToPredicted()
+	})
+
+	function scrollToPredicted() {
+		let audioDuration = document.getElementById('audio').duration;
+		let currentTime = document.getElementById('audio').currentTime;
+		let secondsPercent = currentTime/audioDuration*100;
+
+		let hasTimeHeight = $('#has-time').height();
+		let scrollPosition = hasTimeHeight * secondsPercent / 100
+
+		// window.scrollTo(0, scrollPosition);
+		$('html, body').animate({
+			scrollTop: scrollPosition // "#myDiv"
+		}, 2000);
+	}
+
 
 	// var unique_input = nepalify.interceptElementById("unique-input")
 
@@ -979,7 +1061,7 @@ $(document).ready(function() {
 
 	    // showTime(time)
 	    document.getElementById("hms").value = time;
-	    document.getElementById("timeJson").value = time;
+	    // document.getElementById("timeJson").value = time;
 
 	    // var copyText = document.getElementById("hms");
 	    copyToClipboard(time);
@@ -1088,6 +1170,10 @@ $(document).ready(function() {
 	        	togglePause();
 	        }, 500)
 	        break;
+
+				case "a":
+					$('#updateNoteJson').trigger('click');
+					break;
 
 	      case "g":
 	        $('#goto-btn').trigger('click');
@@ -1384,5 +1470,5 @@ $(document).ready(function() {
     	} 
     );
 	
-	document.querySelector( '#editor' ) && $('body').removeClass('hide-json-editor');
+	// document.querySelector( '#editor' ) && $('body').removeClass('hide-json-editor');
 });

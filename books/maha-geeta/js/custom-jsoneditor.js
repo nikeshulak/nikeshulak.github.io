@@ -42,10 +42,18 @@ $(document).ready(function() {
     var timeJson = $('#timeJson').val();
     var descJson = $('#descJson').val();
 
-    noteArr.push({
-      time: timeJson,
-      desc: descJson
-    })
+    // console.log('timeJson', timeJson)
+    // console.log('descJson', descJson)
+
+    timeJson ? 
+      noteArr.push({
+        time: timeJson,
+        desc: descJson
+      })
+      :
+      noteArr.push(
+        descJson
+      )
 
     // console.log('noteArr', noteArr);
 
