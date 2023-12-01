@@ -569,7 +569,7 @@ $(document).ready(function() {
 		var scripts = document.getElementsByTagName('script');
 		var script = scripts[scripts.length - 1];
 		var scriptURL = script.src;
-		// console.log(scriptURL);
+		console.log(scriptURL);
 
 		// https://stackoverflow.com/questions/979975/get-the-values-from-the-get-parameters-javascript
 		var url = new URL(scriptURL); // url_string
@@ -581,7 +581,7 @@ $(document).ready(function() {
 	// var file = '01';
 	var file = get_parameters_javascript("file");
 
-	// console.log('file', file)
+	console.log('file', file)
 	// /widgets/calendar-full.php 705px
 	var searchMarkup = '';
 	var noteFileArr = [
@@ -608,6 +608,7 @@ $(document).ready(function() {
 		<input id="descJson" type="text" value="" />
 		<input id="updateNoteJson" type="button" value="Add" title="Press a" />
 
+		<div id="jsonText"></div>
 		<div id="jsoneditor" style="width: 100%; height: 440px;"></div>
 	</div>`
 	var jsonEditorMarkupMobile = winWidth < 768 ? jsonEditorMarkup : '';
@@ -697,6 +698,7 @@ $(document).ready(function() {
 				<a href="../js/custom.zip" class="custom-zip btn btn-dark mb-2">custom.zip</a>
 				<a href="../css/style.zip" class="style-zip btn btn-dark mb-2">style.zip</a>
 				<a href="../../maha-geeta.zip" class="maha-geeta-zip btn btn-dark mb-2">maha-geeta.zip</a>
+				<a href="../../main-mrityu-sikhata-hun.zip" class="btn btn-dark mb-2">main-mrityu-sikhata-hun.zip</a>
 				<a href="../js/custom.js" class="btn btn-dark mb-2">custom.js</a>
 				<a href="../../note/note-combined.js" class="btn btn-dark mb-2">note-combined.js</a>
 				<br>
@@ -707,7 +709,6 @@ $(document).ready(function() {
 				<br>
 				
 				<div id="getLocalIP"></div>
-				<script src="../../maha-geeta/js/getLocalIP.js"></script>
 				<br>
 
 				<input value="${file}" id="next-page-input" style="width: 50px;">
@@ -736,7 +737,7 @@ $(document).ready(function() {
 		      <div class="modal-body cut-list">
 								
 						${jsonEditorMarkupMobile}
-						<script src="../../maha-geeta/js/custom-jsoneditor.js"></script>
+						<!-- <script src="../../maha-geeta/js/custom-jsoneditor.js"></script> -->
 						<style>
 							/* .note-jsoneditor {
 									position: fixed;
@@ -780,14 +781,13 @@ $(document).ready(function() {
 			
 			<!-- find string in page -->
 			<form name="f1" id="f1" action="" class="mb-3">
-				<input type="text" class="t1" name="t1" value="" placeholder="Search in page" />
+				<input type="text" class="t1" name="t1" value="" placeholder="Search in page" style="width: 200px;" />
 				<input type="submit" name="b1" value="Find" />
 			</form>
-			<script src="../../maha-geeta/js/findString.js"></script>
 
 			<!-- switch cut list -->
 			<div class="mb-3">
-				<input id="switch-cut-list-input" type="text" placeholder="Switch cut list e.g 1 to 91" />
+				<input id="switch-cut-list-input" type="text" placeholder="Switch cut list e.g 1 to 91" style="width: 200px;" />
 				<input type="button" id="switch-cut-list-button" value="Switch" />
 			</div>
 
@@ -801,6 +801,17 @@ $(document).ready(function() {
 	$('#note').html(noteMarkup);
 	// end note markup
 
+
+	// simple
+  $('#updateNoteJson').click(function() {
+    var updatedJson = $('#jsonText').text();
+    
+    var timeJson = $('#timeJson').val();
+    var descJson = $('#descJson').val();
+
+    $('#jsonText').text(updatedJson + `, "${descJson}"`)
+		$('#descJson').val('');
+  })
 
 	// cutListMarkup
 	var cutListMarkup = '';
