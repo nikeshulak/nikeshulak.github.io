@@ -225,11 +225,11 @@ body:not(.hide-settings) .audio-goto {
         padding-top: 230px;
     }
     .audio #audio-wrap {
-        width: 50%;
+        width: 300px;
         float: right;
     }
     .audio-goto {
-        width: 500px;
+        width: 660px;
         float: left;
         margin-bottom: 0px;
     }

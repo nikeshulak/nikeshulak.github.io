@@ -32,8 +32,3 @@ function findString(str) {
     if (!strFound) alert("String '" + str + "' not found!")
         return;
 };
-
-document.getElementById('f1').onsubmit = function() {
-    findString(this.t1.value);
-    return false;
-};
