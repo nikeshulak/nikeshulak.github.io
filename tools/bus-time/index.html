@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bus time</title>
+	<style type="text/css">
+table {
+    border-top: 1px solid #666;
+    border-left: 1px solid #666;
+    width: 100%;
+}
+
+table tr td, table tr th {
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
+    padding: 5px 10px;
+    text-align: left;
+}
+button {
+    height: 30px;
+}
+
+span {
+    margin-right: 8px;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+tr.added-time {
+    background: lightgreen;
+}
+	</style>
+</head>
+<body>
+	<div id="todayDate" style="margin-bottom: 10px;"></div>
+	<div id="busStop">
+		<table cellpadding="0" cellspacing="0">
+			<tbody>
+			</tbody>
+		</table>
+	</div>
+
+	<script src="../../js/jquery.min.js"></script>
+
+	<script>
+		var busStop = [
+			'Dekocha',
+			'Dudhpati / Siddhapokhari',
+			'Sallaghari',
+			'Shreejananagar',
+			'Radheradhe',
+			'Madhyapur Thimi',
+			'Gathaghar',
+			'Kausaltar',
+			'Lokanthali',
+			'Jadibuti',
+			'Koteshwor',
+			'Tinkune',
+			'Baneshwor',
+			'Maitighar',
+		]
+
+		$(document).ready(function() {
+			var date = new Date();
+			var year = date.getFullYear();
+			var month = date.getMonth(); // beware: January = 0; February = 1, etc.
+			var day = date.getDate();
+			var dayOfWeek = date.getDay(); // Sunday = 0, Monday = 1, etc.
+
+			var monthObj = {
+				0: "Jan",
+				1: "Feb",
+				2: "Mar",
+				3: "Apr",
+				4: "May",
+				5: "Jun",
+				6: "Jul",
+				7: "Aug",
+				8: "Sep",
+				9: "Oct",
+				10: "Nov",
+				11: "Dec",
+			}
+			var dayObj = {
+				0: "Sun",
+				1: "Mon",
+				2: "Tue",
+				3: "Wed",
+				4: "Thu",
+				5: "Fri",
+				6: "Sat",
+			}
+			$('#todayDate').text(`${dayObj[dayOfWeek]}, ${day} ${monthObj[month]} ${year}`);
+
+			busStop.forEach(busStopItem)
+
+			var itemMarkup = '';
+			function busStopItem(item, index) {
+			  itemMarkup = `
+				<tr class="">
+					<th width="40%">${item}</th>
+					<td width="60%">
+						<span id="busStopItem-${index}"></span>
+
+						<button id="get-time-${index}">Get time</button>
+					</td>
+				</tr>			  
+			  `; 
+
+			  $('#busStop table tbody').append(itemMarkup);
+
+			  $(`#get-time-${index}`).click(function() {
+			  	var date = new Date();
+			  	var seconds = date.getSeconds();
+				var minutes = date.getMinutes();
+				var hour = date.getHours();
+			  	$(`#busStopItem-${index}`).text( `${hour}:${minutes}:${seconds}` );
+			  	$(this).closest('tr').addClass('added-time');
+			  })
+			}
+		})
+
+
+	</script>
+</body>
+</html>
