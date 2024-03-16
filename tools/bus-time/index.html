@@ -32,10 +32,19 @@ body {
 tr.added-time {
     background: lightgreen;
 }
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
 	</style>
 </head>
 <body>
-	<div id="todayDate" style="margin-bottom: 10px;"></div>
+	<div class="clearfix" style="margin-bottom: 10px;">
+		<div id="todayDate" style="float: left;"></div>
+
+		<button id="resetTime" style="float: right;">Clear all time</button>
+	</div>
 	<div id="busStop">
 		<table cellpadding="0" cellspacing="0">
 			<tbody>
@@ -43,10 +52,11 @@ tr.added-time {
 		</table>
 	</div>
 
-	<script src="../../js/jquery.min.js"></script>
+	<script src="./jquery.min.js"></script>
 
 	<script>
 		var busStop = [
+			'Kamalbinayak',
 			'Dekocha',
 			'Dudhpati / Siddhapokhari',
 			'Sallaghari',
@@ -63,7 +73,7 @@ tr.added-time {
 			'Maitighar',
 		]
 
-		$(document).ready(function() {
+		function getTodayDate() {
 			var date = new Date();
 			var year = date.getFullYear();
 			var month = date.getMonth(); // beware: January = 0; February = 1, etc.
@@ -93,7 +103,12 @@ tr.added-time {
 				5: "Fri",
 				6: "Sat",
 			}
+			console.log(`${dayObj[dayOfWeek]}, ${day} ${monthObj[month]} ${year}`);
 			$('#todayDate').text(`${dayObj[dayOfWeek]}, ${day} ${monthObj[month]} ${year}`);
+		}
+
+		$(document).ready(function() {
+			getTodayDate();
 
 			busStop.forEach(busStopItem)
 
@@ -103,7 +118,7 @@ tr.added-time {
 				<tr class="">
 					<th width="40%">${item}</th>
 					<td width="60%">
-						<span id="busStopItem-${index}"></span>
+						<span class="busStopItem" id="busStopItem-${index}"></span>
 
 						<button id="get-time-${index}">Get time</button>
 					</td>
@@ -121,6 +136,17 @@ tr.added-time {
 			  	$(this).closest('tr').addClass('added-time');
 			  })
 			}
+
+			$('#resetTime').click(function() {
+				getTodayDate();
+				if (confirm("Are you sure you want to clear all time!") == true) {
+				 	// text = "You pressed OK!";
+					$('table tr').removeClass('added-time');
+					$('.busStopItem').text('');
+				} else {
+				  // text = "You canceled!";
+				}
+			})
 		})
 
 
