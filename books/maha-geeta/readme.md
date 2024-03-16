@@ -1,4 +1,5 @@
 sudo chmod u+x curlrequests.sh
+sudo chmod u+x curl.sh
 
 \\wsl.localhost\Ubuntu\var\www\html\videos\osho-maha-geeta\cbr
 \\192.168.16.101\htdocs\videos\osho-maha-geeta\cbr
