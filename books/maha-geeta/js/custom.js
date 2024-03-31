@@ -788,8 +788,19 @@ $(document).ready(function() {
 				<br>
 				<div><a href="file://wsl.localhost/Ubuntu/var/www/html/nikeshulak.github.io/books/">file://wsl.localhost/Ubuntu/var/www/html/nikeshulak.github.io/books/</a></div>
 
-				<input value="${file}" id="next-page-input" style="width: 50px;">
+				Page: 
+				<button class="btn btn-dark" id="next-page-input-minus">-</button>
+				<input type="number" value="${file}" id="next-page-input" style="width: 50px;">
+				<button class="btn btn-dark" id="next-page-input-plus">+</button>
 				<button class="btn btn-dark" id="next-page-btn">Go</button>
+				<br>
+				<br>
+
+				Font: 
+				<button class="btn btn-dark" id="body-font-input-minus">-</button>
+				<input value="26" id="body-font-input" style="width: 50px;">
+				<button class="btn btn-dark" id="body-font-input-plus">+</button>
+				<button class="btn btn-dark" id="body-font-btn">Go</button>
 				<br>
 				<br>
 				
@@ -1491,6 +1502,38 @@ $(document).ready(function() {
 		}
 	})
 	
+	$('#next-page-input-minus').click(function() {
+		var next_page_input = $('#next-page-input').val();
+		var new_val = parseInt(next_page_input) - 1
+		$('#next-page-input').val(
+			("0" + new_val).slice(-2)
+		);
+	})
+	
+	$('#next-page-input-plus').click(function() {
+		var next_page_input = $('#next-page-input').val();
+		var new_val = parseInt(next_page_input) + 1
+		$('#next-page-input').val(
+			("0" + new_val).slice(-2)
+		);
+	})
+	
+	$('#body-font-input-minus').click(function() {
+		var next_page_input = $('#body-font-input').val();
+		var new_val = parseInt(next_page_input) - 1
+		$('#body-font-input').val(
+			("0" + new_val).slice(-2)
+		);
+	})
+	
+	$('#body-font-input-plus').click(function() {
+		var next_page_input = $('#body-font-input').val();
+		var new_val = parseInt(next_page_input) + 1
+		$('#body-font-input').val(
+			("0" + new_val).slice(-2)
+		);
+	})
+	
 	$('#next-page-btn').click(function() {
 		var next_page_input = $('#next-page-input').val();
 		var next_page_url = './'+next_page_input+'.html'
@@ -1499,6 +1542,12 @@ $(document).ready(function() {
 
 		window.location.href = next_page_url;
 	})
+
+	$('#body-font-btn').click(function() {
+		var input = $('#body-font-input').val();
+		$('body').css('font-size', input+'px');
+	})
+	
 
 	$('#cut-text-btn').click(function() {
 		var input = $('#cut-text-input').val();
