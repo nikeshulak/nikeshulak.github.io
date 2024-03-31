@@ -403,3 +403,17 @@ blockquote p {
     line-height: 1.27em;
     font-weight: 500;
 }
+
+.read-progress-bar {
+    height: 8px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #d2d2d2;
+}
+.read-progress-bar .progress-percent {
+    background: #2ce080;
+    height: 100%;
+    width: 0%;
+}
