@@ -4,6 +4,13 @@
   <body>
     <style>
       body {margin: 0; background-color: #000;}
+      body, html,
+      .h-100 {
+        height: 100%;
+      }
+      * {
+          box-sizing: border-box;
+      }
     </style>
   <script src="https://unpkg.com/gojs@2.3.16/release/go.js"></script>
   <!-- <p>
@@ -14,7 +21,7 @@
     <a href="https://github.com/NorthwoodsSoftware/GoJS/blob/master/samples/orgChartEditor.html">full source on Github</a>
     and copy other files or scripts.
   </p> -->
-  <div id="allSampleContent" class="p-4 w-full">
+  <div id="allSampleContent" class="p-4 w-full h-100">
 
   <link rel="stylesheet" href="https://unpkg.com/gojs@2.3.16/extensions/DataInspector.css">
   <script src="https://unpkg.com/gojs@2.3.16/extensions/DataInspector.js"></script>
@@ -337,12 +344,24 @@ function init() {
   //   });
 
   // Setup zoom to fit button
-  document.getElementById('zoomToFit').addEventListener('click', () => myDiagram.commandHandler.zoomToFit());
+  // document.getElementById('zoomToFit').addEventListener('click', () => myDiagram.commandHandler.zoomToFit());
+
+  // $(window).load(function() {
+  //   setTimeout(function() {
+  //   //   myDiagram.scale = 1;
+  //   //   myDiagram.commandHandler.scrollToPart(myDiagram.findNodeForKey(1));
+  //     document.getElementById('centerRoot').click();
+  //   }, 2000)
+  // })
 
   document.getElementById('centerRoot').addEventListener('click', () => {
     myDiagram.scale = 1;
     myDiagram.commandHandler.scrollToPart(myDiagram.findNodeForKey(1));
   });
+
+  setTimeout(function() {
+    document.getElementById('centerRoot').click();
+  }, 100)
 } // end init
 
 
@@ -366,15 +385,17 @@ function load() {
 window.addEventListener('DOMContentLoaded', init);
   </script>
 
-<div id="sample" style="">
-  <div id="myDiagramDiv" style="background-color: rgb(52, 52, 60); border: 1px solid black; height: 570px; position: relative; -webkit-tap-highlight-color: rgba(255, 255, 255, 0);"><canvas tabindex="0" width="1054" height="551" style="position: absolute; top: 0px; left: 0px; z-index: 2; user-select: none; touch-action: none; width: 1054px; height: 551px;"></canvas><div style="position: absolute; overflow: auto; width: 1054px; height: 568px; z-index: 1;"><div style="position: absolute; width: 1748.83px; height: 1px;"></div></div></div>
+<div id="sample" class="h-100">
+  <div id="myDiagramDiv" class="h-100" style="background-color: rgb(52, 52, 60); border: 1px solid black; min-height: 570px; position: relative; -webkit-tap-highlight-color: rgba(255, 255, 255, 0);"><canvas tabindex="0" width="1054" height="551" style="position: absolute; top: 0px; left: 0px; z-index: 2; user-select: none; touch-action: none; width: 1054px; height: 551px;"></canvas><div style="position: absolute; overflow: auto; width: 1054px; height: 568px; z-index: 1;"><div style="position: absolute; width: 1748.83px; height: 1px;"></div></div></div>
   <!-- <div>
     Edit details:<br>
     <div id="myInspector" class="inspector"></div>
   </div> -->
-<!--   
-  <p><button id="zoomToFit">Zoom to Fit</button> <button id="centerRoot">Center on root</button></p>
+
   <p>
+    <!-- <button id="zoomToFit">Zoom to Fit</button>  -->
+    <button id="centerRoot" style="position: absolute; z-index: 3; top: 0; right: 0;">Center on root</button></p>
+  <!-- <p>
     This editable organizational chart sample color-codes the Nodes according to the tree level in the hierarchy.
   </p>
   <p>
