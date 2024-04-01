@@ -21,6 +21,7 @@ var bookPathConst = {
 	SUFIS_VOL_1: "sufis/vol-1/cbr/OSHO-Sufis_The_People_of_Path_1_",
 	MAIN_MRITYU_SIKHATA_HUN: "main-mrityu-sikhata-hun/OSHO-Main_Mrityu_Sikhata_Hun_",
 	MAHAVEER_VANI: "mahaveer-vani/OSHO-Mahaveer_Vani_",
+	SUPERIORMAN: "the-way-of-superiorman",
 }
 
 var bookNoteConst = {
@@ -28,6 +29,7 @@ var bookNoteConst = {
 	[bookPathConst.SUFIS_VOL_1]: noteSufisVol1,
 	[bookPathConst.MAIN_MRITYU_SIKHATA_HUN]: {},
 	[bookPathConst.MAHAVEER_VANI]: {},
+	[bookPathConst.SUPERIORMAN]: {},
 }
 
 var searchTagConst = {
@@ -524,6 +526,13 @@ var searchTagConst = {
 		],
 		
 	},
+	[bookPathConst.SUPERIORMAN]: {
+		'01': [
+			"Don't wait any longer. Don't believe in the myth of 'one day when everything will be different.' Do what you love to do, what you are waiting to do, what you've been born to do, now.", "The next time you notice yourself trying to fix your woman so that she will no longer (fill in the blank), relax and give her love by touching her and telling her that you love her when she is this way (whatever you filled in the blank with).", "Embrace her, or wrestle with her, or scream and yell for the heck of it, but make no effort to bring an end to that which pisses you off. Practice love instead of trying to bring an end to the quality that bothers you. You can't escape the tussle with the feminine.", "The love that you magnify may realign her behavior, but your effort to fix her and your frustration never will.", "Only when the front of your body is relaxed and opened, your breath full and deep, and your gaze unguarded and directly connected with another person's eyes, can your fullest intelligence manifest spontaneously in the situation.", "Make your life an ongoing process of being who you are, at your deepest, most easeful levels of being. Everything other than this process is secondary.", "Even for a moment, can you feel that which makes attention conscious and aware? Can you feel the deepest nature of attention? What happens when you simply, effortlessly, al ow attention to subside into its source?", "Feel into this source as deeply as possible, and then re-approach your work, intimacy, family, and creative efforts.", "When you make money, make money from this source. Find out what happens to the details of your life when you live more consistently from this source.", "If you are like most men, you have strong habits that rivet your attention to the events and tasks of the day. Days and nights fly by for years, and life slips through your fingers, your attention absorbed in the seeming world of necessary responsibilities. But al of it is empty if we do not live our responsibilities as expressions of our depth of being and heart-truth.", "Even if you find yourself in some trivial moment, watching TV or cleaning up a mess in the kitchen, feel the truth of who you are.", "If a woman suggests something that changes a man's perspective, then he should make a new decision based on his new perspective.", "Time you spend with your woman should be time you really want to be with her more than anything else. If you'd rather be doing something else, she'll feel it. Both of you will be dissatisfied.", 
+
+			// 8. Lean...
+		]
+	}
 }
 
 function myCopyFunction() {
@@ -727,6 +736,7 @@ $(document).ready(function() {
 				<button id="btn-scrollto-predicted" type="button" class="btn btn-dark mb-2" title="">Scroll to Predicted</button>
 				
 				<button id="" type="button" class="btn btn-dark mb-2" data-toggle="modal" data-target="#modalSettings" title="Settings">Settings</button>
+				<button class="btn btn-dark mb-2" onClick="window.scrollTo(0, 0);">Top</button>
 				
 				<button id="calendar-btn" type="button" class="btn btn-dark mb-2">Calendar</button>
 
