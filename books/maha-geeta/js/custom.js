@@ -547,6 +547,14 @@ function myCopyFunction() {
 }
 
 $(document).ready(function() {
+	// replace original content with numbering
+	var original = document.getElementById("has-time").innerHTML;
+	var count = 0;
+	document.getElementById("has-time").innerHTML = original.replace(/<br><br>/g, function(x){
+		count+=1;
+		return "<br><br>" + count + ". "
+	})
+
 	var path = get_parameters_javascript("path") || bookPathConst.MAHA_GEETA; // sufis/vol-1/OSHO-Sufis_The_People_of_Path_1_
 
 	// var note = path === bookPathConst.SUFIS_VOL_1 ? noteSufisVol1 : noteMahaGeeta
