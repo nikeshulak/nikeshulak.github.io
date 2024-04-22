@@ -20,7 +20,7 @@ var bookPathConst = {
 	MAHA_GEETA: "osho-maha-geeta/cbr/OSHO-Maha_Geeta_",
 	SUFIS_VOL_1: "sufis/vol-1/cbr/OSHO-Sufis_The_People_of_Path_1_",
 	MAIN_MRITYU_SIKHATA_HUN: "main-mrityu-sikhata-hun/OSHO-Main_Mrityu_Sikhata_Hun_",
-	MAHAVEER_VANI: "mahaveer-vani/OSHO-Mahaveer_Vani_",
+	MAHAVEER_VANI: "mahaveer-vani/cbr/OSHO-Mahaveer_Vani_",
 	SUPERIORMAN: "the-way-of-superiorman",
 }
 
@@ -661,12 +661,12 @@ $(document).ready(function() {
 		// '90', '91'
 	]
 	// search tag of a specific file
-	searchTagConst[path][file]?.forEach((item, index) => {
+	searchTagConst[path] ? searchTagConst[path][file]?.forEach((item, index) => {
 		searchMarkup += `<div class="search-tag search-tag-${index+1}">
 				<span class="index">${index+1}</span> 
 				<span class="text">${item}</span>
 			</div>`
-	})
+	}) : console.warn(`please update correct path in ${file}.html`, path)
 
 	// search tag of all file
 	// noteFileArr?.forEach((fileItem, fileIndex) => {
@@ -678,7 +678,10 @@ $(document).ready(function() {
 
 	var winWidth = $(window).width();
 	var jsonEditorMarkup = `<div class="note-jsoneditor">
-		<div id="jsonText"><textarea id="jsonTextTextarea" style="width: 100%; height: 350px; font-size: 16px; line-height: 20px; padding: 6px;"></textarea></div>
+		<div id="jsonText" class="mb-3"><textarea id="jsonTextTextarea" style="width: 100%; height: 250px; font-size: 16px; line-height: 20px; padding: 6px;"></textarea></div>
+
+		<iframe src="http://localhost/resources/read-clip/admin/?chapter=${file}" class="border-0" style="width: 100%; height: 540px;"></iframe>
+
 		<div id="jsoneditor" style="width: 100%; height: 440px;"></div>
 	</div>`
 	var jsonEditorMarkupMobile = winWidth < 768 ? jsonEditorMarkup : '';
@@ -719,7 +722,7 @@ $(document).ready(function() {
 				<input type="text" id="hms" value="0:0:0" class="mb-2" />
 				<button id="goto-btn" type="button" class="btn btn-dark mb-2" title="Press g">Go</button>
 
-				<button id="" type="button" class="btn btn-dark mb-2" data-toggle="modal" data-target="#modalCut" title="Cut">Cut (${note[file]?.length || 0})</button>
+				<button id="" type="button" class="btn btn-dark mb-2" data-toggle="modal" data-target="#modalCut" title="Cut">Cut (${note && (note[file]?.length || 0)})</button>
 
 				<button id="btn-goto-predicted" type="button" class="btn btn-dark mb-2" title="">
 					Go to Predicted
@@ -884,7 +887,7 @@ $(document).ready(function() {
 			<!-- find string in page -->
 			<form name="f1" id="f1" action="" class="mb-3">
 				<input type="text" class="t1" name="t1" value="" placeholder="Search in page" style="width: 200px;" />
-				<input type="submit" name="b1" value="Find" />
+				<input type="submit" class="find-btn" name="b1" value="Find" />
 			</form>
 
 			<!-- switch cut list -->
@@ -940,7 +943,7 @@ $(document).ready(function() {
 	// cutListMarkup
 	var cutListMarkup = '';
 	// notes of a specific file
-	note[file]?.forEach((item, index) => {
+	note && note[file]?.forEach((item, index) => {
       cutListMarkup += getCutItemMarkup(item);
 	});
 
@@ -1026,22 +1029,33 @@ $(document).ready(function() {
 	searchTagFunc();
 	
 	function searchTagFunc() {
-		$('.total-search-tag').text(searchTagConst[path][file]?.length);
+		searchTagConst[path] && $('.total-search-tag').text(searchTagConst[path][file]?.length);
 
 		$('.search-tag').click(function() {
 			var text = $(this).children('.text').text();
 
 			$('#cut-list-search').val( text );
+
+			// close modal
+			$('.modal .close').trigger('click');
 			
 			// also add the text to search inside page
 			$('.t1').val( text );
+			setTimeout(function() {
+				$('.find-btn').trigger('click');
+				
+				setTimeout(function() {
+					$('.find-btn').trigger('click');
+				}, 200)
+			}, 200)
 	
 			// search in all cut list
 			// $('#btn-cut-list-search-all').trigger('click');
 	
-			$('#modalCut').animate({
-				scrollTop: $('#cut-list-search').offset().top - 0 // "#myDiv"
-			}, 2000);
+			// added for cut
+			// $('#modalCut').animate({
+			// 	scrollTop: $('#cut-list-search').offset().top - 0 // "#myDiv"
+			// }, 2000);
 		})
 
 		// hide search tag
