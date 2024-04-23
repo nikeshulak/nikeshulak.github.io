@@ -417,3 +417,17 @@ blockquote p {
     height: 100%;
     width: 0%;
 }
+
+/* #has-time label input:checked ~ span {
+    background-color: rgba(255,255,255,0.15);
+} */
+#has-time label.selected {
+    background-color: rgba(255,255,255,0.15);
+}
+#has-time label input {
+    margin-right: 5px;
+}
+
+#has-time label {
+    padding: 8px;
+}

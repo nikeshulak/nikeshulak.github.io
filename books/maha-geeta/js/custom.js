@@ -21,6 +21,7 @@ var bookPathConst = {
 	SUFIS_VOL_1: "sufis/vol-1/cbr/OSHO-Sufis_The_People_of_Path_1_",
 	MAIN_MRITYU_SIKHATA_HUN: "main-mrityu-sikhata-hun/OSHO-Main_Mrityu_Sikhata_Hun_",
 	MAHAVEER_VANI: "mahaveer-vani/cbr/OSHO-Mahaveer_Vani_",
+	KAHE_KABIR_DIWANA: "kahe-kabir-diwana/OSHO-Kahe_Kabir_Diwana_",
 	SUPERIORMAN: "the-way-of-superiorman",
 }
 
@@ -29,6 +30,7 @@ var bookNoteConst = {
 	[bookPathConst.SUFIS_VOL_1]: noteSufisVol1,
 	[bookPathConst.MAIN_MRITYU_SIKHATA_HUN]: {},
 	[bookPathConst.MAHAVEER_VANI]: {},
+	[bookPathConst.KAHE_KABIR_DIWANA]: {},
 	[bookPathConst.SUPERIORMAN]: {},
 }
 
@@ -532,13 +534,16 @@ var searchTagConst = {
 
 			// 8. Lean...
 		]
-	}
+	},
+	[bookPathConst.KAHE_KABIR_DIWANA]: {
+		
+	},
 }
 
 function myCopyFunction() {
 	navigator.clipboard.readText()
 	.then((text) => {
-		// console.log('text copied', text);
+		console.log('text copied', text);
 		if(text != "") {
 			$('#descJson').val(text.trim());
 			$('#updateNoteJson').trigger('click');
@@ -546,14 +551,11 @@ function myCopyFunction() {
 	});
 }
 
-$(document).ready(function() {
-	// replace original content with numbering
-	var original = document.getElementById("has-time").innerHTML;
-	var count = 0;
-	document.getElementById("has-time").innerHTML = original.replace(/<br><br>/g, function(x){
-		count+=1;
-		return "<br><br>" + count + ". "
-	})
+function getNewHtmlMarkup(item, index) {
+	return `<label><input type="checkbox" value="${index}" />${index}. <span>${item}</span></label><br><br>`;
+}
+
+$(document).ready(function() {	
 
 	var path = get_parameters_javascript("path") || bookPathConst.MAHA_GEETA; // sufis/vol-1/OSHO-Sufis_The_People_of_Path_1_
 
@@ -796,7 +798,8 @@ $(document).ready(function() {
 				<a href="../css/style.zip" class="style-zip btn btn-dark mb-2">style.zip</a> -->
 				<a href="../../maha-geeta.zip" class="maha-geeta-zip btn btn-dark mb-2">maha-geeta.zip</a>
 				<a href="../../main-mrityu-sikhata-hun.zip" class="btn btn-dark mb-2">main-mrityu-sikhata-hun.zip</a>
-				<a href="../../maha-geeta/js/custom.js" class="btn btn-dark mb-2">custom.js</a>
+				<a href="../../maha-geeta/js/custom.js" class="btn btn-dark mb-2" download>custom.js</a>
+				<a href="../../maha-geeta/css/style.css" class="btn btn-dark mb-2" download>style.css</a>
 				<a href="../../note/note-combined.js" class="btn btn-dark mb-2">note-combined.js</a>
 				<br>
 				<br>
@@ -920,12 +923,8 @@ $(document).ready(function() {
     return false;
 	};
 
-	// simple
-  $('#updateNoteJson').click(function() {
-    var oldJson = $('#jsonText textarea').val();
-    
-    var timeJson = $('#timeJson').val();
-    var descJson = $('#descJson').val();
+	function updateNoteJson(descJson) {
+		var oldJson = $('#jsonText textarea').val();
 
 		var updatedJson = oldJson != '' ? oldJson + `, "${descJson}"` : `"${descJson}"`
 
@@ -946,6 +945,14 @@ $(document).ready(function() {
 
 		// get predicted %
 		$('#btn-goto-predicted').trigger('click');
+	}
+	// simple
+  $('#updateNoteJson').click(function() {
+    
+    var timeJson = $('#timeJson').val();
+    var descJson = $('#descJson').val();
+
+		updateNoteJson(descJson)		
   })
 
 	// cutListMarkup
@@ -1684,4 +1691,65 @@ $(document).ready(function() {
     );
 	
 	// document.querySelector( '#editor' ) && $('body').removeClass('hide-json-editor');
+
+	
+	// replace original content with numbering
+	/*
+	var original = document.getElementById("has-time").innerHTML;
+	var count = 0;
+	document.getElementById("has-time").innerHTML = original.replace(/<br><br>/g, function(x){
+		count+=1;
+		return "<br><br>" + count + ". "
+	})
+	*/
+
+	var originalHtml = $("#has-time").html();
+	var originalHtmlArr = originalHtml.split("<br><br>");
+	var newHtmlMarkup = "";
+	originalHtmlArr.forEach((item, index) => {
+		newHtmlMarkup += getNewHtmlMarkup(item, index);
+	});
+	
+	// myCopyFunction() doesn't work after this
+	$("#has-time").html(newHtmlMarkup 
+		+ 
+		`<script>
+			// copied from above
+			function updateNoteJson(descJson) {
+				var oldJson = $('#jsonText textarea').val();
+
+				var updatedJson = oldJson != '' ? oldJson + ", " + descJson : descJson
+
+				var updatedJsonArr = updatedJson.split('", ');
+				var updatedJsonArrCount = updatedJsonArr?.length
+				// console.log('updatedJson', updatedJson)
+				// console.log('updatedJsonArr', updatedJsonArr)
+				// console.log('updatedJsonArrCount', updatedJsonArrCount)
+
+				$('#jsonText textarea').val(updatedJson)
+
+				console.log('updatedJsonArrCount', updatedJsonArrCount)
+				$('#updateNoteJsonCount').text(updatedJsonArrCount + " note")
+				$('#descJson').val('');
+
+				// scroll to bottom of textarea
+				var textarea = document.getElementById('jsonTextTextarea');
+				textarea.scrollTop= textarea.scrollHeight;
+
+				// get predicted %
+				$('#btn-goto-predicted').trigger('click');
+			}
+
+			$("#has-time label input").change(function() {
+				if($(this).is(":checked")) {
+					$(this).parent().addClass("selected");
+
+					updateNoteJson('"'+$(this).val()+'"')
+				}
+				else{
+					$(this).parent().removeClass("selected");
+				}
+			})
+		</script>`
+	);
 });
