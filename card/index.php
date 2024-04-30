@@ -942,7 +942,7 @@ http://localhost/nikeshulak.github.io/card/index.php?name=Mangala%20Sangami&numb
 
 <div class="float-right name-changer" style="width: 515px;">
 	<form action="index.php" method="get">
-		<input type="text" name="name" value="<?php echo $name;?>" placeholder="Name">
+		<input type="text" id="name" name="name" value="<?php echo $name;?>" placeholder="Name">
 		<!-- <input type="text" name="time" value="<?php // echo $time;?>" placeholder="Time"> -->
 		<select name="time">
 			<option value="">Select time</option>
@@ -966,7 +966,12 @@ http://localhost/nikeshulak.github.io/card/index.php?name=Mangala%20Sangami&numb
 			foreach ($nameList as $value) {
 			?>
 				<li class="<?php echo $value['sent'] ? 'sent' : '';?>">
-					<a href="?name=<?php echo $value['name'];?>" title="<?php echo $value['receiver'];?>">
+            <!-- href="?name=<?php echo $value['name'];?>"  -->
+            <a
+            href="#!" 
+            title="<?php echo $value['receiver'];?>"
+            onclick="nameItemClick('<?php echo $value['name'];?>')"
+            >
 						<?php echo $value['name'];?>		
 					</a>
 				</li>
@@ -977,6 +982,11 @@ http://localhost/nikeshulak.github.io/card/index.php?name=Mangala%20Sangami&numb
 </div>
 
 <script>
+    function nameItemClick(name) {
+      console.log('name', name);
+      document.getElementById("name").value = name;
+    }
+
     var canvas = document.getElementById("canvas");
 
     rasterizeHTML.drawHTML(`
