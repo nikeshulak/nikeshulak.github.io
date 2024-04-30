@@ -831,16 +831,23 @@ http://localhost/nikeshulak.github.io/card/index.php?name=Mangala%20Sangami&numb
 	function cardMarkup($name, $gender, $time) {
 		$numberClass = $gender != '' ? "only-one" : "";
 		$genderClass = $gender == 'female' ? "card-female" : "card-male";
+    $image = $gender == 'chulhai' ? "./krishna-sundar-one-year-chulhai.jpg" : "krishna-sundar-one-year.jpg";
 		?>
-		<div class="card <?php echo $numberClass;?> <?php echo $genderClass;?>" style="background-image: url(./krishna-sundar.jpg) no-repeat;">
+		<div class="card <?php echo $numberClass;?> <?php echo $genderClass;?>" style="
+    /* background-image: url(./krishna-sundar-one-year.jpg) no-repeat; */
+    ">
 			
-			<?php if($gender == 'female'):?>
+      <?php if($gender == 'chulhai'): ?>
+      <?php else: ?>
+			
+      <?php if($gender == 'female'):?>
 				<span class="remove-husband"></span>
 			<?php else: ?>
 				<span class="remove-wife"></span>
 			<?php endif;?>
-
 			<span class="remove-child"></span>
+
+      <?php endif;?>
 
 			<!-- <div class="card-chulhai">चुल्है</div> -->
 			<div class="card-name">
@@ -851,7 +858,7 @@ http://localhost/nikeshulak.github.io/card/index.php?name=Mangala%20Sangami&numb
 				<!-- 5:00 -->		
 				<input type="text" value="<?php echo $time;?>">
 			</div>
-			<img src="./krishna-sundar.jpg">
+			<img src="<?php echo $image;?>">
 		</div>
 
 		<style>			
@@ -939,16 +946,17 @@ http://localhost/nikeshulak.github.io/card/index.php?name=Mangala%20Sangami&numb
 		<!-- <input type="text" name="time" value="<?php // echo $time;?>" placeholder="Time"> -->
 		<select name="time">
 			<option value="">Select time</option>
-			<option value="बिहान देखी">बिहान देखी</option>
-			<option value="३:००">३:००</option>
-			<option value="४:००">४:००</option>
-			<option value="५:००">५:००</option>
-			<option value="६:००">६:००</option>
+			<option value="बिहान देखी" <?php echo $time == 'बिहान देखी' ? 'selected="selected"' : "";?>>बिहान देखी</option>
+			<option value="३:००" <?php echo $time == '३:००' ? 'selected="selected"' : "";?>>३:००</option>
+			<option value="४:००" <?php echo $time == '४:००' ? 'selected="selected"' : "";?>>४:००</option>
+			<option value="५:००" <?php echo $time == '५:००' ? 'selected="selected"' : "";?>>५:००</option>
+			<option value="६:००" <?php echo $time == '६:००' ? 'selected="selected"' : "";?>>६:००</option>
 		</select>
 		<select name="gender">
 			<option value="">All</option>
 			<option value="male">Male</option>
 			<option value="female">Female</option>
+			<option value="chulhai" <?php echo $gender == 'chulhai' ? 'selected="selected"' : "";?>>Chulhai</option>
 		</select>
 		<input type="submit" id="change-name-btn">
 	</form>
