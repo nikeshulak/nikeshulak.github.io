@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script>
+var htmlString = '<p>A&nbsp;<strong>2-day International Conference</strong>&nbsp;on Web technologies and everything around the Web.</p><p><br></p><p>This year happening on 23-24 SEPTEMBER 2023 | Kathmandu, Nepal</p>'
+
+var str = htmlString?.replace(/(<\/p>)/ig, '</p> ')?.replace( /(<([^>]+)>)/ig, '')?.replaceAll(/&nbsp;/ig, ' ');// replaceAll('&nbsp;', ' ')
+
+console.log(htmlString)
+console.log(str)
+</script>
+</body>
+</html>

@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500&display=swap');
+
+:root {
+    --primary: #0f1f1f;
+}
+* {
+    box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+/**
+ * Disable smooth scrolling when users have prefers-reduced-motion enabled
+ */
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+/* full size figure in mobile 
+https://devdiscourse.blob.core.windows.net/devnews/13_12_2019_00_42_27_4846826.jpg
+https://www.osholeela.org/wp-content/uploads/2020/12/Osho-Namaste.jpg
+https://e1.pxfuel.com/desktop-wallpaper/38/912/desktop-wallpaper-osho-purnima-osho.jpg
+https://oshoworld.com/wp-content/uploads/2020/11/I-am-NOT-an-Orator_24.jpg
+https://www.messagefrommasters.com/Meditation/Awareness/F0653.jpg
+https://4.bp.blogspot.com/-ZPKtSfsfg2Q/UUfA7vnePUI/AAAAAAAAVCk/BNPRKk-u4sQ/s280/Osho1.jpg
+https://i0.wp.com/astitvameditation.com/wp-content/uploads/2020/09/679292-osho-050618.jpg
+https://www.oshonews.com/wp-content/uploads/2022/11/osho543.jpg
+http://4.bp.blogspot.com/_EFAGE6MfFb8/TJmLzLsISeI/AAAAAAAAAYU/OcO_xfQI91U/s1600/osho.jpg
+https://www.oshonews.com/wp-content/uploads/2015/03/Osho-high-hat.jpg
+https://i1.sndcdn.com/artworks-000656589946-uz1s7k-t500x500.jpg
+<figure class="image">
+<img src="https://oshoworld.com/wp-content/uploads/2020/11/A-Flame-of-Awakening_osho-e1606370082392.jpg" class="">
+</figure>
+*/
+figure.image {
+    margin-bottom: 0;
+    margin-right: -56px;
+    height: 250px;
+    margin-top: 75px;
+}
+figure.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+figure.image + .cut {
+    margin-bottom: 90px;
+    margin-right: -56px;
+    font-size: 32px;
+    line-height: 48px;
+    border-bottom: 8px solid #22d4ef;
+    color: #fff;
+}
+
+.calendar, .pending-task {
+    display: none;
+}
+.calendar {
+    /* position: absolute; */
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 830px;
+    height: 645px;
+    z-index: 1;
+    overflow: hidden;
+}
+.pending-task {
+    position: fixed;
+    z-index: 1;
+    background: #333;
+    padding: 15px 25px 0px 5px;
+    left: 9px;
+    top: 0;
+    border-top: 19px solid #000;
+    width: 100%;
+    height: 202px;
+    overflow-y: scroll;
+}
+.show-calendar .calendar,
+.show-calendar .pending-task {
+    display: block;
+}
+.cut-list-wrap {
+    padding-bottom: 40px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #666; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+body {
+    font-size: 22px;
+    line-height: 30px;
+    /* font-family: "Lora",serif; */
+    /* font-family: arial, sans-serif; */
+    /* font-family: monospace; */
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    color: #8f8a86;
+    /* 110px 56px 130px 10px */
+    padding: 110px 6px 130px 6px;
+    letter-spacing: 1.3px;
+    overflow-x: hidden;
+	/* space for search in mobile / tiktok control space */
+}
+@media (max-width: 991px) {
+    body:before {
+        content: '';
+        /*background: url('../../../../videos/images/osho-bg.jpg') no-repeat right bottom;*/
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: fixed;
+        z-index: -1;
+        opacity: 0.3;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+}
+@media (min-width: 992px) {
+    body.has-background {
+        background: url('../../../../videos/images/osho-bg.jpg') no-repeat right top;
+        background-attachment: fixed;        
+    }
+}
+img {
+    max-width: 100%;
+}
+.d-none {
+    display: none !important;
+}
+/* #top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px 20px;
+    background: #333;
+    cursor: pointer;
+    z-index: 99;
+    color: #fff;
+} */
+.audio,
+.footer {
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    padding: 4px 15px;
+    background: #fff;
+    z-index: 1;
+}
+.audio {
+    /* top: 0;*/
+    bottom: 0;
+    /* height: 130px; */
+    /* z-index: 1051; */
+    /* 2147483641 + 1 for awesome record tool hiding */
+    z-index: 2147483641;
+}
+.footer {
+    /* bottom: 0;*/
+    top: 0;
+    height: 65px;
+    display: none;
+}
+body.hide-settings .audio * {opacity: 0.8;}
+body.hide-settings .audio audio {opacity: 0;}
+/* .hide-settings #top {
+    opacity: 0.3;
+} */
+body.hide-json-editor .note-jsoneditor {
+    display: none;
+}
+/*body.hide-settings .footer {
+    display: block;
+}
+body.hide-settings {
+    padding-bottom: 130px;
+}*/
+@media (min-width: 992px) {
+    .audio {
+        /* height: 84px; */
+    }
+    body.hide-settings .audio audio {opacity: 0.5;}
+
+    .footer {
+        display: none;
+    }
+    /* hiding settings during playing audio */
+    body.playing .audio {
+        opacity: 1;
+    }
+}
+.audio #audio-wrap {
+    width: 100%;
+    text-align: right;
+}
+.audio-goto {
+    margin-bottom: 5px;
+}
+body:not(.hide-settings) .audio-goto {    
+    /* hiding other controls - limiting to 1 line */
+    height: 40px;
+}
+@media (min-width: 992px) {
+    body {
+        padding-bottom: 84px;
+        padding-top: 10px;
+        padding-right: 40%;
+    }
+    body.show-calendar {
+        padding-right: 840px;
+        padding-top: 230px;
+    }
+    .audio #audio-wrap {
+        width: 300px;
+        float: right;
+    }
+    .audio-goto {
+        width: 660px;
+        float: left;
+        margin-bottom: 0px;
+    }
+}
+.cut-list {
+    /* font-size: 16px;*/
+    background-color: var(--primary);
+}
+.search-tag {
+    cursor: pointer;
+    display: block;
+    background: #334040;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+.search-tag .index {
+    background: #000;
+    width: 40px;
+    display: inline-block;
+    padding-left: 8px;
+    margin-right: 3px;
+}
+.modal-dialog {
+    max-width: 800px;
+}
+@media (min-width: 992px) {
+    .cut-list {
+        position: fixed;
+        right: 10px;
+        width: 35%;
+        top: 10px;
+        bottom: 80px;
+        overflow-y: scroll;
+    }
+
+    .modal-body.cut-list {
+        position: inherit;
+        width: 100%;
+        right: 0;
+        top: 0;
+    }
+}
+
+.cut {
+    cursor: pointer;
+    /* font-weight: 600;*/
+    margin-bottom: 20px;
+    background: #f2f2f2;
+    padding: 10px;
+    transition: 0.3s all ease;
+}
+.cut:not(.active) {
+/*    padding-bottom: 1px;*/
+}
+body:not(.expand-all) .cut:not(.active) .cut-desc {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: clip;
+}
+.cut.active .cut-desc {
+    display: block;
+}
+span.cut-index {
+    float: left;
+    font-size: 16px;
+    background: #ccc;
+    margin-right: 10px;
+    padding: 2px 10px;
+    color: var(--primary);
+}
+span.cut-tag {
+    background: #ccc;
+    margin-right: 10px;
+    padding: 2px 10px;
+    color: var(--primary);
+}
+span.cut-tag:empty {
+    display: none;
+}
+input#hms {
+    font-size: 12px;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #333;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn {
+    font-size: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+@media (min-width: 992px) {
+    .btn {
+        font-size: 12px;
+    }
+}
+.btn-dark {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+/* dark mode */
+body.dark-mode {
+    background-color: var(--primary);
+    color: rgba(255,255,255,0.8);
+}
+body.dark-mode .ck.ck-editor__main>.ck-editor__editable {
+    background: var(--primary);
+}
+body.dark-mode .cut {
+    background: rgba(255,255,255,0.15);
+}
+.dark-mode .audio,
+.dark-mode .footer {
+    background: var(--primary);
+}
+.dark-mode input, .dark-mode textarea {
+    background: var(--primary);
+    color: #fff;
+    border: 1px solid #fff;
+}
+.dark-mode .modal-content {
+    background: #282828;
+}
+.dark-mode .close {
+    color: #fff;
+}
+
+.ck-editor {
+    overflow-y: scroll;
+    max-height: 645px;
+}
+
+/* for article */
+blockquote {
+    position: relative;
+    text-align: center;
+    padding: 2.84em 3.2em 2.75em;
+    border-radius: 5px;
+}
+blockquote {
+    color: #ffffff;
+    background-color: #7e1111;
+    background-image: linear-gradient(to bottom right,#7e1111 0%,#7e1111 100%);
+}
+blockquote p {
+    margin: 0;
+    font-size: 1.667em;
+    line-height: 1.27em;
+    font-weight: 500;
+}
+
+.read-progress-bar {
+    height: 8px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #d2d2d2;
+}
+.read-progress-bar .progress-percent {
+    background: #2ce080;
+    height: 100%;
+    width: 0%;
+}
+
+/* #has-time label input:checked ~ span {
+    background-color: rgba(255,255,255,0.15);
+} */
+#has-time label.selected {
+    background-color: rgba(255,255,255,0.15);
+}
+#has-time label input {
+    margin-right: 5px;
+}
+
+#has-time label {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#jsonLinksHere ul {
+    column-count: 4;
+}
+#jsonLinksHere a {
+    color: #fff;
+}
+
+/* .important-btn {
+    position: fixed;
+    bottom: 124px;
+    right: 8px;
+} */
+.important-btn .btn {
+    background: #000;
+    opacity: 1;
+    padding: 10px 20px;
+    font-size: 18px;
+    float: right;
+}
