@@ -229,7 +229,7 @@ body:not(.hide-settings) .audio-goto {
 }
 @media (min-width: 992px) {
     body {
-        padding-bottom: 84px;
+        padding-bottom: 150px;
         padding-top: 10px;
         padding-right: 40%;
     }
@@ -351,12 +351,14 @@ input#hms {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .btn {
-    font-size: 10px;
     padding-left: 8px;
     padding-right: 8px;
 }
+.btn, .audio-goto {
+    font-size: 10px;
+}
 @media (min-width: 992px) {
-    .btn {
+    .btn, .audio-goto {
         font-size: 12px;
     }
 }
@@ -443,10 +445,20 @@ blockquote p {
 
 #has-time label {
     padding: 8px;
-    cursor: pointer;
+    /* cursor: pointer; */
+    cursor: text;
+    display: block;
+    margin-bottom: 20px;
 }
 
-#jsonLinksHere ul {
+#has-time.hide-others label {
+    display: none;
+}
+#has-time.hide-others label.selected {
+    display: block;
+}
+
+#jsonLinksHere ul, #jsonQuestionsIdHere {
     column-count: 4;
 }
 #jsonLinksHere a {
@@ -464,4 +476,9 @@ blockquote p {
     padding: 10px 20px;
     font-size: 18px;
     float: right;
+}
+
+/* just listen */
+#has-time {
+    display: none;
 }
