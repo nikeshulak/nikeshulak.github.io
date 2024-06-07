@@ -576,6 +576,7 @@ var searchTagConst = {
 		'06': [1,2,4,5,6,9,10,11,12,15,16,17,18,19,20,21,22,23,24,25,26,27,29,31,32,33,35,36,39,40,41,42,43,46,56,58,60,61,62,63,65,66,67,69,70,71,72,73,74,75,77,78,79,82,83,85,86,87,88,89,90,91,92,93,94,95,96,100,103,104,106,107,108,109,110,111,112,113,115,116,118,119,123,125,126,127,128,129,134,135,137,138],
 		'07': [15,16,17,18,19,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,56,57,58,59,60,63,65,66,69,70,71,72,73,75,76,77,78,79,80,81,82,83,84,85,86,91,92,93,95,96,98,101,102,103,104,105,106,107,110,111,112,113,114,115,116,117,120,123,124,125,127,131,133,136,138,139,140,141,142,143,144,145,146,147,148,149,151,152,153,154,155,156,157,160,161,162,164,167,168,171,172,173,176],
 		// ["सपने में तुमने कभी खयाल किया, सब दिखायी पड़ता है, एक तुम दिखायी नहीं पड़ते। सपने का स्वभाव यही है। बहुत सपने तुमने देखे हैं। कभी खयाल किया, सब दिखायी पड़ते हैं, एक तुम भर दिखायी नहीं पड़ते सपने में। मित्र-शत्रु सब दिखायी पड़ते हैं, तुम भर नहीं दिखायी पड़ते।", "पाठ का अर्थ अध्ययन नहीं है, पाठ का अर्थ गीता को दोहराना नहीं है, पाठ का बड़ा बहुमूल्य अर्थ है। पाठ का अर्थ है, गीता को मस्तिष्क से नहीं पढ़ना, गीता को बोध से पढ़ना। और गीता पढ़ते वक्त गीता जो कह रही है उसके बोध को सम्हालना। निरंतर-निरंतर अभ्यास करने से, बोध सम्हल जाता है।"]
+		'09': [13,16,17,18,19,27,28,31,32,35,38,46,47,48,49,51,52,54,55,56,64,65,66,67,69,71,72,73,77,81,82,85,87,88,90,91,96,97,99,100,103,104,105,106,107]
 	}
 }
 
@@ -870,15 +871,21 @@ $(document).ready(function() {
 	var newHtmlMarkup = "";
 
 	var questionsIdMarkup = "";
+	var searchQuery = "";
 
 	originalHtmlArr.forEach((item, index) => {
-		if(paramsSearch === "questions") {
+		if(paramsSearch) {
 			// filter only sutras || questions
 
+			searchQuery = paramsSearch === "questions" ? 
+				item.includes("‘") || item.includes("प्रश्न:") || item.includes("प्रश्न है:") : 
+				item.includes(paramsSearch)
+
 			// if item has ‘ or प्रश्न
-			if(item.includes("‘") || item.includes("प्रश्न:") || item.includes("प्रश्न है:") ) { // || item.includes("प्रश्न")
+			if( searchQuery ) { // || item.includes("प्रश्न")
 				newHtmlMarkup += getNewHtmlMarkup(item, index, "selected");
-				console.log('index', index)
+				// console.log('index', index)
+
 				questionsIdMarkup += `<a href="#label-${index}">${index}</a><br />`
 			}
 			else {
@@ -894,10 +901,6 @@ $(document).ready(function() {
 
 	});
 
-	setTimeout(function() {
-		$('#jsonQuestionsIdHere').html(questionsIdMarkup);
-	}, 1000)
-
 	// console.log('originalHtmlArr', originalHtmlArr)
 
 
@@ -912,6 +915,43 @@ $(document).ready(function() {
 	var url = window.location.href
 	var filename = url.split('/').pop()
 	var file = filename.substring(0, 2)
+
+
+
+	var paramsSearchTagsObj = {
+		"प्रयोग कर": ["04", "07", "08", "09", "10", "11"], 
+		"कसौटी": ["01", "02", "03", "04", "07", "10"], 
+		"समझना": ["02", "03", "04", "07", "08", "09", "10", "11"], 
+		"कहते हैं": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11"],
+	}
+
+	var paramsSearchTags = Object.keys(paramsSearchTagsObj)
+
+	var paramsSearchTagMarkup = "";
+	paramsSearchTags.forEach((item, index) => {
+		paramsSearchTagMarkup += `<a href="${file}.html?search=${item}&saveIndex=false">${item}</a><br />`
+	})
+
+	var searchTagsFoundInArr = paramsSearchTagsObj[paramsSearch];
+	var searchTagsFoundInMarkup = "";
+	searchTagsFoundInArr?.forEach((item, index) => {
+		searchTagsFoundInMarkup += `<a href="${item}.html?search=${paramsSearch}&saveIndex=false">${item}</a><br />`
+	})
+
+	setTimeout(function() {
+		$('#jsonQuestionsIdHere').html(`
+			<div class="column-count-4 border">${paramsSearchTagMarkup}</div>
+			
+			<div>.html</div>
+			<div class="column-count-4 border">${searchTagsFoundInMarkup}</div>
+			
+			<div class="column-count-4">
+				${questionsIdMarkup}
+			</div>
+		`);
+	}, 1000)
+
+
 
 	// console.log('file', file)
 	// /widgets/calendar-full.php 705px
@@ -961,7 +1001,10 @@ $(document).ready(function() {
 		<input id="jsonHideOthers" type="button" class="btn btn-dark" value="Hide others">
 		<input id="jsonSaveLinks" type="button" class="btn btn-dark" value="Save json">
 		<input id="jsonLoadLinks" type="button" class="btn btn-dark" value="Load json">
+
+		<h3>Search: <input id="paramsSearchInput" type="text" value="${paramsSearch}" placeholder="Search" /><input type="button" id="paramsSearchBtn" value="Go" /></h3>
 		<div id="jsonQuestionsIdHere"></div>
+
 		<div id="jsonLinksHere"><ul></ul></div>
 
 		<!-- <iframe src="http://localhost/resources/read-clip/admin/?chapter=${file}" class="border-0" style="width: 100%; height: 540px;"></iframe> -->
@@ -1201,6 +1244,14 @@ $(document).ready(function() {
 
 	$('#note').html(noteMarkup);
 	// end note markup
+
+	
+	// change search tag
+	$('#paramsSearchBtn').click(function() {
+		var paramsSearchInput = $('#paramsSearchInput').val();
+		window.location.href = `${file}.html?search=${paramsSearchInput}&saveIndex=false`
+	})
+
 
 	// findString
 	document.getElementById('f1').onsubmit = function() {
