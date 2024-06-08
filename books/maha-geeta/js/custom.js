@@ -2158,6 +2158,9 @@ $(document).ready(function() {
 					$(this).parent().addClass("selected");
 
 					updateNoteJson($(this).val())
+
+					// copy to clipboard too
+					navigator.clipboard.writeText( $(this).val() )
 				}
 				else{
 					$(this).parent().removeClass("selected");
