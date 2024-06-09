@@ -751,9 +751,11 @@ function getNewHtmlMarkup(item, index, className) {
 	var saveIndex = paramsSaveIndex === "true" // true id or false item
 	// <input type="checkbox" value="${index}" /> for id
 	return `<label id="label-${index}" class="${className ? className : ''}">
-		<input type="checkbox" value="${saveIndex ? index : item}" />
-		${index}. <span>${item}</span>
-	</label>`; // <br><br> hatayera margin bottom rakhnu parla
+		<input type="checkbox" value="${saveIndex ? index : item}" index="${index}" /><span>${item}</span> [${index}]<br /><br />
+	</label>`; 
+	// ${index}. <span>${item}</span>
+
+	// <br><br> hatayera margin bottom rakhnu parla
 }
 
 function useQueryGet() {
@@ -879,7 +881,9 @@ $(document).ready(function() {
 
 			searchQuery = paramsSearch === "questions" ? 
 				item.includes("‘") || item.includes("प्रश्न:") || item.includes("प्रश्न है:") : 
-				item.includes(paramsSearch)
+				paramsSearch === "कहते हैं" ?
+					item.includes("कहते हैं") || item.includes("कहा है") :
+					item.includes(paramsSearch)
 
 			// if item has ‘ or प्रश्न
 			if( searchQuery ) { // || item.includes("प्रश्न")
@@ -1741,9 +1745,9 @@ $(document).ready(function() {
 	        $('#back-btn').trigger('click');
 	        break;
 
-	      case "f":
-	        $('#fast-btn').trigger('click');
-	        break;
+	      // case "f":
+	      //   $('#fast-btn').trigger('click');
+	      //   break;
 
 	      case "p":
 	        // $('#prev-btn').trigger('click');
@@ -2157,10 +2161,10 @@ $(document).ready(function() {
 				if($(this).is(":checked")) {
 					$(this).parent().addClass("selected");
 
-					updateNoteJson($(this).val())
+					// updateNoteJson($(this).val())
 
 					// copy to clipboard too
-					navigator.clipboard.writeText( $(this).val() )
+					navigator.clipboard.writeText( $(this).val() + " [" + $(this).attr("index") + "]" )
 				}
 				else{
 					$(this).parent().removeClass("selected");
