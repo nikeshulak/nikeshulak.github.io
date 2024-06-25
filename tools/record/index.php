@@ -31,6 +31,9 @@ body {
 .fp-watermark {
     display: none;
 }
+.d-none {
+  display: none;
+}
   </style>
 </head>
 
@@ -71,6 +74,40 @@ body {
   </div>
 
   <script>
+    function audioPlay() {
+      var audio = document.getElementById('audio');   
+      $('body').addClass('playing');
+
+      audio.play();
+      $('#pause-btn').text('Pause');
+    }
+
+    // keyboard event 
+    window.addEventListener(
+      "keydown",
+      (event) => {
+        if (event.defaultPrevented) {
+          return; // Do nothing if the event was already processed
+        }
+
+        switch (event.key) {
+          case "p":
+            // $('#prev-btn').trigger('click');
+            
+            // $('#pause-btn').trigger('click');
+            audioPlay();
+            break;
+
+          default:
+            return; // Quit when this doesn't handle the key event.
+        }
+
+        // Cancel the default action to avoid it being handled twice
+        event.preventDefault();
+      },
+      true
+    );
+
     $(document).ready(function() {
       $('#fullpage').fullpage({
         licenseKey: 'gplv3-license',
