@@ -37,7 +37,7 @@ body {
 <body>
   <div id="audio-wrap" class="d-none">
     <audio id="audio" controls preload="none">
-      <source src="../../../videos/es-dhammo-sanantano/cbr/017/017_combined.mp3" type="audio/mpeg">
+      <source src="../../../videos/es-dhammo-sanantano/017/017_combined.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
     </audio>
   </div>
