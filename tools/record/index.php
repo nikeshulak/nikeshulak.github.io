@@ -20,13 +20,22 @@ body {
   background: #000;
   color: #fff;
   font-family: 'Mukta';
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 32px; /* 32px */
+  line-height: 44px; /* 44px */
+  /* font-size: 44px;
+  line-height: 50px; */
+
   /* align-items: center;
   display: flex; */
 }
 .section {
   padding: 10px 50px;
+}
+.section {
+    flex-direction: row;
+    align-items: end;
+    padding-bottom: 50px;
+    justify-content: start;
 }
 .fp-watermark {
     display: none;
@@ -34,6 +43,32 @@ body {
 .d-none {
   display: none;
 }
+
+body {
+    background: url('http://localhost/archive/images/pexels-paperpeacock-1585716.jpg') center;
+    background-size: cover;
+}
+.section {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/*
+for youtube screenshot
+.section span {
+    position: absolute;
+    left: 0;
+    padding: 20px 40px;
+    font-size: 140px;
+    line-height: 110px;
+}
+small {
+    display: block;
+    font-size: 98px;
+    margin-top: 30px;
+    width: 100%;
+    color: antiquewhite;
+}
+*/
   </style>
 </head>
 
