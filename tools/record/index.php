@@ -20,8 +20,12 @@ body {
   background: #000;
   color: #fff;
   font-family: 'Mukta';
-  font-size: 32px; /* 32px */
-  line-height: 44px; /* 44px */
+  /* for tiktok cover
+  font-size: 60px; 
+  line-height: 74px;
+  */
+  font-size: 40px; /* 32px */
+  line-height: 54px; /* 44px */
   /* font-size: 44px;
   line-height: 50px; */
 
@@ -29,12 +33,24 @@ body {
   display: flex; */
 }
 .section {
-  padding: 10px 50px;
+  /* padding: 10px 20px; */
+}
+.fp-arrow {
+    display: none !important;
+}
+.slide-wrap {
+    padding-left: 20px;
+    padding-right: 80px;
+    width: 100%;
+}
+.slide {
+    flex-direction: row;
+    align-items: flex-end;
 }
 .section {
     flex-direction: row;
     align-items: end;
-    padding-bottom: 50px;
+    padding-bottom: 120px;
     justify-content: start;
 }
 .fp-watermark {
@@ -75,7 +91,7 @@ small {
 <body>
   <div id="audio-wrap" class="d-none">
     <audio id="audio" controls preload="none">
-      <source src="../../../videos/es-dhammo-sanantano/017/017_combined.mp3" type="audio/mpeg">
+      <source src="../../../videos/es-dhammo-sanantano/018/018-29-53-to-48-40.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
     </audio>
   </div>
@@ -86,19 +102,25 @@ small {
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
 
-    include('./data.php'); 
+    // include('./data.php'); 
+    include('./data/018-29-53-to-48-40.php'); // $data - replaced all ? with ।
 
-    // var_dump($data);
-    // $index = $_GET['index'] ?? 38;
+    // $dataJoined = join(" ", $data);
+    $dataExplode = explode("।", $data); // $dataJoined
 
-    foreach ($data as $key => $value) {
-      # code...
-      echo '<div class="section">';
-        // echo $data[$key];
-        echo $value;
-      echo '</div>';
-    }
-    // echo '<div class="section">';
+    echo '<div class="section">';
+      foreach ($dataExplode as $key => $value) {
+        if($value) {
+          echo '<div class="slide">';
+            echo '<div class="slide-wrap">';
+              echo $value . "।"; // explode garda । harayo
+            echo '</div>';
+          echo '</div>';
+        }
+      }
+    echo '</div>';
+
+      // echo '<div class="section">';
     //   echo $data[$index];
     // echo '</div>';
     
@@ -153,6 +175,10 @@ small {
         // scrollBar: false,
         // scrollHorizontally: true,
         scrollOverflow: false,
+        fadingEffect: true,
+
+        slidesNavigation: false,
+        loopHorizontal: false,
       });
 
       //methods
