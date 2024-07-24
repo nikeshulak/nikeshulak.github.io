@@ -1,18 +1,12 @@
+<!-- http://localhost/nikeshulak.github.io/tools/record/index.php -->
 <html>
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.25/fullpage.min.css" integrity="sha512-A7Hgc495WYRjDFNdIQ2B0eths46do08SH9bUocyn8cKl09HAq7kHJ9t+BA0tFH1qgTg+lI/mXPfgocdknvk3PQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.25/vendors/easings.min.js" integrity="sha512-SrKslwu6IjHEo/8mAOtkoUOT3MzHCEOFWktrC8BNtjPuBBYLYjg1y/Marat34uYfOfxDMLEwy8DLArWEVc2i+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.25/fullpage.min.js" integrity="sha512-rc+ezQrlvTWQ1bOJtmCN7Fm/GyfhIBX9eOZhbQ7BtSpnG8SgrafIjsl0jWh0a/zLsLj8wbzv2+vkAyZtYn7xwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.25/fullpage.extensions.min.js" integrity="sha512-CG4suntOelKyziz99VyC3BrbQ60IOtpJ9RYQvI/0d6TdYWStN69gCb9OpPMlym+3OmNAr357Kv6FVqTk25Ej5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.25/fullpage.min.css" integrity="sha512-A7Hgc495WYRjDFNdIQ2B0eths46do08SH9bUocyn8cKl09HAq7kHJ9t+BA0tFH1qgTg+lI/mXPfgocdknvk3PQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link href="./css/fullpage.min.css" rel="stylesheet">
 
   <style>
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500&display=swap');
@@ -24,8 +18,8 @@ body {
   font-size: 60px; 
   line-height: 74px;
   */
-  font-size: 40px; /* 32px */
-  line-height: 54px; /* 44px */
+  font-size: 34px; /* 32px */
+  line-height: 44px; /* 44px */
   /* font-size: 44px;
   line-height: 50px; */
 
@@ -68,6 +62,20 @@ body {
     background: rgba(0, 0, 0, 0.4);
 }
 
+/* for tiktok screenshot */
+body.cover .slide-wrap {
+    font-size: 69px;
+    line-height: 82px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+body.cover .section {
+    padding-bottom: 0;
+}
+body.cover .slide {
+    align-items: center;
+}
+
 /*
 for youtube screenshot
 .section span {
@@ -85,16 +93,62 @@ small {
     color: antiquewhite;
 }
 */
+.full-video {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    padding: 20px;
+    width: 405px;
+    right: 0;
+    font-size: 26px;
+    font-weight: 500;
+    z-index: 9;
+    line-height: 32px;
+}
+.full-video-profile img {
+    width: 70px;
+    border-radius: 50%;
+    height: 70px;
+    float: left;
+    margin-right: 16px;
+    border: 3px solid #fff;
+}
+
+.chapter {
+    background: #bf0000;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    padding: 4px 16px;
+}
   </style>
 </head>
 
-<body>
+<body class="cover-">
+  <div class="full-video d-none">
+    <div style="margin-bottom: 10px">Full Video on YouTube</div>
+    <div class="full-video-profile">
+      <img src="../../images/nikesh-youtube-profile.jpg" alt="" />
+      <div style="padding-top: 5px;">
+        Nikesh Ulak<br />
+        youtube.com/nikeshulak
+      </div>
+    </div>    
+  </div>
+
+  <?php
+    // include('./data.php'); 
+    $page = isset($_GET['page']) ? $_GET['page'] : "004";
+    include("./data/guru/$page.php"); // $data - replaced all ? with ।
+  ?>
   <div id="audio-wrap" class="d-none">
-    <audio id="audio" controls preload="none">
-      <source src="../../../videos/es-dhammo-sanantano/018/018-29-53-to-48-40.mp3" type="audio/mpeg">
+    <audio id="audio" controls> <!-- autoplay preload="none" -->
+      <source src="../../../videos/es-dhammo-sanantano/guru/<?php echo $page;?>.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
     </audio>
   </div>
+
+  <div class="chapter">Chapter <?php echo $page;?>: कौन लुटेरा है, कौन मार्गदर्शक है!</div>
   
   <div id="fullpage">
   <?php 
@@ -102,18 +156,21 @@ small {
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
 
-    // include('./data.php'); 
-    include('./data/018-29-53-to-48-40.php'); // $data - replaced all ? with ।
-
     // $dataJoined = join(" ", $data);
-    $dataExplode = explode("।", $data); // $dataJoined
+    $dataReplaceA = preg_replace('/\?/sU', '?।', $data);
+    $dataReplaceB = preg_replace('/\;/sU', ';।', $dataReplaceA);
+    $dataReplaceC = preg_replace('/\*(.+)\*/sU', '<strong>$1</strong>', $dataReplaceB);
+
+    $dataExplode = explode("।", $dataReplaceC); // $dataJoined
 
     echo '<div class="section">';
       foreach ($dataExplode as $key => $value) {
         if($value) {
           echo '<div class="slide">';
             echo '<div class="slide-wrap">';
-              echo $value . "।"; // explode garda । harayo
+              echo $value; 
+              echo (substr($value, -1) == "?" || substr($value, -1) == ";") ? "" : "।"; // explode garda । harayo
+              // if there is ? at the last character, don't add ।
             echo '</div>';
           echo '</div>';
         }
@@ -129,6 +186,16 @@ small {
     // echo '</div>';
   ?>
   </div>
+
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <script src="../../books/maha-geeta/js/jquery.min.js"></script>
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.25/vendors/easings.min.js" integrity="sha512-SrKslwu6IjHEo/8mAOtkoUOT3MzHCEOFWktrC8BNtjPuBBYLYjg1y/Marat34uYfOfxDMLEwy8DLArWEVc2i+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.25/fullpage.extensions.min.js" integrity="sha512-CG4suntOelKyziz99VyC3BrbQ60IOtpJ9RYQvI/0d6TdYWStN69gCb9OpPMlym+3OmNAr357Kv6FVqTk25Ej5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+  
+  <script src="./js/easings.min.js"></script>
+  <script src="./js/fullpage.extensions.min.js"></script>
 
   <script>
     function audioPlay() {
@@ -166,8 +233,11 @@ small {
     );
 
     $(document).ready(function() {
+      // audioPlay();
+
       $('#fullpage').fullpage({
         licenseKey: 'gplv3-license',
+
         //options here
         scrollingSpeed: 400,
         // autoScrolling:true,
@@ -179,6 +249,9 @@ small {
 
         slidesNavigation: false,
         loopHorizontal: false,
+        
+        fadingEffect: true,
+		    // fadingEffectKey: 'NDhZV3gyWVhKdmRISnBaMjh1WTI5dDlFX3IwOVptRmthVzVuUldabVpXTjA0blM='
       });
 
       //methods

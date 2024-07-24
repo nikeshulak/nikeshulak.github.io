@@ -748,12 +748,16 @@ function getNewHtmlMarkup(item, index, className) {
 	const params = useQueryGet();
 	// const paramsSearch = params.get('search'); // questions
 	const paramsSaveIndex = params.get('saveIndex'); // true for id, false for string
+	const paramsShowIndex = params.get('showIndex'); // true for id, false for string
 
 	var saveIndex = paramsSaveIndex === "true" // true id or false item
 	// <input type="checkbox" value="${index}" /> for id
 	return `<label id="label-${index}" class="${className ? className : ''}">
-		<input type="checkbox" value="${saveIndex ? index : item}" index="${index}" /><span>${item}</span> [${index}]<br /><br />
+		<input type="checkbox" value="${saveIndex ? index : item}" index="${index}" /><span>${item}</span> 
+		${paramsShowIndex === "true" ? `[${index}]` : ''}
+		<br /><br />
 	</label>`; 
+
 	// ${index}. <span>${item}</span>
 
 	// <br><br> hatayera margin bottom rakhnu parla
@@ -1297,7 +1301,7 @@ $(document).ready(function() {
 		$('#descJson').val('');
 
 		// get predicted %
-		$('#btn-goto-predicted').trigger('click');
+		// $('#btn-goto-predicted').trigger('click');
 	}
 	// simple
   $('#updateNoteJson').click(function() {
@@ -1998,9 +2002,10 @@ $(document).ready(function() {
 		const params = useQueryGet();
 		const paramsSearch = params.get('search'); // questions
 		const paramsSaveIndex = params.get('saveIndex');
+		const paramsShowIndex = params.get('showIndex');
 
 		var next_page_input = $('#next-page-input').val();
-		var next_page_url = `./${next_page_input}.html?search=${paramsSearch}&saveIndex=${paramsSaveIndex}`
+		var next_page_url = `./${next_page_input}.html?search=${paramsSearch}&saveIndex=${paramsSaveIndex}&showIndex=${paramsShowIndex}`
 
 		console.log(next_page_url)
 
