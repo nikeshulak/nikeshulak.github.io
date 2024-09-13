@@ -944,6 +944,7 @@ $(document).ready(function() {
 		"कसौटी": ["01", "02", "03", "04", "07", "10"], 
 		"समझना": ["02", "03", "04", "07", "08", "09", "10", "11"], 
 		"कहते हैं": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11"],
+		"आत्मा": [],
 	}
 
 	var paramsSearchTags = Object.keys(paramsSearchTagsObj)
@@ -1019,7 +1020,6 @@ $(document).ready(function() {
 	var jsonEditorMarkup = `<div class="note-jsoneditor">
 		<div id="jsonText" class="mb-3"><textarea id="jsonTextTextarea" style="width: 100%; height: 250px; font-size: 16px; line-height: 20px; padding: 6px;">${(searchTagConst[path] && searchTagConst[path][file]) || ""}</textarea></div>
 		<input id="jsonGenerateLinks" type="button" class="btn btn-dark" value="Generate links">
-		<input id="jsonHideOthers" type="button" class="btn btn-dark" value="Hide others">
 		<input id="jsonSaveLinks" type="button" class="btn btn-dark" value="Save json">
 		<input id="jsonLoadLinks" type="button" class="btn btn-dark" value="Load json">
 
@@ -1068,6 +1068,8 @@ $(document).ready(function() {
 				<button id="pause-btn" type="button" class="btn btn-dark mb-2" title="Press spacebar">Play</button>
 				<input type="text" id="hms" value="0:0:0" class="mb-2" />
 				<button id="goto-btn" type="button" class="btn btn-dark mb-2" title="Press g">Go</button>
+
+				<button id="jsonHideOthers" type="button" class="btn btn-dark mb-2">Hide others</button>
 
 				<button id="" type="button" class="btn btn-dark mb-2" data-toggle="modal" data-target="#modalCut" title="Cut">Cut (${note && (note[file]?.length || 0)})</button>
 
