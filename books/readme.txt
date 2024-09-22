@@ -1,3 +1,6 @@
+file:///storage/emulated/0/Download/apache/nikeshulak.github.io/books/
+(Simple HTTP Server > Root folder)
+
 http://localhost/nikeshulak.github.io/books/tools/generate-shell-script.php?type=html
 
 wget https://oshoworld.com/kahe-kabir-diwana-01/
