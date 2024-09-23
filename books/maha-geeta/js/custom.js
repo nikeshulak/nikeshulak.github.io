@@ -1060,6 +1060,13 @@ $(document).ready(function() {
 				<a id="next-btn" href="#label-1" nextId="1" type="button" class="btn btn-dark mb-2" title="Press n">Next</a>
 				<a href="#" id="top" class="btn btn-dark mb-2">Top</a>
 				<button id="toggle-audio-btn" type="button" class="btn btn-dark mb-2" title="">Toggle</button>
+
+				<button id="" type="button" class="btn btn-dark mb-2" data-toggle="modal" data-target="#modalCut" title="Cut">Cut (${note && (note[file]?.length || 0)})</button>
+				
+				<div class="float-right mr-2 mt-2">
+				<span id="updateNoteJsonCount" style="color: white;"></span>
+				Note
+				</div>
 			</div>
 
 			<div class="audio-goto">
@@ -1071,8 +1078,6 @@ $(document).ready(function() {
 
 				<button id="jsonHideOthers" type="button" class="btn btn-dark mb-2">Hide others</button>
 
-				<button id="" type="button" class="btn btn-dark mb-2" data-toggle="modal" data-target="#modalCut" title="Cut">Cut (${note && (note[file]?.length || 0)})</button>
-
 				<button id="btn-goto-predicted" type="button" class="btn btn-dark mb-2" title="">
 					Go to Predicted
 					<span class="scrollPercent d-none"></span>
@@ -1082,7 +1087,6 @@ $(document).ready(function() {
 					<!-- <input id="timeJson" type="text" value="" placeholder="0:0:0" style="text-align: center;" /> -->
 					<input id="descJson" type="text" value="" placeholder="Paste note" style="width: 80px;" />
 					<button id="updateNoteJson" type="button" class="btn btn-dark mb-2" title="Press a">Add</button>
-					<span id="updateNoteJsonCount" style="font-size: 13px; color: white;"></span>
 				</div>
 
 				<button id="btn-scrollto-predicted" type="button" class="btn btn-dark mb-2" title="">Scroll to Predicted</button>
@@ -2142,10 +2146,11 @@ $(document).ready(function() {
 					updatedJson = oldJson != '' ? oldJson + "," + descJson : descJson
 				}
 				else {
-					updatedJson = oldJson != '' ? oldJson + ', "' + descJson + '"' : '"' + descJson + '"'
+					// updatedJson = oldJson != '' ? oldJson + ', "' + descJson + '"' : '"' + descJson + '"'
+					updatedJson = oldJson != '' ? oldJson + '' + descJson + '' : '' + descJson + ''
 				}
 
-				var updatedJsonArr = updatedJson.split(',');
+				var updatedJsonArr = updatedJson.split(']'); // ,
 				var updatedJsonArrCount = updatedJsonArr?.length
 				// console.log('updatedJson', updatedJson)
 				// console.log('updatedJsonArr', updatedJsonArr)
@@ -2181,7 +2186,7 @@ $(document).ready(function() {
 				if($(this).is(":checked")) {
 					$(this).parent().addClass("selected");
 
-					// updateNoteJson($(this).val())
+					updateNoteJson($(this).val())
 
 					// copy to clipboard too
 					navigator.clipboard.writeText( $(this).val() ) //  + " [" + $(this).attr("index") + "]"

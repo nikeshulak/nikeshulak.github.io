@@ -474,8 +474,8 @@ blockquote p {
 .important-btn .btn {
     background: #000;
     opacity: 1;
-    padding: 10px 20px;
-    font-size: 18px;
+    padding: 10px 14px;
+    font-size: 16px;
     float: right;
 }
 
