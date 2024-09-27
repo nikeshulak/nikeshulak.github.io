@@ -232,6 +232,7 @@ body:not(.hide-settings) .audio-goto {
         padding-bottom: 150px;
         padding-top: 10px;
         padding-right: 40%;
+        padding-left: 10%;
     }
     body.show-calendar {
         padding-right: 840px;

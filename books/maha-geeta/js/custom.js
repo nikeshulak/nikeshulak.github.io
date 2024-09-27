@@ -1745,20 +1745,13 @@ $(document).ready(function() {
 	    }
 
 	    switch (event.key) {
-	      // case "p":
-	      // case "P":
-	      case " ":
-	        // $('#pause-btn').trigger('click');
-	        togglePause(); // pause and save and play
+	      // case " ":
+	      //   togglePause(); // pause and save and play
 
-	        setTimeout(function() {
-	        	togglePause();
-	        }, 500)
-	        break;
-
-				// case "a": // ctrl + a -> select all
-				// 	$('#updateNoteJson').trigger('click');
-				// 	break;
+	      //   setTimeout(function() {
+	      //   	togglePause();
+	      //   }, 500)
+	      //   break;
 
 	      case "g":
 	        $('#goto-btn').trigger('click');
@@ -2190,6 +2183,12 @@ $(document).ready(function() {
 
 					// copy to clipboard too
 					navigator.clipboard.writeText( $(this).val() ) //  + " [" + $(this).attr("index") + "]"
+
+					// scroll to next element
+					$(document).scrollTop($(this).parent().next().offset().top - 20);
+
+					// focus on next element input
+					$(this).parent().next().children("input").focus();
 				}
 				else{
 					$(this).parent().removeClass("selected");
