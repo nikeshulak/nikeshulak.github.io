@@ -45,7 +45,7 @@ else {
   echo "<br>scp atlaskode:/var/www/html/atlaskode/archive/mp3/*.mp3 .";
 
   // replace <br> to <br><br>
-  // replace <br><br><br><br> to <br><br>
+  // replace <br><br> to <br><br>
 
   // folder separated as 82 files wota maa matra replace garna milne dekhayo.. - so half half gareko..
 }
