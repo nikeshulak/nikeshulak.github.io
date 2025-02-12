@@ -2176,16 +2176,19 @@ $(document).ready(function() {
 			}
 
 			$("#has-time label input").change(function() {
+				var hasClassTiktok = $('body').hasClass('tiktok')
+				var additionalTiktokOffset = hasClassTiktok ? 90 : 0
+
 				if($(this).is(":checked")) {
 					$(this).parent().addClass("selected");
 
-					updateNoteJson($(this).val())
+					updateNoteJson($(this).val().replaceAll("<i>", "").replaceAll("</i>", ""))
 
 					// copy to clipboard too
-					navigator.clipboard.writeText( $(this).val() ) //  + " [" + $(this).attr("index") + "]"
+					navigator.clipboard.writeText( $(this).val().replaceAll("<i>", "").replaceAll("</i>", "") ) //  + " [" + $(this).attr("index") + "]"
 
 					// scroll to next element
-					$(document).scrollTop($(this).parent().next().offset().top - 20);
+					$(document).scrollTop($(this).parent().next().offset().top - 20 - additionalTiktokOffset);
 
 					// focus on next element input
 					$(this).parent().next().children("input").focus();

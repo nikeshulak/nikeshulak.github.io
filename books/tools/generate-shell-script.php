@@ -4,7 +4,7 @@ $type = isset($_GET["type"]) ? $_GET["type"] : "remove-lines"; // html, mp3
 echo "sudo chmod u+x shell.sh<br><br>";
 
 if($type == "mp3") {
-  for($i = 1; $i <= 30; $i++) {
+  for($i = 1; $i <= 20; $i++) {
     $file = $i <= 9 ? sprintf("%02d", $i) : $i; // for 01
     
     // $file = ($i).toString().padStart(3, "0"); //javascript
@@ -12,15 +12,16 @@ if($type == "mp3") {
     // $file = str_pad($i, 3, "0", STR_PAD_LEFT); // for 001
 
     // echo "rm OSHO-Es_Dhammo_Sanantano_$file.mp3<br>"; // to remove from server partially
-    echo "wget https://oshoworld.com/wp-content/uploads/2020/11/English%20Audio/OSHO-Beyond_Enlightenment_$file.mp3<br>";
+    echo "wget https://oshoworld.com/wp-content/uploads/2020/11/Hindi%20Audio/OSHO-Bhakti_Sutra_$file.mp3<br>";
   }
 }
 else if($type == "html") {
-  for($i = 1; $i <= 30; $i++) {
+  for($i = 1; $i <= 20; $i++) {
     $file = $i <= 9 ? sprintf("%02d", $i) : $i;
     // echo "curl -o $file.html https://oshoworld.com/beyond-enlightenment-$file/<br>"; // Please wait while your request is being verified...
 
-    echo "touch $file.html<br>";
+    // echo "touch $file.html<br>";
+    echo "cp 01.html $file.html<br>";
   }
 }
 else {

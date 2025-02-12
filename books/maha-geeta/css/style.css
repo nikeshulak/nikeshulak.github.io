@@ -128,6 +128,14 @@ body {
     overflow-x: hidden;
 	/* space for search in mobile / tiktok control space */
 }
+body.tiktok {
+    padding-right: 60px;
+    padding-left: 15px;
+}
+label.tiktok {
+    font-size: 50px;
+    line-height: 70px;
+}
 @media (max-width: 991px) {
     body:before {
         content: '';
@@ -432,6 +440,15 @@ blockquote p {
     background: #2ce080;
     height: 100%;
     width: 0%;
+}
+.tiktok .read-progress-bar, 
+.tiktok .read-progress-bar .progress-percent {
+    height: 100px;
+    background: #0f1f1f;
+}
+body.tiktok {
+    font-size: 28px;
+    line-height: 40px;
 }
 
 /* #has-time label input:checked ~ span {

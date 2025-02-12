@@ -44,7 +44,7 @@ body {
 .section {
     flex-direction: row;
     align-items: end;
-    padding-bottom: 120px;
+    padding-bottom: 140px;
     justify-content: start;
 }
 .fp-watermark {
@@ -55,7 +55,8 @@ body {
 }
 
 body {
-    background: url('http://localhost/archive/images/pexels-paperpeacock-1585716.jpg') center;
+    /* pexels-paperpeacock-1585716.jpg */
+    background: url('http://localhost/archive/images/tiktok-cover.jpg') center -70px;
     background-size: cover;
 }
 .section {
@@ -64,9 +65,9 @@ body {
 
 /* for tiktok screenshot */
 body.cover .slide-wrap {
-    font-size: 69px;
-    line-height: 82px;
-    padding-top: 30px;
+    font-size: 57px;
+    line-height: 74px;
+    padding-top: 120px;
     padding-right: 20px;
 }
 body.cover .section {
@@ -120,6 +121,7 @@ small {
     position: fixed;
     left: 0;
     padding: 4px 16px;
+    display: none;
 }
   </style>
 </head>

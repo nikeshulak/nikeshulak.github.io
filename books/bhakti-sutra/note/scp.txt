@@ -1,0 +1,15 @@
+Bhakti Sutra
+https://docs.google.com/document/d/e/2PACX-1vQfJ96DU0lKzPy9y0q9Q8nv33sgqO76rlLYt8-G3OwNWsH97eYrSZfQuQ2c7G7ckibRcu4-xicVkVDV/pub#h.a3avqeua4xos
+
+cd /var/www/html/nikeshulak.github.io/books/bhakti-sutra/note/
+scp index.php travabricks:/home/manisha/Projects/fawesomeapps/archive/books/bhakti-sutra/note
+
+scp index.php travabricks:/home/manisha/Projects/fawesomeapps/archive/books/the-book-of-wisdom/note
+
+scp index.php travabricks:/home/manisha/Projects/fawesomeapps/archive/books/kan-thore-kankar-ghane/note
+
+scp header.php travabricks:/home/manisha/Projects/fawesomeapps/archive/books/note-style/
+
+
+cd /var/www/html/nikeshulak.github.io/books/dhyan-ke-kamal/note/
+scp index.php travabricks:/home/manisha/Projects/fawesomeapps/archive/books/dhyan-ke-kamal/note
