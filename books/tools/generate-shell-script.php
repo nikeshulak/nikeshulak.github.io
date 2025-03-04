@@ -16,12 +16,15 @@ if($type == "mp3") {
   }
 }
 else if($type == "html") {
-  for($i = 1; $i <= 20; $i++) {
-    $file = $i <= 9 ? sprintf("%02d", $i) : $i;
+  for($i = 1; $i <= 27; $i++) {
+    // $file = $i <= 9 ? sprintf("%02d", $i) : $i;
+    $file = $i;
+
     // echo "curl -o $file.html https://oshoworld.com/beyond-enlightenment-$file/<br>"; // Please wait while your request is being verified...
 
     // echo "touch $file.html<br>";
-    echo "cp 01.html $file.html<br>";
+    // echo "cp 01.html $file.html<br>";
+    echo "wget https://www.women4biodiversity.org/wp-content/gallery/writeshop-nairobi-2024/$file.jpg<br>";
   }
 }
 else {
