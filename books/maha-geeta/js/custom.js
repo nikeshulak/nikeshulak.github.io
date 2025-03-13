@@ -1753,6 +1753,10 @@ $(document).ready(function() {
 	      //   }, 500)
 	      //   break;
 
+	      case "t":
+	        $('#toggle-audio-btn').trigger('click');
+	        break;
+
 	      case "g":
 	        $('#goto-btn').trigger('click');
 	        break;
