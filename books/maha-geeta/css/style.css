@@ -136,6 +136,13 @@ label.tiktok {
     font-size: 50px;
     line-height: 70px;
 }
+.tiktok strong {
+    font-size: 48px;
+    line-height: 60px;
+}
+body.tiktok .important-btn {
+    opacity: 0 !important;
+}
 @media (max-width: 991px) {
     body:before {
         content: '';
@@ -239,7 +246,7 @@ body:not(.hide-settings) .audio-goto {
     body {
         padding-bottom: 150px;
         padding-top: 10px;
-        padding-right: 40%;
+        padding-right: 50%;
         padding-left: 10%;
     }
     body.show-calendar {
@@ -281,7 +288,7 @@ body:not(.hide-settings) .audio-goto {
     .cut-list {
         position: fixed;
         right: 10px;
-        width: 35%;
+        width: 45%;
         top: 10px;
         bottom: 80px;
         overflow-y: scroll;
@@ -378,7 +385,8 @@ input#hms {
 }
 
 /* dark mode */
-body.dark-mode {
+body.dark-mode,
+.dark-mode input, .dark-mode textarea {
     background-color: var(--primary);
     color: rgba(255,255,255,0.8);
 }
@@ -393,8 +401,6 @@ body.dark-mode .cut {
     background: var(--primary);
 }
 .dark-mode input, .dark-mode textarea {
-    background: var(--primary);
-    color: #fff;
     border: 1px solid #fff;
 }
 .dark-mode .modal-content {

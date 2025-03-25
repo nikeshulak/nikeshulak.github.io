@@ -1018,7 +1018,7 @@ $(document).ready(function() {
 
 	var winWidth = $(window).width();
 	var jsonEditorMarkup = `<div class="note-jsoneditor">
-		<div id="jsonText" class="mb-3"><textarea id="jsonTextTextarea" style="width: 100%; height: 250px; font-size: 16px; line-height: 20px; padding: 6px;">${(searchTagConst[path] && searchTagConst[path][file]) || ""}</textarea></div>
+		<div id="jsonText" class="mb-3"><textarea id="jsonTextTextarea" style="width: 100%; height: 390px; font-size: 22px; line-height: 30px; padding: 6px;">${(searchTagConst[path] && searchTagConst[path][file]) || ""}</textarea></div>
 		<input id="jsonGenerateLinks" type="button" class="btn btn-dark" value="Generate links">
 		<input id="jsonSaveLinks" type="button" class="btn btn-dark" value="Save json">
 		<input id="jsonLoadLinks" type="button" class="btn btn-dark" value="Load json">
