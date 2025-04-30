@@ -129,7 +129,7 @@ body {
 	/* space for search in mobile / tiktok control space */
 }
 body.tiktok {
-    padding-right: 60px;
+    padding-right: 15px;
     padding-left: 15px;
 }
 label.tiktok {

@@ -34,7 +34,7 @@ body {
 }
 .slide-wrap {
     padding-left: 20px;
-    padding-right: 80px;
+    padding-right: 60px;
     width: 100%;
 }
 .slide {
@@ -60,7 +60,7 @@ body {
     background-size: cover;
 }
 .section {
-    background: rgba(0, 0, 0, 0.4);
+/*    background: rgba(0, 0, 0, 0.4);*/
 }
 
 /* for tiktok screenshot */
@@ -126,7 +126,7 @@ small {
   </style>
 </head>
 
-<body class="cover-">
+<body class="cover-" style="background-color: #000;">
   <div class="full-video d-none">
     <div style="margin-bottom: 10px">Full Video on YouTube</div>
     <div class="full-video-profile">
@@ -140,12 +140,28 @@ small {
 
   <?php
     // include('./data.php'); 
-    $page = isset($_GET['page']) ? $_GET['page'] : "004";
-    include("./data/guru/$page.php"); // $data - replaced all ? with ।
+    $page = isset($_GET['page']) ? $_GET['page'] : "01-091-93";
+    include("./data/ktkg/$page.php"); // $data - replaced all ? with ।
   ?>
+
+  <div>
+    <style>
+      #video {
+        position: absolute;
+/*        z-index: 1;*/
+        width: 100%;
+        margin-top: 170px;
+      }
+    </style>
+    <video id="video" controls autoplay muted loop>
+      <source src="../../../videos/archive/nature/2516849-sd_640_360_25fps.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
   <div id="audio-wrap" class="d-none">
     <audio id="audio" controls> <!-- autoplay preload="none" -->
-      <source src="../../../videos/es-dhammo-sanantano/guru/<?php echo $page;?>.mp3" type="audio/mpeg">
+      <source src="../../../videos/kan-thore-kankar-ghane/cut/<?php echo $page;?>.mp4" type="audio/mpeg">
       Your browser does not support the audio tag.
     </audio>
   </div>
@@ -159,11 +175,13 @@ small {
     error_reporting(E_ALL);
 
     // $dataJoined = join(" ", $data);
-    $dataReplaceA = preg_replace('/\?/sU', '?।', $data);
-    $dataReplaceB = preg_replace('/\;/sU', ';।', $dataReplaceA);
-    $dataReplaceC = preg_replace('/\*(.+)\*/sU', '<strong>$1</strong>', $dataReplaceB);
+    $dataReplace = preg_replace('/\!/sU', '!।', $data);
+    $dataReplaceA = preg_replace('/\?/sU', '?।', $dataReplace);
+    $dataReplaceB = preg_replace('/\:/sU', ':।', $dataReplaceA);
+    $dataReplaceC = preg_replace('/\;/sU', ';।', $dataReplaceB);
+    $dataReplaceD = preg_replace('/\*(.+)\*/sU', '<strong>$1</strong>', $dataReplaceC);
 
-    $dataExplode = explode("।", $dataReplaceC); // $dataJoined
+    $dataExplode = explode("।", $dataReplaceD); // $dataJoined
 
     echo '<div class="section">';
       foreach ($dataExplode as $key => $value) {
@@ -171,7 +189,7 @@ small {
           echo '<div class="slide">';
             echo '<div class="slide-wrap">';
               echo $value; 
-              echo (substr($value, -1) == "?" || substr($value, -1) == ";") ? "" : "।"; // explode garda । harayo
+              echo (substr($value, -1) == "!" || substr($value, -1) == "?" || substr($value, -1) == ":" || substr($value, -1) == ";") ? "" : "।"; // explode garda । harayo
               // if there is ? at the last character, don't add ।
             echo '</div>';
           echo '</div>';
