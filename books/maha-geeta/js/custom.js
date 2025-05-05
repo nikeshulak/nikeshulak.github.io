@@ -1017,8 +1017,46 @@ $(document).ready(function() {
 	// })
 
 	var winWidth = $(window).width();
-	var jsonEditorMarkup = `<div class="note-jsoneditor">
-		<div id="jsonText" class="mb-3"><textarea id="jsonTextTextarea" style="width: 100%; height: 390px; font-size: 22px; line-height: 30px; padding: 6px;">${(searchTagConst[path] && searchTagConst[path][file]) || ""}</textarea></div>
+	var jsonEditorMarkup = `
+		<!-- webcam -->
+    <div class="mb-4">
+      <div class="webcam mb-2">
+          <video id="webcam-vid" class="webcam-video"></video>
+      </div>
+      <button id="webcam-but" autoplay>
+          Open WebCam
+      </button>
+      <button id="webcam-but-stop" autoplay>
+          Close WebCam
+      </button>
+      <button id="webcam-fixed" autoplay>
+          Fixed
+      </button>
+    </div>
+		<style>
+			div.webcam {
+					width: 100%;
+					height: 300px;
+					border: 2px solid black;
+			}
+
+			video.webcam-video {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+			}
+			.webcam.fixed {
+					position: fixed !important;
+					z-index: 1;
+					left: 50%;
+					transform: translateX(-50%);
+					width: 500px !important;
+					top: 0;
+			}
+		</style>
+
+	<div class="note-jsoneditor">
+		<div id="jsonText" class="mb-3"><textarea id="jsonTextTextarea" style="width: 100%; height: 160px; font-size: 22px; line-height: 30px; padding: 6px;">${(searchTagConst[path] && searchTagConst[path][file]) || ""}</textarea></div>
 		<input id="jsonGenerateLinks" type="button" class="btn btn-dark" value="Generate links">
 		<input id="jsonSaveLinks" type="button" class="btn btn-dark" value="Save json">
 		<input id="jsonLoadLinks" type="button" class="btn btn-dark" value="Load json">
@@ -1036,6 +1074,10 @@ $(document).ready(function() {
 	var jsonEditorMarkupWeb = winWidth >= 768 ? jsonEditorMarkup : '';
 
 	var noteMarkup = `
+		<div class="iframe-section">
+			<input id="iframeUrl" type="text" value="" /><input id="iframeGoBtn" type="button" value="Go" />
+			<div class="iframe-here"></div>
+		</div>
 		<div class="pending-task">
 			<ul>
 				<li>Mum global, muktinath - mobile banking kahile dekhi khuleko</li>
@@ -1271,6 +1313,56 @@ $(document).ready(function() {
 
 	$('#note').html(noteMarkup);
 	// end note markup
+
+	// iframe
+	$("#iframeGoBtn").click(() => {
+		var iframeUrl = $("#iframeUrl").val();
+		$(".iframe-here").html(iframeUrl ? `<iframe src="${iframeUrl}" class="border-0" style="width: 100%; height: 440px;"></iframe>` : '');
+	})
+
+	// webcam
+	let but = document.getElementById("webcam-but");
+	let video = document.getElementById("webcam-vid");
+	let mediaDevices = navigator.mediaDevices;
+	video.muted = true;
+	but.addEventListener("click", () => {
+			console.log('click')
+			
+			// Accessing the user camera and video.
+			mediaDevices
+					.getUserMedia({
+							video: true,
+							audio: true,
+					})
+					.then((stream) => {
+							// Changing the source of video to current stream.
+							video.srcObject = stream;
+							video.addEventListener("loadedmetadata", () => {
+									video.play();
+							});
+					})
+					.catch(alert);
+	});
+
+	let butStop = document.getElementById("webcam-but-stop");
+	butStop.addEventListener("click", () => {
+			// https://dev.to/morinoko/stopping-a-webcam-with-javascript-4297
+
+			// A video's MediaStream object is available through its srcObject attribute
+			const mediaStream = video.srcObject;
+
+			// Through the MediaStream, you can get the MediaStreamTracks with getTracks():
+			const tracks = mediaStream.getTracks();
+
+			// Tracks are returned as an array, so if you know you only have one, you can stop it with: 
+			tracks[0].stop();
+
+			// Or stop all like so:
+			tracks.forEach(track => track.stop())
+	});
+	$("#webcam-fixed").click(function() {
+		$(".webcam").toggleClass("fixed");
+	})
 
 	
 	// change search tag

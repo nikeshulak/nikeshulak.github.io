@@ -7,9 +7,11 @@ scp index.php travabricks:/home/manisha/Projects/fawesomeapps/archive/books/bhak
 scp index.php travabricks:/home/manisha/Projects/fawesomeapps/archive/books/the-book-of-wisdom/note
 
 cd /var/www/html/nikeshulak.github.io/books/anahad-mein-bisram/note/
-scp index.php travabricks:/home/manisha/Projects/fawesomeapps/archive/books/anahad-mein-bisram/note/
+scp index.html travabricks:/home/manisha/Projects/fawesomeapps/archive/books/anahad-mein-bisram/note/
+scp note.html travabricks:/home/manisha/Projects/fawesomeapps/archive/books/anahad-mein-bisram/note/
 
-scp index.php travabricks:/home/manisha/Projects/fawesomeapps/archive/books/kan-thore-kankar-ghane/note
+cd /var/www/html/nikeshulak.github.io/books/kan-thore-kankar-ghane/note/
+scp note.html travabricks:/home/manisha/Projects/fawesomeapps/archive/books/kan-thore-kankar-ghane/note
 
 scp index.php travabricks:/home/manisha/Projects/fawesomeapps/archive/books/main-kaun-hun/note
 
