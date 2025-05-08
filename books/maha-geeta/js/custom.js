@@ -749,14 +749,19 @@ function getNewHtmlMarkup(item, index, className) {
 	// const paramsSearch = params.get('search'); // questions
 	const paramsSaveIndex = params.get('saveIndex'); // true for id, false for string
 	const paramsShowIndex = params.get('showIndex'); // true for id, false for string
+	const paramsShowCheckbox = params.get('showCheckbox'); // true for id, false for string
 
 	var saveIndex = paramsSaveIndex === "true" // true id or false item
 	// <input type="checkbox" value="${index}" /> for id
 	return `<label id="label-${index}" class="${className ? className : ''}">
-		<input type="checkbox" value="${saveIndex ? index : `${item} [${index}]\n\n`}" index="${index}" /><span>${item}</span> 
+		<span>${item}</span> 
+		${paramsShowCheckbox === "true" ? `<input type="checkbox" value="${saveIndex ? index : `${item} [${index}]\n\n`}" index="${index}" />` : ''}
 		${paramsShowIndex === "true" ? `[${index}]` : ''}
 		<br /><br />
 	</label>`; 
+	// 
+
+
 
 	// ${index}. <span>${item}</span>
 
@@ -807,15 +812,18 @@ $(document).ready(function() {
 	// 	$('#pause-btn').trigger('click');
 	// }, 4000)
 
-	function replaceHasTime(id) {
-		// const message = `अथवा यस्य में सर्वं यब्दाङमनसगोचरम्‌।। 34।।<br><br>0:2:45 धर्म अनुभूति है, विचार नहीं।`
+	function replaceHasTime(id) { // should we pass messageModified also?
+		// const message = `अथवा यस्य में सर्वं यब्दाङमनसगोचरम्।। 34।।<br><br>0:2:45 धर्म अनुभूति है, विचार नहीं।`
+
 		const message = $(id).html();
+		// const message = messageModified
+		// console.log('message', message)
 
 		if(message) {
 			const mentionsPattern = /(?:(\d{1,2}):)?(\d{1,2}):(\d{1,2})/g;
 
 			const matches = message?.matchAll(mentionsPattern);
-			// console.log('matches', matches)
+			console.log('matches', matches)
 
 			let newMessage = message;
 			// let users = [{id: "c6b77161-3f3e-44ba-9cca-0cecfbf76100", name: "User 1"}, {id: "88bc66e2-53b0-400d-b8da-56200682753a", name: "User 2"}];
@@ -823,10 +831,15 @@ $(document).ready(function() {
 			for (const match of matches) {
 			  // newMessage = "" + newMessage.replace(match[0], "<span class='user'>" + "@" + (users.find((i) => i.id === match[1])?.name || "Unknown User") + "</span>")
 
+				console.log('match', match[0])
+
 			  let timeseconds = hmsToSeconds(match[0]);
 			  cutSecondsArr.push(timeseconds);
 
-			  newMessage = "" + newMessage.replace(match[0], "<div class='cut cut-"+timeseconds+"' time='"+ match[0] +"' endtime='' timeseconds='"+timeseconds+"'>" + match[0] + "</div>")
+			  newMessage = "" + newMessage.replace(match[0], 
+			  	// "<div class='cut cut-"+timeseconds+"' time='"+ match[0] +"' endtime='' timeseconds='"+timeseconds+"'>" + match[0] + "</div>"
+				`<div class='cut cut-${timeseconds}' time='${match[0]}' endtime='' timeseconds='${timeseconds}'>${match[0]}</div>`
+		  	  )
 			}
 
 			// console.log(newMessage);
@@ -835,7 +848,7 @@ $(document).ready(function() {
 	}
 
 	// replace time 
-	replaceHasTime('#has-time')
+	// replaceHasTime('#has-time')
 
 	function hideBtnIfFileNotFound(url, btnClass) {
 		$.ajax({
@@ -923,6 +936,16 @@ $(document).ready(function() {
 	console.log('foundCount', foundCount)
 
 	// console.log('originalHtmlArr', originalHtmlArr)
+
+
+
+	// replace time 
+	setTimeout(function() {
+		replaceHasTime('#has-time')
+
+		// clicking
+		cutClassAction()
+	}, 3000)
 
 
 
@@ -2098,9 +2121,10 @@ $(document).ready(function() {
 		const paramsSearch = params.get('search'); // questions
 		const paramsSaveIndex = params.get('saveIndex');
 		const paramsShowIndex = params.get('showIndex');
+		const paramsShowCheckbox = params.get('showCheckbox');
 
 		var next_page_input = $('#next-page-input').val();
-		var next_page_url = `./${next_page_input}.html?search=${paramsSearch}&saveIndex=${paramsSaveIndex}&showIndex=${paramsShowIndex}`
+		var next_page_url = `./${next_page_input}.html?search=${paramsSearch}&saveIndex=${paramsSaveIndex}&showIndex=${paramsShowIndex}&showCheckbox=${paramsShowCheckbox}`
 
 		console.log(next_page_url)
 
@@ -2202,9 +2226,6 @@ $(document).ready(function() {
 				}
 		})
 	}
-
-	// clicking
-	cutClassAction()
 
 
 	// ck editor

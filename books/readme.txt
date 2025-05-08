@@ -1,3 +1,10 @@
+for those having time > use showCheckbox=false
+i.e. http://localhost/nikeshulak.github.io/books/maha-geeta/file/03.html?showIndex=true&showCheckbox=false
+
+for those which doesn't have time > use showCheckbox=true
+i.e. http://localhost/nikeshulak.github.io/books/es-dhammo-sanantano/file/08.html?search=null&saveIndex=null&showIndex=true&showCheckbox=true
+
+
 file:///storage/emulated/0/Download/apache/nikeshulak.github.io/books/
 (Simple HTTP Server > Root folder)
 
