@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wallpaper</title>
+	<style type="text/css">
+		body {
+			background: #000;
+		}
+		* {
+		    box-sizing: border-box;
+		    margin: 0;
+		    padding: 0;
+		}
+		.textarea-wrapper {
+/*    		margin-left: 54px;*/
+			margin-left: 8%;
+    		width: 84%;
+    		height: 52%;
+    		background: rgba(255, 255, 255, 0.5);
+    		display: flex;
+    		align-items: center;
+		    border-radius: 16px;
+		}
+		textarea {
+			background: transparent;
+		    font-size: 2em;
+		    padding: 10px 16px;
+		    border: 0;
+		    text-align: center;
+		    width: 100%;
+		    min-height: 100px;
+		}
+		textarea {
+		    field-sizing: content;
+		}
+		input {
+			color: #fff;
+		}
+	</style>
+</head>
+<body style="margin: 0;">
+	<div id="wallpaper" style="height: 100vh; width: 100%; background-repeat: no-repeat; background-position: center; background-color: #000; padding-top: 14%; background-image: url('./honor-screenshot.jpg'); background-size: cover;">
+		<div class="textarea-wrapper">
+			<textarea></textarea>
+		</div>
+	</div>
+
+	<div>
+		<input type="text" id="input-wallpaper" value="">
+		<span id="open-fullscreen">Full</span>
+	</div>
+
+	<script src="../../books/maha-geeta/js/jquery.min.js"></script>
+	<script>
+		var elem = document.documentElement;
+		function openFullscreen() {
+		  if (elem.requestFullscreen) {
+		    elem.requestFullscreen();
+		  } else if (elem.webkitRequestFullscreen) { /* Safari */
+		    elem.webkitRequestFullscreen();
+		  } else if (elem.msRequestFullscreen) { /* IE11 */
+		    elem.msRequestFullscreen();
+		  }
+		}
+
+		$(document).ready(function() {
+			// openFullscreen();
+
+			$('#open-fullscreen').click(function() {
+				openFullscreen()
+			})
+
+			$('#input-wallpaper').change(function() {
+				console.log($(this).val())
+
+				$('#wallpaper').css(
+					'background-image', "url('" + $(this).val() + "')"
+				)
+			})
+		})
+	</script>
+</body>
+</html>

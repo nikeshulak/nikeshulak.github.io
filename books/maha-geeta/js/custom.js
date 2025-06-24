@@ -754,8 +754,8 @@ function getNewHtmlMarkup(item, index, className) {
 	var saveIndex = paramsSaveIndex === "true" // true id or false item
 	// <input type="checkbox" value="${index}" /> for id
 	return `<label id="label-${index}" class="${className ? className : ''}">
-		<span>${item}</span> 
 		${paramsShowCheckbox === "true" ? `<input type="checkbox" value="${saveIndex ? index : `${item} [${index}]\n\n`}" index="${index}" />` : ''}
+		<span>${item}</span> 
 		${paramsShowIndex === "true" ? `[${index}]` : ''}
 		<br /><br />
 	</label>`; 
