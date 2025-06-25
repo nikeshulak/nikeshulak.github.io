@@ -1,5 +1,5 @@
-var apiUrl = "https://nikesh.tiiny.site"; // for: yarn build
-// var apiUrl = "data"; // local
+// var apiUrl = "https://nikesh.tiiny.site"; // for: yarn build
+var apiUrl = "data"; // local
 
 $(document).ready(function(){
 
@@ -8,6 +8,34 @@ $(document).ready(function(){
   $("#debug").click(function(){
     $("#console").toggle();
   })
+
+  $('#pause-btn').click(function() {  
+    // $this = $(this);
+
+    togglePause();
+  })
+
+  function togglePause() {
+    // console.log($('body'))
+    var $body = $('body');
+
+    // $this.toggleClass('playing'); // paused
+    $body.toggleClass('playing');
+
+    var audio = document.getElementById('audio');
+
+    if($body.hasClass('playing')) {
+      audio.play();
+      $('#pause-btn').text('Pause');
+    }
+    else {
+      audio.pause();
+      $('#pause-btn').text('Play')
+
+      var seconds = audio.currentTime;
+      getCurrentTime(audio.currentTime);;
+    }
+  }
 
   function arrayToHtmlSource(result) {
     $.each(result, function(i, field){
@@ -51,18 +79,27 @@ $(document).ready(function(){
       // console.log('field', field)
 
       if(!field.disabled) {
-
-        if(arr?.includes( String(field.id) )) {
-          $("#quotes").append(`<label class="source ${field.source} favourites">
-            <input type="checkbox" value="${field.id}" checked />
-            ${field.text}</label>
-          `);
+        if(field.type === "mp3") {
+          $("#quotes").append(`<audio id="audio" controls preload="none">
+            <source src="${field.text}" type="audio/mpeg">
+            Your browser does not support the audio tag.
+          </audio>`);
         }
         else {
-          $("#quotes").append(`<label class="source ${field.source}">
-            <input type="checkbox" value="${field.id}" />
-            ${field.text}</label>
-          `);
+
+          if(arr?.includes( String(field.id) )) {
+            $("#quotes").append(`<label class="source ${field.source} favourites">
+              <input type="checkbox" value="${field.id}" checked />
+              ${field.text}</label>
+            `);
+          }
+          else {
+            $("#quotes").append(`<label class="source ${field.source}">
+              <input type="checkbox" value="${field.id}" />
+              ${field.text}</label>
+            `);
+          }
+
         }
 
       }

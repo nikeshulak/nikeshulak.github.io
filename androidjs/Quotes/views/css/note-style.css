@@ -6,6 +6,7 @@ body, .doc-content, .c6, .c12 {
   background: #0f1f1f !important;
 }
 * {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -39,7 +40,7 @@ a.scroll-to-top {
   bottom: 0;
   right: 0;
   margin-right: 10px;
-  margin-bottom: 62px;
+  margin-bottom: 79px;
   background: #333;
   color: #fff;
   text-decoration: none;
@@ -130,4 +131,18 @@ div#source-list li {
   text-decoration: none;
   /* float: right; */
 }
-div#console {background: black;padding: 10px;}
+div#console {background: black;padding: 10px;
+  position: fixed;
+  width: 100%;
+  opacity: 0.8;
+  z-index: 9;
+}
+
+div#source-list {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: #000;
+    width: 100%;
+    left: 0;
+}
