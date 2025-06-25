@@ -6,7 +6,8 @@ body, .doc-content, .c6, .c12 {
   background: #0f1f1f !important;
 }
 * {
-    padding: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 *, h2, p, [class*="c"] {
   color: rgba(255,255,255,0.8) !important;
@@ -37,13 +38,14 @@ a.scroll-to-top {
   position: fixed;
   bottom: 0;
   right: 0;
-  margin-right: 20px;
-  margin-bottom: 60px;
+  margin-right: 10px;
+  margin-bottom: 62px;
   background: #333;
   color: #fff;
   text-decoration: none;
   padding: 6px 10px;
   z-index: 2;
+  font-size: 20px !important;
 }
 
 .audio {
@@ -97,3 +99,35 @@ input[type="text"] {
     border: 1px solid;
     margin-bottom: 6px;
 }
+
+/* added */
+label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+div#source-list li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+#source-list li {cursor: pointer;}
+.footer-buttons {
+  position: fixed; right: 0px; bottom: 0px; 
+  background: #000;
+  width: 100%;
+  padding: 16px 10px;
+  left: 0;
+  min-height: 62px;
+}
+.footer-buttons button, 
+.footer-buttons .button {
+  background: #333333; border: 0; cursor: pointer; 
+  font-size: 15px;
+  padding: 0 8px;
+  text-decoration: none;
+  /* float: right; */
+}
+div#console {background: black;padding: 10px;}

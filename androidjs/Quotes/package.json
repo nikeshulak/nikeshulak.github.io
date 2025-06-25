@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
-    "name": "Pasal",
-    "app-name": "Pasal",
+    "name": "Quotes",
+    "app-name": "Quotes",
     "package-name": "webview",
     "project-type": "webview",
     "icon": "./assets/icon/icon.png",
@@ -20,7 +20,7 @@
     "dependencies": {
         "androidjs": "^2.0.2"
     },
-    "project-name": "Pasal",
+    "project-name": "Quotes",
     "theme": {
         "fullScreen": true
     }

@@ -1,10 +1,14 @@
 node --version
 v14.21.3
+18.20.2 now
 
 sudo apt install default-jre
 java --version
 11.0.21
 https://ubuntu.com/tutorials/install-jre#2-installing-openjdk-jre
+
+androidjs --version
+2.3.2
 
 npm install -g androidjs-builder
 androidjs init
@@ -14,6 +18,9 @@ $npm install
 $npm run start:dev      # didn't worked
 $npm run build          # androidjs build - it will generate an apk inside dist folder.
 
+cd Quotes
+yarn
+yarn build
 
 ## apk in windows 11
 https://www.lifewire.com/get-android-apps-windows-11-7112568
