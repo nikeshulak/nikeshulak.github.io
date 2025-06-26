@@ -1,14 +1,17 @@
 node --version
 v14.21.3
-18.20.2 now
+18.20.2 now in office laptop
 
 sudo apt install default-jre
 java --version
 11.0.21
 https://ubuntu.com/tutorials/install-jre#2-installing-openjdk-jre
 
+openjdk 11.0.27 now in office laptop
+
+
 androidjs --version
-2.3.2
+2.3.2 in office laptop
 
 npm install -g androidjs-builder
 androidjs init
