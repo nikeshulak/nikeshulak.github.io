@@ -3,6 +3,11 @@ var apiUrl = "data"; // local
 
 $(document).ready(function(){
 
+  // for videos.html
+  $(".audio-download").click(function() {
+    console.log('filename', $(this).attr('filename'));
+  })
+
   $("#console").append(`<br>API URL: ${apiUrl}`);
 
   $("#menu-content").html(`<a href="./videos.html" class="button">Videos</a> <br />
