@@ -5,8 +5,15 @@ $(document).ready(function(){
 
   $("#console").append(`<br>API URL: ${apiUrl}`);
 
+  $("#menu-content").html(`<a href="./videos.html" class="button">Videos</a> <br />
+  <a href="./submit-quotes.html" class="button">Submit quotes</a> <br />
+  <a href="https://onelink.to/kf3mtj" class="button">Live APK</a> <br />`);
+
   $("#debug").click(function(){
     $("#console").toggle();
+  })
+  $("#menu").click(function(){
+    $("#menu-content").toggle();
   })
 
   $('#pause-btn').click(function() {  
