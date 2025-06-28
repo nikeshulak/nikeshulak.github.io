@@ -1,5 +1,9 @@
-// var apiUrl = "https://nikesh.tiiny.site"; // for: yarn build
-var apiUrl = "data"; // local
+// var apiUrl = "https://nikesh.tiiny.site/quotes.json"; // for: yarn build
+// var apiUrl = "data/quotes.json"; // local
+var apiUrl = "http://192.168.137.1/nikeshulak.github.io/androidjs/Quotes/views/data/quotes.php"; // local
+
+// var videoLocation = '/videos/osho/shorts';
+var videoLocation = 'file:///storage/emulated/0/Download';
 
 $(document).ready(function(){
 
@@ -10,9 +14,12 @@ $(document).ready(function(){
 
   $("#console").append(`<br>API URL: ${apiUrl}`);
 
-  $("#menu-content").html(`<a href="./videos.html" class="button">Videos</a> <br />
-  <a href="./submit-quotes.html" class="button">Submit quotes</a> <br />
-  <a href="https://onelink.to/kf3mtj" class="button">Live APK</a> <br />`);
+  $("#menu-content").html(`
+    <a href="./index.html" class="button">Home</a> <br />
+    <a href="./videos.html" class="button">Videos</a> <br />
+    <a href="./videos-list.html" class="button">Videos Download</a> <br />
+    <a href="./submit-quotes.html" class="button">Submit quotes</a> <br />
+    <a href="https://onelink.to/kf3mtj" class="button">Live APK</a> <br />`);
 
   $("#debug").click(function(){
     $("#console").toggle();
@@ -50,6 +57,7 @@ $(document).ready(function(){
   }
 
   function arrayToHtmlSource(result) {
+    console.log('result', result)
     $.each(result, function(i, field){
       // console.log('field', field.text)
 
@@ -73,7 +81,7 @@ $(document).ready(function(){
   }
 
   function arrayToHtml(result) {
-    var dist = result.data?.filter((obj, index, self) =>
+    var dist = result?.data?.quotes?.filter((obj, index, self) =>
       index === self.findIndex((t) => t.source === obj.source)
     );
   
@@ -82,12 +90,12 @@ $(document).ready(function(){
     arrayToHtmlSource(dist);
 
     var favourites = localStorage.getItem("quotesFavourites");
-    var arr = JSON.parse(favourites);
+    var favArr = JSON.parse(favourites);
 
-    // console.log('arr', arr)
+    // console.log('favArr', favArr)
     // $("#console").text('favourites: ' + favourites);
 
-    $.each(result?.data, function(i, field){
+    $.each(result?.data?.quotes, function(i, field){
       // console.log('field', field)
 
       if(!field.disabled) {
@@ -99,7 +107,7 @@ $(document).ready(function(){
         }
         else {
 
-          if(arr?.includes( String(field.id) )) {
+          if(favArr?.includes( String(field.id) )) {
             $("#quotes").append(`<label class="source ${field.source} favourites">
               <input type="checkbox" value="${field.id}" checked />
               ${field.text}</label>
@@ -141,18 +149,45 @@ $(document).ready(function(){
     })
   }
 
+  // videos.html
+  function arrayToHtmlVideos(result) {
+    $.each(result?.data?.videos, function(i, field){
+      // console.log('field', field)
+
+      if(!field.disabled) {
+        if(field.type === "mp4") {
+          $("#videos-player").append(`
+            <div style="margin-bottom: 20px;">
+              <span style="margin-bottom: 10px; display: block;">${field.text}</span>
+              <video controls width="100%">
+                <source src="${videoLocation}/${field.text}#t=0.8" type="video/mp4">
+                Your browser does not support the audio tag.
+              </video>
+            </div>`);
+        }
+        else {
+
+        }
+
+      }
+
+    });
+  }
+
   function refetchApi() {
     localStorage.removeItem("quotesResult"); // remove to refetch - for mobile devices
 
     setTimeout(() => {
-      $.getJSON(`${apiUrl}/quotes.json`, function(result){
-        console.log('result', result)
+      $.getJSON(`${apiUrl}`, function(result){
+        // console.log('result', result)
 
         // save to local storage on refetching api
         localStorage.setItem("quotesResult", JSON.stringify(result));
 
         $("#quotes").html('');
-        arrayToHtml(result);
+        $("#videos-player").html('');
+        page === "quotes" && arrayToHtml(result);
+        page === "videos" && arrayToHtmlVideos(result);
 
       });
     }, 500)
@@ -182,6 +217,8 @@ $(document).ready(function(){
 
   var quotesResult = localStorage.getItem("quotesResult");
   var result = JSON.parse(quotesResult);
-  console.log("quotesResult", result );
-  arrayToHtml(result);
+  // console.log("quotesResult", result );
+  
+  page === "quotes" && arrayToHtml(result);
+  page === "videos" && arrayToHtmlVideos(result);
 });
